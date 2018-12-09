@@ -1,12 +1,21 @@
 .icon {
   display: inline-block;
-  width: 75px;
-  height: 75px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  vertical-align: middle;
+
+  &.icon-wallet {
+    width: 75px;
+    height: 75px;
+    background-image: url("../img/dsg/icons/wallet.svg");
+    vertical-align: sub;
+  }
+
+  &.icon-pin {
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/dsg/icons/pin.svg");
+  }
 }
 
-.icon-wallet {
-  background-image: url("../img/dsg/icons/wallet.svg");
-}

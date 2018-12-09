@@ -16,8 +16,6 @@ class App {
   }
 
   _initModules() {
-    // new RenderSpeakers();
-    // new RenderSchedule();
     new LazyLoading();
     this.map = new Map({
       selector : '#map'
@@ -26,8 +24,8 @@ class App {
 
   _initComponents() {
     new HeaderComponent();
-    // new SpeakersComponent();
-    // new ScheduleComponent();
+    new SpeakersComponent();
+    new ScheduleComponent();
   }
 }
 

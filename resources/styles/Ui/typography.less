@@ -91,12 +91,10 @@ hr {
 
 }
 
-
-
 .link {
   font-family: 'Roboto Slab', serif;
   letter-spacing: 0.02em;
-  color: @color_blue;
+  color: @color_yellow;
   text-decoration: none;
 
   &:hover {
@@ -124,43 +122,29 @@ hr {
   font-weight: 400;
 }
 
+address {
+  font-style: normal;
+}
+
 h1, .h1, h2, .h2, h3, .h3,
 h4, .h4, h5, .h5, p, .ul, .ul li,
 .subtitle, .notation, .link {
   transition: .2s;
 }
 
-@media screen and (max-width: 1400px) {
-  h2, .h2 {
-    .font-size(110);
-  }
-
-  h3, .h3 {
-    .font-size(42);
-  }
-
-  h4, .h4 {
-    .font-size(18);
-  }
-}
-
 @media @laptopMd {
   h2, .h2 {
-    .font-size(100);
+    .font-size(50);
   }
 
   h3, .h3 {
-    .font-size(35);
-  }
-
-  h4, .h4 {
-    .font-size(16);
+    .font-size(28);
   }
 }
 
 @media @laptop {
   h2, .h2 {
-    .font-size(90);
+    .font-size(48);
   }
 
   h3, .h3 {
@@ -168,18 +152,29 @@ h4, .h4, h5, .h5, p, .ul, .ul li,
   }
 
   h4, .h4 {
-    .font-size(15);
+    .font-size(22);
   }
+  .subtitle {
+    .font-size(22);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  p, .p {
+    .font-size(16);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+
 }
 
 @media @tablet {
-  h2, .h2 {
-    .font-size(80);
-  }
-
-  h3, .h3 {
-    .font-size(30);
-  }
+  //h2, .h2 {
+  //  .font-size(80);
+  //}
+  //
+  //h3, .h3 {
+  //  .font-size(30);
+  //}
 }
 
 @media @mobileLg {

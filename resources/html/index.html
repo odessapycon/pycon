@@ -7,8 +7,8 @@
   <meta name="description" content="${{ index.meta_description }}$">
 
   <link rel="icon" href="public/dsg/img/favicon.png">
-  <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"-->
-  <!--integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <link rel="stylesheet" href="public/css/app.min.css">
 
@@ -66,7 +66,7 @@
             <li><a href="#schedule">
               ${{ index.menu_schedule }}$
             </a></li>
-            <li><a href="#location">
+            <li><a href="#venue">
               ${{ index.menu_location }}$
             </a></li>
             <li><a href="#contacts">
@@ -128,94 +128,51 @@
         <div class="about-content text-center">
           <hr class="hr-yellow">
 
-          <div class="h4 text-yellow">PyCon Odessa</div>
+          <div class="h4 text-yellow">${{ index.about_head }}$</div>
 
-          <div class="subtitle">Python - focused conference, which will be held in Odessa, 16 of March</div>
-          <div class="subtitle m-t-30">
-            It’s place where our participants can share their experiences, get answers to your questions, and spend
-            time in a company of likeminded people.
-          </div>
+          <div class="subtitle">${{ index.about_txt_1 }}$</div>
+          <div class="subtitle m-t-30">${{ index.about_txt_2 }}$</div>
 
           <hr class="hr-yellow">
 
           <div class="flex about-tickets">
-            <div class="subtitle text-left p-r-20s">
-              Участие в конференции <br>
-              Вкусный обед и кофе-брейки <br>
-              Участие во всех розыгрышах на конференции <br>
-              After-party <br>
-              Доступ к видеозаписям докладд
+            <div class="subtitle text-left p-r-20">
+              ${{ index.about_list_1 }}$<br>
+              ${{ index.about_list_2 }}$<br>
+              ${{ index.about_list_3 }}$<br>
+              ${{ index.about_list_4 }}$<br>
+              ${{ index.about_list_5 }}$<br>
             </div>
 
-            <div class="h2 about-ticket">
-              Buy ticket
-              <span class="icon icon-wallet"></span>
-              1200 Uah
-            </div>
+            <a class="h2 about-ticket" href="#" target="_blank">
+              <span class="nowrap">
+                ${{ index.about_ticket_buy }}$
+                <span class="icon icon-wallet m-l-15"></span>
+              </span> <br>
+              <span>1200 ${{ index.about_ticket_uah }}$</span>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="speakers" class="speakers flex f-d-column j-c-space-between">
+    <section id="speakers" class="speakers">
       <div class="container">
 
-
-        <div class="h2">
+        <h2 class="h2 text-center">
           ${{ index.speakers_head }}$
-        </div>
-
-        <div class="h3 m-t-40 text-center">
-          ${{ index.speakers_preparty_head }}$
-        </div>
-
-        <div class="h4 text-center m-t-20 speakers-desc">
-          ${{ index.speakers_preparty_theme }}$ <br><br>
-          ${{ index.speakers_preparty_desc }}$
-        </div>
-
-        <div class="m-t-30 text-center">
-          <a href="https://goo.gl/forms/1yKKDXrCvdu5AcoF2" class="btn" target="_blank">
-            ${{ index.speakers_preparty_registration }}$
-          </a>
-        </div>
-
-        <div class="speakers-preparty-reg notation fw-400 text-center m-0a m-t-30">
-          ${{ index.speakers_preparty_reg_note }}$
-        </div>
-
-        <div class="flex j-c-space-around speakers-list speakers-list-preparty" id="preparty-speakers-list"></div>
-
-        <div class="h4 text-center m-t-70 speakers-desc">
-          ${{ index.speakers_main_desc }}$
-        </div>
+        </h2>
 
         <div class="flex j-c-space-around speakers-list" id="main-speakers-list"></div>
       </div>
     </section>
 
-    <section id="schedule">
+    <section id="schedule" class="schedule">
       <div class="container">
-        <div class="h2">${{ index.schedule_head }}$</div>
+        <h2 class="h2 text-center">${{ index.schedule_head }}$</h2>
 
-        <!--<div class="m-t-50 p-t-50 h3 text-center text-grey">-->
-        <!--${{ index.schedule_txt }}$-->
-        <!--</div>-->
-        <h3 class="text-center">
-          ${{ index.speakers_preparty_head }}$
-        </h3>
-
-        <div class="schedule-list-container">
-          <div id="preparty-schedule-list" class="schedule-list">
-            <!--<div class="schedule-head">-->
-            <!--<div class="schedule-head-item"></div>-->
-            <!--<div class="schedule-head-item">Stage A [Talk]</div>-->
-            <!--&lt;!&ndash;<div class="schedule-head-item">Stage B [Tech Corner]</div>&ndash;&gt;-->
-            <!--</div>-->
-
-            <div class="schedule-body">
-            </div>
-          </div>
+        <div class="m-t-50 m-b-50 h3 text-center ">
+        ${{ index.schedule_txt }}$
         </div>
 
         <div class="schedule-list-container">
@@ -233,205 +190,183 @@
       </div>
     </section>
 
-    <!--<section id="sponsors" class="sponsors">-->
-    <!--<div class="container">-->
-    <!--<div class="h2">-->
-    <!--${{ index.sponsors_head }}$-->
-    <!--</div>-->
-
-    <!--<div class="m-t-80 h4 text-center sponsors-text">-->
-    <!--<p>-->
-    <!--${{ index.sponsors_txt_1 }}$-->
-    <!--</p>-->
-    <!--<br>-->
-    <!--</div>-->
-
-    <!--<div class="m-t-50 h4 text-center sponsors-text">-->
-    <!--<p>-->
-    <!--${{ index.sponsors_txt_2 }}$-->
-    <!--</p>-->
-    <!--<p>-->
-    <!--${{ index.sponsors_txt_3 }}$ - -->
-    <!--<a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /-->
-    <!--${{ index.sponsors_mariia }}$-->
-    <!--</p>-->
-    <!--<p>-->
-    <!--${{ index.sponsors_txt_4 }}$ - -->
-    <!--<a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>-->
-    <!--</p>-->
-    <!--<p>-->
-    <!--${{ index.sponsors_txt_5 }}$ - -->
-    <!--<a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /-->
-    <!--${{ index.sponsors_julia }}$-->
-    <!--</p>-->
-
-    <!--<div class="text-center m-t-50">-->
-    <!--<a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">-->
-    <!--${{ index.sponsors_program }}$-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--&lt;!&ndash; Sponsors &ndash;&gt;-->
-    <!--<div class="m-t-80">-->
-    <!--<h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>-->
-    <!--</div>-->
-    <!---->
-    <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
-    <!--<div class="m-t-30">-->
-    <!--<h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>-->
-
-    <!--<div class="sponsors-media-list">-->
-    <!--<a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/Beetroot.png" alt="Beetroot">&ndash;&gt;-->
-    <!--</a>-->
-    <!---->
-    <!--<a href="http://competera.net/" class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/competera.png" alt="Competera">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
-
-    <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
-    <!---->
-    <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
-    <!--&lt;!&ndash; Sponsors&ndash;&gt;-->
-
-    <!--&lt;!&ndash; HR partners&ndash;&gt;-->
-    <!--<div class="m-t-80">-->
-    <!--<h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>-->
-
-    <!--<div class="sponsors-media-list">-->
-    <!--<a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">&ndash;&gt;-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; HR partners&ndash;&gt;-->
-
-    <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
-    <!--<div class="m-t-80">-->
-    <!--<h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>-->
-
-    <!--<div class="sponsors-media-list">-->
-    <!--<a href="https://code-on.be/" class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">&ndash;&gt;-->
-    <!--</a>-->
-    <!--<a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
-
-    <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
-    <!--<div class="m-t-80">-->
-    <!--<h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>-->
-
-    <!--<div class="sponsors-media-list">-->
-
-    <!--<a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/shag.png" alt="shag">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://itvdn.com"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://edu.cbsystematics.com/"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://beetroot.academy/"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://3dlook.me/"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://chisw.com/"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/chi.png" alt="chi">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://www.facebook.com/moveonmiles/"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/mom.png" alt="mom">&ndash;&gt;-->
-    <!--</a>-->
-
-    <!--<a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">&ndash;&gt;-->
-    <!--</a>-->
-    <!---->
-    <!--<a href="https://syndicode.com/"-->
-    <!--class="sponsors-media-item" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">&ndash;&gt;-->
-    <!--</a>-->
-
-
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
-
-    <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
-    <!--<div class="m-t-80">-->
-    <!--<h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>-->
-
-    <!--<div class="sponsors-media-list">-->
-    <!--<a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
-    <!--&lt;!&ndash;<img src="public/img/cont/sponsors/vega.jpg" alt="vega">&ndash;&gt;-->
-    <!--</a>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
-    <!--</div>-->
-    <!--</section>-->
-
-    <section id="location">
+<!--    <section id="sponsors" class="sponsors">
       <div class="container">
-        <div class="h2">
+        <h2 class="h2">
+          ${{ index.sponsors_head }}$
+        </h2>
+
+        <div class="m-t-80 h4 text-center sponsors-text">
+          <p>
+            ${{ index.sponsors_txt_1 }}$
+          </p>
+          <br>
+        </div>
+
+        <div class="m-t-50 h4 text-center sponsors-text">
+          <p>
+            ${{ index.sponsors_txt_2 }}$
+          </p>
+          <p>
+            ${{ index.sponsors_txt_3 }}$ -
+            <a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /
+            ${{ index.sponsors_mariia }}$
+          </p>
+          <p>
+            ${{ index.sponsors_txt_4 }}$ -
+            <a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>
+          </p>
+          <p>
+            ${{ index.sponsors_txt_5 }}$ -
+            <a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /
+            ${{ index.sponsors_julia }}$
+          </p>
+
+          <div class="text-center m-t-50">
+            <a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">
+              ${{ index.sponsors_program }}$
+            </a>
+          </div>
+        </div>
+
+        &lt;!&ndash; Sponsors &ndash;&gt;
+        <div class="m-t-80">
+          <h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>
+        </div>
+
+        &lt;!&ndash; Golden sponsors&ndash;&gt;
+        <div class="m-t-30">
+          <h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>
+
+          <div class="sponsors-media-list">
+            <a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/conference_partners/Beetroot.png" alt="Beetroot">
+            </a>
+
+            <a href="http://competera.net/" class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/conference_partners/competera.png" alt="Competera">
+            </a>
+
+          </div>
+        </div>
+        &lt;!&ndash; Golden sponsors&ndash;&gt;
+
+        &lt;!&ndash; Silver sponsors&ndash;&gt;
+
+        &lt;!&ndash; Silver sponsors&ndash;&gt;
+        &lt;!&ndash; Sponsors&ndash;&gt;
+
+        &lt;!&ndash; HR partners&ndash;&gt;
+        <div class="m-t-80">
+          <h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>
+
+          <div class="sponsors-media-list">
+            <a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">
+              <img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">
+            </a>
+          </div>
+        </div>
+        &lt;!&ndash; HR partners&ndash;&gt;
+
+        &lt;!&ndash; Conference partners&ndash;&gt;
+        <div class="m-t-80">
+          <h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>
+
+          <div class="sponsors-media-list">
+            <a href="https://code-on.be/" class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">
+            </a>
+            <a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">
+            </a>
+
+          </div>
+        </div>
+        &lt;!&ndash; Conference partners&ndash;&gt;
+
+        &lt;!&ndash; Media Partners &ndash;&gt;
+        <div class="m-t-80">
+          <h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>
+
+          <div class="sponsors-media-list">
+
+            <a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/shag.png" alt="shag">
+            </a>
+
+            <a href="https://itvdn.com"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">
+            </a>
+
+            <a href="https://edu.cbsystematics.com/"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">
+            </a>
+
+            <a href="https://beetroot.academy/"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">
+            </a>
+
+            <a href="https://3dlook.me/"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">
+            </a>
+
+            <a href="https://chisw.com/"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/chi.png" alt="chi">
+            </a>
+
+            <a href="https://www.facebook.com/moveonmiles/"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/mom.png" alt="mom">
+            </a>
+
+            <a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">
+            </a>
+
+            <a href="https://syndicode.com/"
+               class="sponsors-media-item" target="_blank">
+              <img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">
+            </a>
+
+
+          </div>
+        </div>
+        &lt;!&ndash; Media Partners &ndash;&gt;
+
+        &lt;!&ndash; Tech sponsor &ndash;&gt;
+        <div class="m-t-80">
+          <h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>
+
+          <div class="sponsors-media-list">
+            <a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">
+              <img src="public/img/cont/sponsors/vega.jpg" alt="vega">
+            </a>
+          </div>
+        </div>
+        &lt;!&ndash; Tech sponsor &ndash;&gt;
+      </div>
+    </section>-->
+
+
+    <section id="venue" class="location">
+      <div class="container">
+        <h2 class="h2 text-center m-b-80">
           ${{ index.location_heading }}$
-        </div>
+        </h2>
 
-        <div class="location-img-container m-t-30">
-          <div class="location-img-container_item">
-            <!--<img src="public/img/cont/location/location_1.jpg" alt="location_photo_1">-->
-          </div>
-          <div class="location-img-container_item">
-            <!--<img src="public/img/cont/location/location_2.jpg" alt="location_photo_2">-->
-          </div>
-        </div>
-
-        <h3 class="text-center m-b-30">${{ index.location_address }}$</h3>
-
+        <address class="h4 text-yellow text-center m-b-30">
+          <span class="icon icon-pin p-r-10"></span>
+          ${{ index.location_address }}$
+        </address>
       </div>
 
       <div id="map" class="m-t-50" style="height: 500px; width: 100%"></div>
-
-      <div class="container">
-
-        <div class="m-t-70 text-center volunteer-footer">
-          <a href="https://goo.gl/forms/sJA5sZwPSyenM4uH2" class="btn" target="_blank">
-            ${{ index.volunteer }}$
-          </a>
-        </div>
-        <div class="m-t-40  text-center volunteer-footer">
-          <a href="public/docs/Code_of_Conduct_OdessaPY_Сonference.pdf" class="btn m-10" target="_blank">
-            ${{ index.code_conduct }}$
-          </a>
-        </div>
-
-      </div>
-
     </section>
 
   </div>

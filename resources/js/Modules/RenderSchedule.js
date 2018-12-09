@@ -25,9 +25,16 @@ export class RenderSchedule {
       this.schedule = this.options.scheduleEn;
     }
 
-    let scheduleRow = '<div class="schedule-item">' +
-      '                <div class="schedule-time">${ time }</div>' +
-      '                <div class="schedule-icon ${ icon }"></div>' +
+    let scheduleRow = '<div class="schedule-item {{if !time.start }} schedule-break{{/if}}">' +
+      '                <div class="schedule-time">' +
+      '                   {{if time.start}}' +
+      '                     <span class="schedule-time-start">{{html time.start}}</span> ' +
+      '                   {{/if}}' +
+      '                   {{if time.end}}' +
+      '                         -' +
+      '                        <span class="schedule-time-end">{{html time.end}}</span> ' +
+      '                   {{/if}}' +
+      '                 </div>' +
       '                    {{html scheduleRendered}}' +
       '              </div>';
     $.template('scheduleRow', scheduleRow);

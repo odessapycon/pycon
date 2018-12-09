@@ -1,10 +1,9 @@
-.schedule-bg-img {
-  display: block;
-  width: 100%;
-  margin-top: 100px;
+.schedule{
+  padding: 65px 0 55px;
 }
+
 .schedule-list {
-  max-width: 800px;
+  max-width: 900px;
   margin: 30px auto 0;
 }
 .schedule-head {
@@ -14,12 +13,10 @@
 }
 
 .schedule-head-item {
-  color: lighten(@color_blue, 5%);
+  color: @color_white;
   text-align: center;
-  width: 50%;
   width: 100%;
-  font-weight: 700;
-  .font-size(22);
+  .h4();
 
   &:first-child {
     width: 140px;
@@ -29,22 +26,26 @@
 
 .schedule-item {
   display: flex;
-  margin-bottom: 15px;
-  padding: 12px;
+  //margin-bottom: 15px;
+  padding: 7px;
   align-items: center;
-
-  &:nth-child(2n+1) {
-    background-color: lighten(@color_yellow, 28%);
-  }
 }
 .schedule-time {
-  max-width: 100px;
-  width: 100px;
+  .h4();
+  max-width: 150px;
+  width: 150px;
   white-space: nowrap;
-  color: @color_black;
-  .font-size(18);
   margin-right: 2%;
 }
+
+.schedule-time-start{
+  color: @color_yellow;
+}
+
+.schedule-time-end{
+  color: @color_blue;
+}
+
 .schedule-icon {
   width: 40px;
   min-width: 40px;
@@ -76,8 +77,8 @@
   }
 }
 .schedule-text {
-  color: @color_blue;
-  .font-size(18);
+  color: @color_white;
+  .h4();
   font-weight: bold;
   margin-right: 2%;
   margin-top: 10px;
@@ -89,8 +90,8 @@
 
 .schedule-author{
   margin-top: 10px;
-  color: @color_black;
-  .font-size(16);
+  color: @color_white;
+  .p();
 }
 
 @media @tablet {

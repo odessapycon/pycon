@@ -19,7 +19,7 @@ export class Map {
       maxZoom : 20,
       center : {
         lat : 46.436590,
-        lng : 30.749558
+        lng : 30.749558,
       },
       clickableIcons : false,
       // gestureHandling : 'greedy'
@@ -36,14 +36,6 @@ export class Map {
           content : '<p><span>Address: </span>5, Sonyachna St.</p>'
         })
       },
-      {
-        lat : 46.480186,
-        lng : 30.7476283,
-        infoWindow : this.renderInfoWindowHTML({
-          title : 'Pre-party:<br> office of the company Lohika',
-          content : '<p><span>Address: </span>1, Bunina St.</p>'
-        })
-      },
     ];
 
     const PlacesRu = [
@@ -53,14 +45,6 @@ export class Map {
         infoWindow : this.renderInfoWindowHTML({
           title : 'Бизнес-центр Солнечный',
           content : '<p><span>Адрес: </span>Солнечная, 5</p>'
-        })
-      },
-      {
-        lat : 46.480186,
-        lng : 30.7476283,
-        infoWindow : this.renderInfoWindowHTML({
-          title : 'Pre-party:<br> офис компании Lohika',
-          content : '<p><span>Адрес: </span>Бунина, 1</p>'
         })
       },
     ];
@@ -101,8 +85,8 @@ export class Map {
       this.addMarkerWithTimeout(this.places[i], i * 200);
     }
     //крайние точки
-    this.bounds.extend({lat : 46.42, lng : 30.749558});
-    this.bounds.extend({lat : 46.51, lng : 30.749558});
+    this.bounds.extend({lat : 46.428, lng : 30.749558});
+    this.bounds.extend({lat : 46.445, lng : 30.749558});
     //крайние точки
 
     this.places.forEach((item, i, arr)=>{
