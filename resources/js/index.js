@@ -26,8 +26,8 @@ class App {
 
   _initComponents() {
     new HeaderComponent();
-    new SpeakersComponent();
-    new ScheduleComponent();
+    // new SpeakersComponent();
+    // new ScheduleComponent();
   }
 }
 

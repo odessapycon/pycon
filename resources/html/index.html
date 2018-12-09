@@ -20,7 +20,7 @@
   <meta property="og:title" content="${{ index.meta_title }}$">
   <meta property="og:description"
         content="${{ index.meta_description }}$">
-  <meta property="og:image" content="https://pyconodessa.com/public/dsg/img/logo.svg">
+  <meta property="og:image" content="https://pyconodessa.com/public/img/dsg/logo.svg">
   <!--social snippet metadata-->
 
   <script>
@@ -47,12 +47,12 @@
 <!--<meta itemprop="performer" content="">-->
 
 <div class="remodal-bg">
-  <header id="header" class="header">
+  <header id="header" class="header gradient-border">
     <div class="header-cont container">
       <div class="logo">
         <a href="#heading">
-          <img src="https://via.placeholder.com/1x1" data-src="public/dsg/img/logo.svg?v1.01" alt="PyCon Odessa">
-          <!--<img src="https://via.placeholder.com/1x1" data-src="public/cont/img/logo_py_1.svg" alt="OdessaPy Conference">-->
+          <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
+          <!--&lt;!&ndash;<img src="https://via.placeholder.com/1x1" data-src="public/img/cont/logo_py_1.svg" alt="OdessaPy Conference">&ndash;&gt;-->
         </a>
       </div>
       <div class="flex a-i-center">
@@ -71,32 +71,11 @@
               ${{ index.menu_location }}$
             </a></li>
             <li><a href="#contacts">
-              ${{ index.contacts }}$
+              ${{ index.menu_contacts }}$
             </a></li>
             <li><a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" class="link">
               ${{ index.menu_tickets }}$
             </a></li>
-
-            <li class="socials-block-mobile">
-              <div class="flex socials-block">
-                <a href="https://www.facebook.com/OdessaPY-Conference-1077262752435999/" target="_blank"
-                   title="facebook">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="https://twitter.com/OdessaPY_Conf" target="_blank" title="twitter">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.instagram.com/odessapy_conference" target="_blank" title="instagram">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/groups/12136438?village=enabled" target="_blank" title="linkedin">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="https://t.me/OdessaPYConference" target="_blank" title="telegram">
-                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                </a>
-              </div>
-            </li>
 
             <li class="lang-mobile">
               <a href="${{ index.lang_link_ru }}$">ru</a>
@@ -115,23 +94,6 @@
           </li>
         </ul>
 
-        <div class="socials-block header-socials-block">
-          <a href="https://www.facebook.com/OdessaPY-Conference-1077262752435999/" target="_blank" title="facebook">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com/OdessaPY_Conf" target="_blank" title="twitter">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.instagram.com/odessapy_conference" target="_blank" title="instagram">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.linkedin.com/groups/12136438?village=enabled" target="_blank" title="linkedin">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a href="https://t.me/OdessaPYConference" target="_blank" title="telegram">
-            <i class="fa fa-paper-plane" aria-hidden="true"></i>
-          </a>
-        </div>
         <div class="brgr-menu"></div>
       </div>
 
@@ -140,66 +102,10 @@
   </header>
   <div class="wrapper">
     <section id="heading" class="heading p-b-80">
-      <!--<div class="container">-->
-
-        <!--<div class="heading-title-row flex j-c-space-between m-t-20 ">-->
-
-          <!--<div class="heading-logo m-t-30">-->
-            <!--<img src="public/cont/img/logo.png?v1.01" alt="OdessaPy Conference" itemprop="image">-->
-            <!--&lt;!&ndash;<img src="public/cont/img/logo_py_1.svg" alt="OdessaPy Conference" itemprop="image">&ndash;&gt;-->
-
-            <!--<div class="text-center heading-tickets-btn m-t-40 m-b-30">-->
-              <!--<a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank"-->
-                 <!--class="btn btn-light-green">${{ index.menu_tickets }}$</a>-->
-            <!--</div>-->
-
-            <!--<div class="m-t-10 text-center volunteer-header">-->
-              <!--<a href="https://goo.gl/forms/sJA5sZwPSyenM4uH2" class="btn">-->
-                <!--${{ index.volunteer }}$-->
-              <!--</a>-->
-            <!--</div>-->
-
-          <!--</div>-->
-
-          <!--<div class="heading-sun m-l-30">-->
-            <!--<img src="https://via.placeholder.com/1x1" data-src="public/cont/img/heading_sun.svg" alt="">-->
-          <!--</div>-->
-
-
-        <!--</div>-->
-
-        <!--<div class="flex f-d-column a-i-flex-end j-c-flex-end heading-list-container">-->
-
-          <!--<div class="heading-date" itemprop="startDate" content="2018-09-30">-->
-            <!--${{ index.heading_date }}$-->
-          <!--</div>-->
-
-          <!--<ul class="heading-list">-->
-            <!--<li class="calendar">${{ index.heading_list_1 }}$</li>-->
-            <!--<li class="clock">${{ index.heading_list_2 }}$</li>-->
-            <!--<li class="format">${{ index.heading_list_4 }}$</li>-->
-            <!--<li class="sheet">-->
-              <!--${{ index.heading_list_3 }}$ <br>-->
-              <!--<br>-->
-              <!-- - ${{ index.heading_list_3_1 }}$ <br>-->
-              <!-- - ${{ index.heading_list_3_2 }}$ <br>-->
-              <!-- - ${{ index.heading_list_3_3 }}$ <br>-->
-            <!--</li>-->
-          <!--</ul>-->
-        <!--</div>-->
-      <!--</div>-->
-      <!--<div class="user-select-none">-->
-        <!--<img class="heading-bg-img" src="https://via.placeholder.com/1x1" data-src="public/cont/img/heading_bg.png"-->
-             <!--alt="lighthouse">-->
-        <!--<img class="heading-bg-img-m" src="https://via.placeholder.com/1x1" data-src="public/cont/img/heading_bg_m.png"-->
-             <!--alt="lighthouse">-->
-      <!--</div>-->
 
       <div class="user-select-none">
         <picture>
-          <source media="(max-width: 992px)" srcset="public/cont/img/collage_mob.jpg">
-          <source media="(min-width: 993px)" srcset="public/cont/img/collage_desk.jpg">
-          <img src="https://via.placeholder.com/1x1" class="heading-bg-img collage" alt="Speakers" data-src="public/cont/img/collage_desk.jpg">
+          <img src="https://via.placeholder.com/1x1" class="heading-bg-img collage" alt="Speakers" data-src="public/img/cont/collage_desk.jpg">
         </picture>
       </div>
       <div class="h3 text-center text-green text-bold m-t-50">
@@ -254,7 +160,7 @@
                     1500 <span itemprop="priceCurrency" content="UAH">UAH</span>
                   </div>
                 </li>
-                
+
                 <li class="about-ticket-item" itemprop="price" content="1700.00">
                   <a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" itemprop="url">
                     <div class="about-ticket-title">
@@ -266,7 +172,7 @@
                     1700 <span itemprop="priceCurrency" content="UAH">UAH</span>
                   </div>
                 </li>
-                
+
                 <li class="about-ticket-item" itemprop="price" content="850">
                   <a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" itemprop="url">
                     <div class="about-ticket-title">
@@ -338,37 +244,6 @@
 
         </div>
       </div>
-      <div class="user-select-none">
-        <img class="about-bg-img" src="https://via.placeholder.com/1x1" data-src="public/cont/img/about_bg.png" alt="gates">
-      </div>
-    </section>
-
-
-    <section class="history">
-      <div class="container">
-
-        <div class="flex a-i-center j-c-space-between history-content">
-          <div class="h4 flex-item-4 m-r-50 history-txt">
-            ${{ index.history_txt }}$
-          </div>
-
-          <div class="flex-item-1">
-            <img class="" src="https://via.placeholder.com/1x1" data-src="public/cont/img/sun_bg.png" alt="sun"
-                 style="max-width: 240px">
-          </div>
-        </div>
-
-        <div class="flex flex-wrap history-gallery">
-          <div>
-            <img class="" src="https://via.placeholder.com/1x1" data-src="public/cont/img/history/history_1.jpg"
-                 alt="report">
-          </div>
-
-          <div>
-            <img class="" src="https://via.placeholder.com/1x1" data-src="public/cont/img/history/history_2.jpg" alt="cake">
-          </div>
-        </div>
-      </div>
     </section>
 
     <section id="speakers" class="speakers flex f-d-column j-c-space-between">
@@ -406,17 +281,7 @@
 
         <div class="flex j-c-space-around speakers-list" id="main-speakers-list"></div>
       </div>
-      <div class="flex user-select-none">
-        <img class="speakers-bg-img" src="https://via.placeholder.com/1x1" data-src="public/cont/img/speakers_bg.png"
-             alt="opera">
-      </div>
     </section>
-
-    <!--<section id="workshops">-->
-    <!--<div class="container">-->
-    <!--<div class="h2">Workshops</div>-->
-    <!--</div>-->
-    <!--</section>-->
 
     <section id="schedule">
       <div class="container">
@@ -455,174 +320,170 @@
           </div>
         </div>
       </div>
-      <div class="user-select-none">
-        <img class="schedule-bg-img" src="https://via.placeholder.com/1x1" data-src="public/cont/img/schedule_bg.png"
-             alt="anchor">
-      </div>
     </section>
 
-    <section id="sponsors" class="sponsors">
-      <div class="container">
-        <div class="h2">
-          ${{ index.sponsors_head }}$
-        </div>
+    <!--<section id="sponsors" class="sponsors">-->
+      <!--<div class="container">-->
+        <!--<div class="h2">-->
+          <!--${{ index.sponsors_head }}$-->
+        <!--</div>-->
 
-        <div class="m-t-80 h4 text-center sponsors-text">
-          <p>
-            ${{ index.sponsors_txt_1 }}$
-          </p>
-          <br>
-        </div>
+        <!--<div class="m-t-80 h4 text-center sponsors-text">-->
+          <!--<p>-->
+            <!--${{ index.sponsors_txt_1 }}$-->
+          <!--</p>-->
+          <!--<br>-->
+        <!--</div>-->
 
-        <div class="m-t-50 h4 text-center sponsors-text">
-          <p>
-            ${{ index.sponsors_txt_2 }}$
-          </p>
-          <p>
-            ${{ index.sponsors_txt_3 }}$ -
-            <a class="text-bold link white-space-nw" href="tel:380982845165">+38 (098) 284 51 65</a> /
-            ${{ index.sponsors_mariia }}$
-          </p>
-          <p>
-            ${{ index.sponsors_txt_4 }}$ -
-            <a class="text-bold link white-space-nw" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>
-          </p>
-          <p>
-            ${{ index.sponsors_txt_5 }}$ -
-            <a class="text-bold link white-space-nw" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /
-            ${{ index.sponsors_julia }}$
-          </p>
+        <!--<div class="m-t-50 h4 text-center sponsors-text">-->
+          <!--<p>-->
+            <!--${{ index.sponsors_txt_2 }}$-->
+          <!--</p>-->
+          <!--<p>-->
+            <!--${{ index.sponsors_txt_3 }}$ - -->
+            <!--<a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /-->
+            <!--${{ index.sponsors_mariia }}$-->
+          <!--</p>-->
+          <!--<p>-->
+            <!--${{ index.sponsors_txt_4 }}$ - -->
+            <!--<a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>-->
+          <!--</p>-->
+          <!--<p>-->
+            <!--${{ index.sponsors_txt_5 }}$ - -->
+            <!--<a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /-->
+            <!--${{ index.sponsors_julia }}$-->
+          <!--</p>-->
 
-          <div class="text-center m-t-50">
-            <a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">
-              ${{ index.sponsors_program }}$
-            </a>
-          </div>
-        </div>
+          <!--<div class="text-center m-t-50">-->
+            <!--<a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">-->
+              <!--${{ index.sponsors_program }}$-->
+            <!--</a>-->
+          <!--</div>-->
+        <!--</div>-->
 
-        <!-- Sponsors -->
-        <div class="m-t-80">
-          <h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>
-        </div>
-        
-        <!-- Golden sponsors-->
-        <div class="m-t-30">
-          <h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>
+        <!--&lt;!&ndash; Sponsors &ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+          <!--<h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>-->
+        <!--</div>-->
+        <!---->
+        <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
+        <!--<div class="m-t-30">-->
+          <!--<h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>-->
 
-          <div class="sponsors-media-list">
-            <a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/conference_partners/Beetroot.png" alt="Beetroot">
-            </a>
-            
-            <a href="http://competera.net/" class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/conference_partners/competera.png" alt="Competera">
-            </a>
+          <!--<div class="sponsors-media-list">-->
+            <!--<a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/Beetroot.png" alt="Beetroot">&ndash;&gt;-->
+            <!--</a>-->
+            <!---->
+            <!--<a href="http://competera.net/" class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/competera.png" alt="Competera">&ndash;&gt;-->
+            <!--</a>-->
 
-          </div>
-        </div>
-        <!-- Golden sponsors-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
 
-        <!-- Silver sponsors-->
-        
-        <!-- Silver sponsors-->
-        <!-- Sponsors-->
+        <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
+        <!--&lt;!&ndash; Sponsors&ndash;&gt;-->
 
-        <!-- HR partners-->
-        <div class="m-t-80">
-          <h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>
+        <!--&lt;!&ndash; HR partners&ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+          <!--<h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>-->
 
-          <div class="sponsors-media-list">
-            <a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">
-              <img src="public/cont/img/hr_partners/rabota_ua.jpg" alt="rabota.ua">
-            </a>
-          </div>
-        </div>
-        <!-- HR partners-->
+          <!--<div class="sponsors-media-list">-->
+            <!--<a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">&ndash;&gt;-->
+            <!--</a>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; HR partners&ndash;&gt;-->
 
-        <!-- Conference partners-->
-        <div class="m-t-80">
-          <h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>
+        <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+          <!--<h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>-->
 
-          <div class="sponsors-media-list">
-            <a href="https://code-on.be/" class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/conference_partners/code-on.jpg" alt="code-on">
-            </a>
-            <a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/conference_partners/teck-5.png" alt="teck-5">
-            </a>
+          <!--<div class="sponsors-media-list">-->
+            <!--<a href="https://code-on.be/" class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">&ndash;&gt;-->
+            <!--</a>-->
+            <!--<a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">&ndash;&gt;-->
+            <!--</a>-->
 
-          </div>
-        </div>
-        <!-- Conference partners-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
 
-        <!-- Media Partners -->
-        <div class="m-t-80">
-          <h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>
+        <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+          <!--<h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>-->
 
-          <div class="sponsors-media-list">
+          <!--<div class="sponsors-media-list">-->
 
-            <a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/shag.png" alt="shag">
-            </a>
+            <!--<a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/shag.png" alt="shag">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://itvdn.com"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/itvdn.png" alt="ITVDN">
-            </a>
+            <!--<a href="https://itvdn.com"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://edu.cbsystematics.com/"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/cbs.png" alt="CyberBionic">
-            </a>
+            <!--<a href="https://edu.cbsystematics.com/"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://beetroot.academy/"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/beetroot_academy.png" alt="beetroot_academy">
-            </a>
+            <!--<a href="https://beetroot.academy/"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://3dlook.me/"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/3d_look.png" alt="3d_look">
-            </a>
+            <!--<a href="https://3dlook.me/"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://chisw.com/"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/chi.png" alt="chi">
-            </a>
+            <!--<a href="https://chisw.com/"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/chi.png" alt="chi">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://www.facebook.com/moveonmiles/"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/mom.png" alt="mom">
-            </a>
+            <!--<a href="https://www.facebook.com/moveonmiles/"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/mom.png" alt="mom">&ndash;&gt;-->
+            <!--</a>-->
 
-            <a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">
-            </a>
-            
-            <a href="https://syndicode.com/"
-               class="sponsors-media-item" target="_blank">
-              <img src="public/cont/img/media_partners/syndicode.svg" alt="Syndicode">
-            </a>
+            <!--<a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">&ndash;&gt;-->
+            <!--</a>-->
+            <!---->
+            <!--<a href="https://syndicode.com/"-->
+               <!--class="sponsors-media-item" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">&ndash;&gt;-->
+            <!--</a>-->
 
 
-          </div>
-        </div>
-        <!-- Media Partners -->
+          <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
 
-        <!-- Tech sponsor -->
-        <div class="m-t-80">
-          <h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>
+        <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+          <!--<h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>-->
 
-          <div class="sponsors-media-list">
-            <a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">
-              <img src="public/cont/img/sponsors/vega.jpg" alt="vega">
-            </a>
-          </div>
-        </div>
-        <!-- Tech sponsor -->
-      </div>
-    </section>
+          <!--<div class="sponsors-media-list">-->
+            <!--<a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
+              <!--&lt;!&ndash;<img src="public/img/cont/sponsors/vega.jpg" alt="vega">&ndash;&gt;-->
+            <!--</a>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
+      <!--</div>-->
+    <!--</section>-->
 
     <section id="location">
       <div class="container">
@@ -632,10 +493,10 @@
 
         <div class="location-img-container m-t-30">
           <div class="location-img-container_item">
-            <img src="public/cont/img/location/location_1.jpg" alt="location_photo_1">
+            <!--<img src="public/img/cont/location/location_1.jpg" alt="location_photo_1">-->
           </div>
           <div class="location-img-container_item">
-            <img src="public/cont/img/location/location_2.jpg" alt="location_photo_2">
+            <!--<img src="public/img/cont/location/location_2.jpg" alt="location_photo_2">-->
           </div>
         </div>
 
@@ -662,56 +523,6 @@
 
     </section>
 
-    <section id="history">
-      <div class="container">
-        <div class="h2">
-          ${{ index.history_head }}$
-        </div>
-
-        <div class="history-list">
-          <a href="http://odessajs.org/2013/index.html" class="history-item" target="_blank">
-            <img src="#" data-src="public/cont/img/history/2013.jpg" alt="OdessaJS'2013">
-            <div class="history-item-title">
-              OdessaJS'2013
-            </div>
-          </a>
-          <a href="http://odessajs.org/2014/index.html" class="history-item" target="_blank">
-            <img src="#" data-src="public/cont/img/history/2014.jpg" alt="OdessaJS'2014">
-            <div class="history-item-title">
-              OdessaJS'2014
-            </div>
-          </a>
-          <a href="http://odessajs.org/2015/index.html" class="history-item" target="_blank">
-            <img src="#" data-src="public/cont/img/history/2015.jpg" alt="OdessaJS'2015">
-            <div class="history-item-title">
-              OdessaJS'2015
-            </div>
-          </a>
-          <a href="http://odessajs.org/2016/index.html" class="history-item" target="_blank">
-            <img src="#" data-src="public/cont/img/history/2016.jpg" alt="OdessaJS'2016">
-            <div class="history-item-title">
-              OdessaJS'2016
-            </div>
-          </a>
-          <a href="http://odessajs.org/2017/index.html" class="history-item" target="_blank">
-            <img src="#" data-src="public/cont/img/history/2017.jpg" alt="OdessaJS'2017">
-            <div class="history-item-title">
-              OdessaJS'2017
-            </div>
-          </a>
-          <a href="http://odessajs.org/" class="history-item" target="_blank">
-            <img src="#" data-src="public/cont/img/history/2018.jpg" alt="OdessaJS'2018">
-            <div class="history-item-title">
-              OdessaJS'2018
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-    <div class="user-select-none m-b-20">
-      <img class="sponsors-bg-img" src="https://via.placeholder.com/1x1" data-src="public/cont/img/sponsors_bg.png"
-           alt="seagull">
-    </div>
   </div>
 </div>
 

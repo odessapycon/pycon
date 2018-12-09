@@ -26,7 +26,10 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #fff;
+  color: @color_white;
+  background-color: @color_black;
+  background-image: url("../img/dsg/scheme.svg");
+  background-size: 25%;
 
   position: relative;
   margin: 0;
@@ -44,7 +47,7 @@ html, body {
   position: relative;
   overflow: hidden;
   transition: .2s;
-  padding: 0;
+  padding: 60px 0 0;
 
   &.wrapper-blured {
     filter: blur(9px);
@@ -61,7 +64,7 @@ html, body {
   max-width: 1750px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 85px;
+  padding: 0 80px;
   z-index: 1;
 }
 
