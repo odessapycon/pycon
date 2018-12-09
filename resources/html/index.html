@@ -8,7 +8,7 @@
 
   <link rel="icon" href="public/dsg/img/favicon.png">
   <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"-->
-        <!--integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+  <!--integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
 
   <link rel="stylesheet" href="public/css/app.min.css">
 
@@ -52,7 +52,6 @@
       <div class="logo">
         <a href="#heading">
           <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
-          <!--&lt;!&ndash;<img src="https://via.placeholder.com/1x1" data-src="public/img/cont/logo_py_1.svg" alt="OdessaPy Conference">&ndash;&gt;-->
         </a>
       </div>
       <div class="flex a-i-center">
@@ -85,7 +84,6 @@
           </ul>
         </nav>
 
-
         <ul class="lang">
           <li>
             <a href="${{ index.lang_link_ru }}$">ru</a>
@@ -101,147 +99,60 @@
 
   </header>
   <div class="wrapper">
-    <section id="heading" class="heading p-b-80">
+    <section id="heading" class="heading">
+      <div class="container">
+        <div class="heading-content">
 
-      <div class="user-select-none">
-        <picture>
-          <img src="https://via.placeholder.com/1x1" class="heading-bg-img collage" alt="Speakers" data-src="public/img/cont/collage_desk.jpg">
-        </picture>
-      </div>
-      <div class="h3 text-center text-green text-bold m-t-50">
-        ${{ index.heading_start }}$
+          <div class="heading-logo user-select-none">
+            <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
+          </div>
+
+          <div class="h4 text-center m-t-25">
+            ${{ index.heading_start }}$
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="about flex f-d-column j-c-space-between p-b-80">
-      <div class="container">
-        <div class="about-tickets-txt ">
-          <div class="h2">${{ index.about_head }}$</div>
+
+    <section id="about" class="about">
+      <div class="about-banner">
+        <div class="container">
+          <div class="h3">
+            ${{ index.about_banner }}$
+          </div>
         </div>
+      </div>
 
-        <div class="flex j-c-space-between about-content">
+      <div class="container">
+        <div class="about-content text-center">
+          <hr class="hr-yellow">
 
-          <div class="about-tickets-txt ">
-            <div class="h4">
-              ${{ index.about_txt_1 }}$
-            </div>
+          <div class="h4 text-yellow">PyCon Odessa</div>
+
+          <div class="subtitle">Python - focused conference, which will be held in Odessa, 16 of March</div>
+          <div class="subtitle m-t-30">
+            It’s place where our participants can share their experiences, get answers to your questions, and spend
+            time in a company of likeminded people.
           </div>
 
-          <div class="about-tickets-cont flex-item-1">
+          <hr class="hr-yellow">
 
-            <div class="h3">
-              ${{ index.tickets_head }}$
+          <div class="flex about-tickets">
+            <div class="subtitle text-left p-r-20s">
+              Участие в конференции <br>
+              Вкусный обед и кофе-брейки <br>
+              Участие во всех розыгрышах на конференции <br>
+              After-party <br>
+              Доступ к видеозаписям докладд
             </div>
 
-            <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-              <meta itemprop="availability" content="http://schema.org/InStock">
-              <meta itemprop="validFrom" content="2018-09-30">
-
-              <ul class="about-tickets-list" itemprop="price" content="1350.00">
-                <!--<li class="about-ticket-item">-->
-                <!--<a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" itemprop="url">-->
-                <!--<div class="about-ticket-title">-->
-                <!--Early Bird <br>-->
-                <!--Ticket-->
-                <!--</div>-->
-                <!--</a>-->
-                <!--<div class="about-ticket-desc">-->
-                <!--1350 <span itemprop="priceCurrency" content="UAH">UAH</span>-->
-                <!--</div>-->
-                <!--</li>-->
-                <li class="about-ticket-item" itemprop="price" content="1750.00">
-                  <a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" itemprop="url">
-                    <div class="about-ticket-title">
-                      Regular <br>
-                      Ticket
-                    </div>
-                  </a>
-                  <div class="about-ticket-desc">
-                    1500 <span itemprop="priceCurrency" content="UAH">UAH</span>
-                  </div>
-                </li>
-
-                <li class="about-ticket-item" itemprop="price" content="1700.00">
-                  <a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" itemprop="url">
-                    <div class="about-ticket-title">
-                      Late Chance <br>
-                      Ticket
-                    </div>
-                  </a>
-                  <div class="about-ticket-desc">
-                    1700 <span itemprop="priceCurrency" content="UAH">UAH</span>
-                  </div>
-                </li>
-
-                <li class="about-ticket-item" itemprop="price" content="850">
-                  <a href="https://pycon-odessa.ticketforevent.com/?draft_mode=on" target="_blank" itemprop="url">
-                    <div class="about-ticket-title">
-                      Student <br>
-                      Ticket
-                    </div>
-                  </a>
-                  <div class="about-ticket-desc" itemprop="priceCurrency" content="UAH">
-                    discount 50%
-                  </div>
-                  <div class="about-ticket-desc about-ticket-desc-sub">
-                    * Ask for promocode
-                  </div>
-                </li>
-              </ul>
-
-              <ul class="about-advantages">
-                <li class="about-advantage-item">
-                  <div class="about-advantage-icon">
-                    <i class="fa fa-bullhorn"></i>
-                  </div>
-                  <div class="about-advantage-text">
-                    ${{ index.about_advantages_1 }}$
-                  </div>
-                </li>
-                <li class="about-advantage-item">
-                  <div class="about-advantage-icon">
-                    <i class="fa fa-users"></i>
-                  </div>
-                  <div class="about-advantage-text">
-                    ${{ index.about_advantages_2 }}$
-                  </div>
-                </li>
-                <li class="about-advantage-item">
-                  <div class="about-advantage-icon">
-                    <i class="fa fa-cutlery"></i>
-                  </div>
-                  <div class="about-advantage-text">
-                    ${{ index.about_advantages_3 }}$
-                  </div>
-                </li>
-                <li class="about-advantage-item">
-                  <div class="about-advantage-icon">
-                    <i class="fa fa-trophy"></i>
-                  </div>
-                  <div class="about-advantage-text">
-                    ${{ index.about_advantages_4 }}$
-                  </div>
-                </li>
-                <li class="about-advantage-item">
-                  <div class="about-advantage-icon">
-                    <i class="fa fa-glass"></i>
-                  </div>
-                  <div class="about-advantage-text">
-                    ${{ index.about_advantages_5 }}$
-                  </div>
-                </li>
-                <li class="about-advantage-item">
-                  <div class="about-advantage-icon">
-                    <i class="fa fa-video-camera"></i>
-                  </div>
-                  <div class="about-advantage-text">
-                    ${{ index.about_advantages_6 }}$
-                  </div>
-                </li>
-              </ul>
+            <div class="h2 about-ticket">
+              Buy ticket
+              <span class="icon icon-wallet"></span>
+              1200 Uah
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -297,9 +208,9 @@
         <div class="schedule-list-container">
           <div id="preparty-schedule-list" class="schedule-list">
             <!--<div class="schedule-head">-->
-              <!--<div class="schedule-head-item"></div>-->
-              <!--<div class="schedule-head-item">Stage A [Talk]</div>-->
-              <!--&lt;!&ndash;<div class="schedule-head-item">Stage B [Tech Corner]</div>&ndash;&gt;-->
+            <!--<div class="schedule-head-item"></div>-->
+            <!--<div class="schedule-head-item">Stage A [Talk]</div>-->
+            <!--&lt;!&ndash;<div class="schedule-head-item">Stage B [Tech Corner]</div>&ndash;&gt;-->
             <!--</div>-->
 
             <div class="schedule-body">
@@ -323,166 +234,166 @@
     </section>
 
     <!--<section id="sponsors" class="sponsors">-->
-      <!--<div class="container">-->
-        <!--<div class="h2">-->
-          <!--${{ index.sponsors_head }}$-->
-        <!--</div>-->
+    <!--<div class="container">-->
+    <!--<div class="h2">-->
+    <!--${{ index.sponsors_head }}$-->
+    <!--</div>-->
 
-        <!--<div class="m-t-80 h4 text-center sponsors-text">-->
-          <!--<p>-->
-            <!--${{ index.sponsors_txt_1 }}$-->
-          <!--</p>-->
-          <!--<br>-->
-        <!--</div>-->
+    <!--<div class="m-t-80 h4 text-center sponsors-text">-->
+    <!--<p>-->
+    <!--${{ index.sponsors_txt_1 }}$-->
+    <!--</p>-->
+    <!--<br>-->
+    <!--</div>-->
 
-        <!--<div class="m-t-50 h4 text-center sponsors-text">-->
-          <!--<p>-->
-            <!--${{ index.sponsors_txt_2 }}$-->
-          <!--</p>-->
-          <!--<p>-->
-            <!--${{ index.sponsors_txt_3 }}$ - -->
-            <!--<a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /-->
-            <!--${{ index.sponsors_mariia }}$-->
-          <!--</p>-->
-          <!--<p>-->
-            <!--${{ index.sponsors_txt_4 }}$ - -->
-            <!--<a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>-->
-          <!--</p>-->
-          <!--<p>-->
-            <!--${{ index.sponsors_txt_5 }}$ - -->
-            <!--<a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /-->
-            <!--${{ index.sponsors_julia }}$-->
-          <!--</p>-->
+    <!--<div class="m-t-50 h4 text-center sponsors-text">-->
+    <!--<p>-->
+    <!--${{ index.sponsors_txt_2 }}$-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--${{ index.sponsors_txt_3 }}$ - -->
+    <!--<a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /-->
+    <!--${{ index.sponsors_mariia }}$-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--${{ index.sponsors_txt_4 }}$ - -->
+    <!--<a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>-->
+    <!--</p>-->
+    <!--<p>-->
+    <!--${{ index.sponsors_txt_5 }}$ - -->
+    <!--<a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /-->
+    <!--${{ index.sponsors_julia }}$-->
+    <!--</p>-->
 
-          <!--<div class="text-center m-t-50">-->
-            <!--<a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">-->
-              <!--${{ index.sponsors_program }}$-->
-            <!--</a>-->
-          <!--</div>-->
-        <!--</div>-->
+    <!--<div class="text-center m-t-50">-->
+    <!--<a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">-->
+    <!--${{ index.sponsors_program }}$-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
 
-        <!--&lt;!&ndash; Sponsors &ndash;&gt;-->
-        <!--<div class="m-t-80">-->
-          <!--<h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>-->
-        <!--</div>-->
-        <!---->
-        <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
-        <!--<div class="m-t-30">-->
-          <!--<h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>-->
+    <!--&lt;!&ndash; Sponsors &ndash;&gt;-->
+    <!--<div class="m-t-80">-->
+    <!--<h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>-->
+    <!--</div>-->
+    <!---->
+    <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
+    <!--<div class="m-t-30">-->
+    <!--<h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>-->
 
-          <!--<div class="sponsors-media-list">-->
-            <!--<a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/Beetroot.png" alt="Beetroot">&ndash;&gt;-->
-            <!--</a>-->
-            <!---->
-            <!--<a href="http://competera.net/" class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/competera.png" alt="Competera">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<div class="sponsors-media-list">-->
+    <!--<a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/Beetroot.png" alt="Beetroot">&ndash;&gt;-->
+    <!--</a>-->
+    <!---->
+    <!--<a href="http://competera.net/" class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/competera.png" alt="Competera">&ndash;&gt;-->
+    <!--</a>-->
 
-          <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; Golden sponsors&ndash;&gt;-->
 
-        <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
-        <!---->
-        <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
-        <!--&lt;!&ndash; Sponsors&ndash;&gt;-->
+    <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
+    <!--&lt;!&ndash; Sponsors&ndash;&gt;-->
 
-        <!--&lt;!&ndash; HR partners&ndash;&gt;-->
-        <!--<div class="m-t-80">-->
-          <!--<h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>-->
+    <!--&lt;!&ndash; HR partners&ndash;&gt;-->
+    <!--<div class="m-t-80">-->
+    <!--<h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>-->
 
-          <!--<div class="sponsors-media-list">-->
-            <!--<a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">&ndash;&gt;-->
-            <!--</a>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; HR partners&ndash;&gt;-->
+    <!--<div class="sponsors-media-list">-->
+    <!--<a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">&ndash;&gt;-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; HR partners&ndash;&gt;-->
 
-        <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
-        <!--<div class="m-t-80">-->
-          <!--<h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>-->
+    <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
+    <!--<div class="m-t-80">-->
+    <!--<h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>-->
 
-          <!--<div class="sponsors-media-list">-->
-            <!--<a href="https://code-on.be/" class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">&ndash;&gt;-->
-            <!--</a>-->
-            <!--<a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<div class="sponsors-media-list">-->
+    <!--<a href="https://code-on.be/" class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">&ndash;&gt;-->
+    <!--</a>-->
+    <!--<a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">&ndash;&gt;-->
+    <!--</a>-->
 
-          <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
 
-        <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
-        <!--<div class="m-t-80">-->
-          <!--<h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>-->
+    <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
+    <!--<div class="m-t-80">-->
+    <!--<h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>-->
 
-          <!--<div class="sponsors-media-list">-->
+    <!--<div class="sponsors-media-list">-->
 
-            <!--<a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/shag.png" alt="shag">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/shag.png" alt="shag">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://itvdn.com"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://itvdn.com"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://edu.cbsystematics.com/"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://edu.cbsystematics.com/"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://beetroot.academy/"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://beetroot.academy/"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://3dlook.me/"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://3dlook.me/"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://chisw.com/"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/chi.png" alt="chi">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://chisw.com/"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/chi.png" alt="chi">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://www.facebook.com/moveonmiles/"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/mom.png" alt="mom">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://www.facebook.com/moveonmiles/"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/mom.png" alt="mom">&ndash;&gt;-->
+    <!--</a>-->
 
-            <!--<a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">&ndash;&gt;-->
-            <!--</a>-->
-            <!---->
-            <!--<a href="https://syndicode.com/"-->
-               <!--class="sponsors-media-item" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">&ndash;&gt;-->
-            <!--</a>-->
+    <!--<a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">&ndash;&gt;-->
+    <!--</a>-->
+    <!---->
+    <!--<a href="https://syndicode.com/"-->
+    <!--class="sponsors-media-item" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">&ndash;&gt;-->
+    <!--</a>-->
 
 
-          <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
 
-        <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
-        <!--<div class="m-t-80">-->
-          <!--<h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>-->
+    <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
+    <!--<div class="m-t-80">-->
+    <!--<h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>-->
 
-          <!--<div class="sponsors-media-list">-->
-            <!--<a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
-              <!--&lt;!&ndash;<img src="public/img/cont/sponsors/vega.jpg" alt="vega">&ndash;&gt;-->
-            <!--</a>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
-      <!--</div>-->
+    <!--<div class="sponsors-media-list">-->
+    <!--<a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
+    <!--&lt;!&ndash;<img src="public/img/cont/sponsors/vega.jpg" alt="vega">&ndash;&gt;-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
+    <!--</div>-->
     <!--</section>-->
 
     <section id="location">

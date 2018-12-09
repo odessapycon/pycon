@@ -1,16 +1,12 @@
 h1, .h1 {
-  margin-top: 100px;
-  position: relative;
-  .font-size(110);
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+
 }
 
 h2, .h2 {
   .font-size(56);
   line-height: 1;
   font-family: 'Roboto Slab', serif;
-  font-weight: 400;
+  font-weight: 700;
   color: @color_yellow;
 }
 
@@ -26,16 +22,37 @@ h4, .h4 {
   font-weight: 700;
 }
 
-h5, .h5 {
-  .font-size(14);
-  font-family: 'Roboto Slab', serif;
-  font-weight: 400;
-}
-
 p, .p {
   .font-size(18);
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+  .font-size(26);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.notation {
+  .line-height(14, 16);
+  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+  color: @color_gray_light;
+}
+
+hr {
+  border-bottom: 5px solid @color_white;
+  margin: 15px 0;
+  border-radius: 10px;
+
+  &.hr-white{
+    border-color: @color_white;
+  }
+
+  &.hr-yellow{
+    border-color: @color_yellow;
+  }
 }
 
 .ul {
@@ -74,26 +91,7 @@ p, .p {
 
 }
 
-.subtitle {
-  .font-size(26);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-}
 
-.notation {
-  .line-height(12, 14);
-  font-weight: 400;
-  font-family: 'Roboto Slab', serif;
-  color: @color_gray_light;
-}
-
-.text-bold {
-  font-weight: 700;
-}
-
-.text-grey {
-  color: @color_gray_light;
-}
 
 .link {
   font-family: 'Roboto Slab', serif;
@@ -106,8 +104,20 @@ p, .p {
   }
 }
 
+.text-bold {
+  font-weight: 700;
+}
+
+.text-grey {
+  color: @color_gray_light;
+}
+
 .text-blue {
   color: @color_blue;
+}
+
+.text-yellow {
+  color: @color_yellow;
 }
 
 .fw-400 {
