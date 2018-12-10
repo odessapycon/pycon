@@ -1,3 +1,7 @@
+.location {
+  padding: 40px 0 140px;
+  border-bottom: 6px solid @color_yellow;
+}
 
 .location-img-container {
   display: flex;
@@ -16,6 +20,13 @@
 }
 
 @media @mobileLg {
+  .location {
+    padding: 30px 0;
+
+    .h2 {
+      margin-bottom: 20px !important;
+    }
+  }
 
   .location-img-container {
     flex-direction: column;

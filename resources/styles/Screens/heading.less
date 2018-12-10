@@ -15,7 +15,7 @@
     background-position: center;
   }
 
-  &::before{
+  &::before {
     left: 0;
     background-position: right center;
     background-image: url("../img/dsg/heading_bg_left.svg");
@@ -28,7 +28,6 @@
   }
 
 }
-
 
 .heading-content {
   padding: 60px 0;
@@ -44,6 +43,14 @@
   img {
     display: inline-block;
     width: 100%;
+
+  }
+}
+
+@media @laptop {
+  .heading-content {
+    max-width: 50%;
+    min-width: 190px;
 
   }
 }

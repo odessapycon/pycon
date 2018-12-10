@@ -1,8 +1,12 @@
 import $ from 'jquery';
-window.jQuery = $;
-require('../vendors/jquery-tmpl/jquery.tmpl.min');
 import { GoogleApiModule } from '../Modules/GoogleApi';
 import { Helpers } from '../Helpers';
+
+
+
+window.jQuery = $;
+require('../vendors/jquery-tmpl/jquery.tmpl.min');
+
 
 export class Map {
 
@@ -19,9 +23,9 @@ export class Map {
       maxZoom : 20,
       center : {
         lat : 46.436590,
-        lng : 30.749558,
+        lng : 30.749558
       },
-      clickableIcons : false,
+      clickableIcons : false
       // gestureHandling : 'greedy'
     }, this.mapOptions);
 
@@ -35,7 +39,7 @@ export class Map {
           title : 'Business-center Solnechnyiy',
           content : '<p><span>Address: </span>5, Sonyachna St.</p>'
         })
-      },
+      }
     ];
 
     const PlacesRu = [
@@ -46,7 +50,7 @@ export class Map {
           title : 'Бизнес-центр Солнечный',
           content : '<p><span>Адрес: </span>Солнечная, 5</p>'
         })
-      },
+      }
     ];
 
 
@@ -89,7 +93,7 @@ export class Map {
     this.bounds.extend({lat : 46.445, lng : 30.749558});
     //крайние точки
 
-    this.places.forEach((item, i, arr)=>{
+    this.places.forEach((item, i, arr) => {
       this.bounds.extend(item);
     });
 
