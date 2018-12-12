@@ -98,6 +98,7 @@
     </div>
 
   </header>
+
   <div class="wrapper">
     <section id="heading" class="heading">
       <div class="container">
@@ -137,20 +138,29 @@
 
           <div class="flex about-tickets">
             <div class="subtitle text-left p-r-20">
-              ${{ index.about_list_1 }}$<br>
-              ${{ index.about_list_2 }}$<br>
-              ${{ index.about_list_3 }}$<br>
-              ${{ index.about_list_4 }}$<br>
-              ${{ index.about_list_5 }}$<br>
-            </div>
+              <ul>
 
-            <a class="h2 about-ticket" href="#" target="_blank">
-              <span class="nowrap">
-                ${{ index.about_ticket_buy }}$
-                <span class="icon icon-wallet m-l-15"></span>
-              </span> <br>
-              <span>1200 ${{ index.about_ticket_uah }}$</span>
-            </a>
+                <li>${{ index.about_list_1 }}$</li>
+                <li>${{ index.about_list_2 }}$</li>
+                <li>${{ index.about_list_3 }}$</li>
+                <li>${{ index.about_list_4 }}$</li>
+                <li>${{ index.about_list_5 }}$</li>
+              </ul>
+            </div>
+            <div class="h2 about-ticket" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+              <a href="#" target="_blank" itemprop="url">
+                <meta itemprop="availability" content="http://schema.org/InStock">
+                <meta itemprop="validFrom" content="2019-03-16">
+                <meta itemprop="priceCurrency" content="UAH">
+                <meta itemprop="price" content="1200.00">
+
+                <span class="nowrap">
+                  ${{ index.about_ticket_buy }}$
+                  <span class="icon icon-wallet m-l-15"></span>
+                </span> <br>
+                1200 ${{ index.about_ticket_uah }}$
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -162,6 +172,10 @@
         <h2 class="h2 text-center">
           ${{ index.speakers_head }}$
         </h2>
+
+        <div class="m-t-30 text-center">
+          <a href="https://goo.gl/forms/8e0geCzB484onWVy1" target="_blank" class="btn">Call for papers</a>
+        </div>
 
         <div class="flex j-c-space-around speakers-list" id="main-speakers-list"></div>
       </div>
@@ -175,183 +189,231 @@
           ${{ index.schedule_txt }}$
         </div>
 
-        <div class="schedule-list-container">
-          <div id="main-schedule-list" class="schedule-list">
-            <div class="schedule-head">
-              <div class="schedule-head-item"></div>
-              <div class="schedule-head-item">Stage A [Talk]</div>
-              <div class="schedule-head-item">Stage B [Tech Corner]</div>
-            </div>
+        <!--        <div class="schedule-list-container">
+                  <div id="main-schedule-list" class="schedule-list">
+                    <div class="schedule-head">
+                      <div class="schedule-head-item"></div>
+                      <div class="schedule-head-item">Stage A [Talk]</div>
+                      <div class="schedule-head-item">Stage B [Tech Corner]</div>
+                    </div>
 
-            <div class="schedule-body">
-            </div>
-          </div>
-        </div>
+                    <div class="schedule-body">
+                    </div>
+                  </div>
+                </div>-->
       </div>
     </section>
 
-    <!--    <section id="sponsors" class="sponsors">
-          <div class="container">
-            <h2 class="h2">
-              ${{ index.sponsors_head }}$
-            </h2>
+    <section id="sponsors" class="sponsors text-center">
+      <div class="container">
+        <h2 class="h2">
+          ${{ index.sponsors_head }}$
+        </h2>
 
-            <div class="m-t-80 h4 text-center sponsors-text">
-              <p>
-                ${{ index.sponsors_txt_1 }}$
-              </p>
-              <br>
-            </div>
+        <div class="text-center sponsors-text m-t-25">
+          <p>
+            ${{ index.sponsors_txt_1 }}$
+          </p>
+          <br>
+        </div>
 
-            <div class="m-t-50 h4 text-center sponsors-text">
-              <p>
-                ${{ index.sponsors_txt_2 }}$
-              </p>
-              <p>
-                ${{ index.sponsors_txt_3 }}$ -
-                <a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /
-                ${{ index.sponsors_mariia }}$
-              </p>
-              <p>
-                ${{ index.sponsors_txt_4 }}$ -
-                <a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>
-              </p>
-              <p>
-                ${{ index.sponsors_txt_5 }}$ -
-                <a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /
-                ${{ index.sponsors_julia }}$
-              </p>
+        <!--<div class="m-t-50 h4 text-center sponsors-text">-->
+        <!--<p>-->
+        <!--${{ index.sponsors_txt_2 }}$-->
+        <!--</p>-->
+        <!--<p>-->
+        <!--${{ index.sponsors_txt_3 }}$ - -->
+        <!--<a class="text-bold link nowrap" href="tel:380982845165">+38 (098) 284 51 65</a> /-->
+        <!--${{ index.sponsors_mariia }}$-->
+        <!--</p>-->
+        <!--<p>-->
+        <!--${{ index.sponsors_txt_4 }}$ - -->
+        <!--<a class="text-bold link nowrap" href="mailto:pycon.odessa@gmail.com">pycon.odessa@gmail.com</a>-->
+        <!--</p>-->
+        <!--<p>-->
+        <!--${{ index.sponsors_txt_5 }}$ - -->
+        <!--<a class="text-bold link nowrap" href="tg://resolve?domain=Cherni44ka">@Cherni44ka</a> /-->
+        <!--${{ index.sponsors_julia }}$-->
+        <!--</p>-->
 
-              <div class="text-center m-t-50">
-                <a href="public/docs/sponsorship_proposal_-_odessa_py.pdf?v1.01" target="_blank" class="btn">
-                  ${{ index.sponsors_program }}$
-                </a>
-              </div>
-            </div>
+        <div class="text-center m-t-20">
+          <a href="public/docs/sponsorship_proposal.pdf?v1.01" target="_blank" class="btn">
+            ${{ index.sponsors_program }}$
+          </a>
+        </div>
+        <!--</div>-->
 
-            &lt;!&ndash; Sponsors &ndash;&gt;
-            <div class="m-t-80">
-              <h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>
-            </div>
+        <!-- Sponsors -->
+        <!--<div class="m-t-80">-->
+        <!--<h3 class="text-center m-b-30">${{ index.sponsors_head }}$</h3>-->
+        <!--</div>-->
 
-            &lt;!&ndash; Golden sponsors&ndash;&gt;
-            <div class="m-t-30">
-              <h4 class="sponsors-type text-center m-b-10">${{ index.sponsors_golden }}$</h4>
-
+        <!-- Golden sponsors-->
+        <!--    <div class="m-t-30">
               <div class="sponsors-media-list">
-                <a href="https://beetroot.se/" class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/conference_partners/Beetroot.png" alt="Beetroot">
+                <a class="sponsors-media-item" href="https://beetroot.se/" target="_blank">
+                  <div class="sponsors-media-img">
+                    <img src="public/img/cont/sponsors/vega.jpg" alt="Beetroot">
+                  </div>
+                  <div class="sponsors-media-text">
+                    <div class="h4 m-t-15 text-yellow">Vega Company</div>
+                    <div class="h4 m-t-5">Gold</div>
+                  </div>
                 </a>
 
-                <a href="http://competera.net/" class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/conference_partners/competera.png" alt="Competera">
+                <a class="sponsors-media-item" href="https://beetroot.se/" target="_blank">
+                  <div class="sponsors-media-img">
+                    <img src="public/img/cont/sponsors/codemotion.jpg" alt="Beetroot">
+                  </div>
+                  <div class="sponsors-media-text">
+                    <div class="h4 m-t-15 text-yellow">Vega Company</div>
+                    <div class="h4 m-t-5">Gold</div>
+                  </div>
                 </a>
-
-              </div>
-            </div>
-            &lt;!&ndash; Golden sponsors&ndash;&gt;
-
-            &lt;!&ndash; Silver sponsors&ndash;&gt;
-
-            &lt;!&ndash; Silver sponsors&ndash;&gt;
-            &lt;!&ndash; Sponsors&ndash;&gt;
-
-            &lt;!&ndash; HR partners&ndash;&gt;
-            <div class="m-t-80">
-              <h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>
-
-              <div class="sponsors-media-list">
-                <a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">
-                  <img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">
+                <a class="sponsors-media-item" href="https://beetroot.se/" target="_blank">
+                  <div class="sponsors-media-img">
+                    <img src="public/img/cont/sponsors/codemotion.jpg" alt="Beetroot">
+                  </div>
+                  <div class="sponsors-media-text">
+                    <div class="h4 m-t-15 text-yellow">Vega Company</div>
+                    <div class="h4 m-t-5">Gold</div>
+                  </div>
                 </a>
-              </div>
-            </div>
-            &lt;!&ndash; HR partners&ndash;&gt;
-
-            &lt;!&ndash; Conference partners&ndash;&gt;
-            <div class="m-t-80">
-              <h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>
-
-              <div class="sponsors-media-list">
-                <a href="https://code-on.be/" class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">
+                <a class="sponsors-media-item" href="https://beetroot.se/" target="_blank">
+                  <div class="sponsors-media-img">
+                    <img src="public/img/cont/sponsors/codemotion.jpg" alt="Beetroot">
+                  </div>
+                  <div class="sponsors-media-text">
+                    <div class="h4 m-t-15 text-yellow">Vega Company</div>
+                    <div class="h4 m-t-5">Gold</div>
+                  </div>
                 </a>
-                <a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">
+                <a class="sponsors-media-item" href="https://beetroot.se/" target="_blank">
+                  <div class="sponsors-media-img">
+                    <img src="public/img/cont/sponsors/codemotion.jpg" alt="Beetroot">
+                  </div>
+                  <div class="sponsors-media-text">
+                    <div class="h4 m-t-15 text-yellow">Vega Company</div>
+                    <div class="h4 m-t-5">Gold</div>
+                  </div>
                 </a>
-
-              </div>
-            </div>
-            &lt;!&ndash; Conference partners&ndash;&gt;
-
-            &lt;!&ndash; Media Partners &ndash;&gt;
-            <div class="m-t-80">
-              <h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>
-
-              <div class="sponsors-media-list">
-
-                <a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/shag.png" alt="shag">
-                </a>
-
-                <a href="https://itvdn.com"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">
-                </a>
-
-                <a href="https://edu.cbsystematics.com/"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">
-                </a>
-
-                <a href="https://beetroot.academy/"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">
-                </a>
-
-                <a href="https://3dlook.me/"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">
-                </a>
-
-                <a href="https://chisw.com/"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/chi.png" alt="chi">
-                </a>
-
-                <a href="https://www.facebook.com/moveonmiles/"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/mom.png" alt="mom">
-                </a>
-
-                <a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">
-                </a>
-
-                <a href="https://syndicode.com/"
-                   class="sponsors-media-item" target="_blank">
-                  <img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">
+                <a class="sponsors-media-item" href="https://beetroot.se/" target="_blank">
+                  <div class="sponsors-media-img">
+                    <img src="public/img/cont/sponsors/codemotion.jpg" alt="Beetroot">
+                  </div>
+                  <div class="sponsors-media-text">
+                    <div class="h4 m-t-15 text-yellow">Vega Company</div>
+                    <div class="h4 m-t-5">Gold</div>
+                  </div>
                 </a>
 
 
               </div>
-            </div>
-            &lt;!&ndash; Media Partners &ndash;&gt;
+              <hr>
+            </div>-->
+        <!-- Golden sponsors-->
 
-            &lt;!&ndash; Tech sponsor &ndash;&gt;
-            <div class="m-t-80">
-              <h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>
+        <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
 
-              <div class="sponsors-media-list">
-                <a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">
-                  <img src="public/img/cont/sponsors/vega.jpg" alt="vega">
-                </a>
-              </div>
-            </div>
-            &lt;!&ndash; Tech sponsor &ndash;&gt;
-          </div>
-        </section>-->
+        <!--&lt;!&ndash; Silver sponsors&ndash;&gt;-->
+        <!--&lt;!&ndash; Sponsors&ndash;&gt;-->
+
+        <!--&lt;!&ndash; HR partners&ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+        <!--<h3 class="text-center m-b-30">${{ index.sponsors_hr_heading }}$</h3>-->
+
+        <!--<div class="sponsors-media-list">-->
+        <!--<a href="https://rabota.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
+        <!--<img src="public/img/cont/hr_partners/rabota_ua.jpg" alt="rabota.ua">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; HR partners&ndash;&gt;-->
+
+        <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+        <!--<h3 class="text-center m-b-30">${{ index.sponsors_conference_heading }}$</h3>-->
+
+        <!--<div class="sponsors-media-list">-->
+        <!--<a href="https://code-on.be/" class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/conference_partners/code-on.jpg" alt="code-on">-->
+        <!--</a>-->
+        <!--<a href="https://tech-5.de/" class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/conference_partners/teck-5.png" alt="teck-5">-->
+        <!--</a>-->
+
+        <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Conference partners&ndash;&gt;-->
+
+        <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+        <!--<h3 class="text-center m-b-30">${{ index.sponsors_media_heading }}$</h3>-->
+
+        <!--<div class="sponsors-media-list">-->
+
+        <!--<a href="https://od.itstep.org/" class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/shag.png" alt="shag">-->
+        <!--</a>-->
+
+        <!--<a href="https://itvdn.com"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/itvdn.png" alt="ITVDN">-->
+        <!--</a>-->
+
+        <!--<a href="https://edu.cbsystematics.com/"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/cbs.png" alt="CyberBionic">-->
+        <!--</a>-->
+
+        <!--<a href="https://beetroot.academy/"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/beetroot_academy.png" alt="beetroot_academy">-->
+        <!--</a>-->
+
+        <!--<a href="https://3dlook.me/"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/3d_look.png" alt="3d_look">-->
+        <!--</a>-->
+
+        <!--<a href="https://chisw.com/"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/chi.png" alt="chi">-->
+        <!--</a>-->
+
+        <!--<a href="https://www.facebook.com/moveonmiles/"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/mom.png" alt="mom">-->
+        <!--</a>-->
+
+        <!--<a href="https://www.facebook.com/itcluster.konotop/?ref=br_rs"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/it_cluster_konotop.jpg" alt="it cluster konotop">-->
+        <!--</a>-->
+
+        <!--<a href="https://syndicode.com/"-->
+        <!--class="sponsors-media-item" target="_blank">-->
+        <!--<img src="public/img/cont/media_partners/syndicode.svg" alt="Syndicode">-->
+        <!--</a>-->
+
+
+        <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Media Partners &ndash;&gt;-->
+
+        <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
+        <!--<div class="m-t-80">-->
+        <!--<h3 class="text-center m-b-30">${{ index.sponsors_tech_heading }}$</h3>-->
+
+        <!--<div class="sponsors-media-list">-->
+        <!--<a href="hhttps://vega.ua/" class="sponsors-media-item sponsors-media-wide" target="_blank">-->
+        <!--<img src="public/img/cont/sponsors/vega.jpg" alt="vega">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; Tech sponsor &ndash;&gt;-->
+      </div>
+    </section>
 
 
     <section id="venue" class="location">
@@ -371,15 +433,88 @@
 
     <section id="team" class="team gradient-border">
       <div class="container">
-        <h2 class="h2 text-center m-t-0 m-b-80">
-          Out Team
+        <h2 class="h2 text-center m-t-0 m-b-50">
+          Our Team
         </h2>
+
+        <div class="team-list">
+          <div class="speaker-item team-list-item">
+            <div>
+              <div class="speaker-img"><img src="public/img/cont/team/team_member_1.jpg" alt="Anton Caceres"></div>
+              <div class="speaker-name">Мария Кунева</div>
+              <!--<div class="speaker-position">CEO</div>-->
+              <div class="speaker-place">Одесса, Украина</div>
+            </div>
+            <!--<div class="speaker-socials">-->
+              <!--<a href="http://github.com/ma3str0" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>-->
+              <!--<a href="https://twitter.com/anton_caceres" target="_blank"><i class="fa fa-twitter"-->
+                                                                             <!--aria-hidden="true"></i></a>-->
+              <!--<a href="https://caceres.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+          </div>
+
+          <div class="speaker-item team-list-item">
+            <div>
+              <div class="speaker-img"><img src="public/img/cont/team/team_member_2.png" alt="Anton Caceres"></div>
+              <div class="speaker-name">Anton Caceres</div>
+              <div class="speaker-position">CEO, TECH-5</div>
+              <div class="speaker-place">Одесса, Украина</div>
+            </div>
+            <div class="speaker-socials">
+              <a href="http://github.com/ma3str0" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/anton_caceres" target="_blank"><i class="fa fa-twitter"
+                                                                             aria-hidden="true"></i></a>
+              <a href="https://caceres.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="speaker-item team-list-item">
+            <div>
+              <div class="speaker-img"><img src="public/img/cont/team/team_member_3.png" alt="Anton Caceres"></div>
+              <div class="speaker-name">Алена Яицкая</div>
+              <!--<div class="speaker-position">CEO</div>-->
+              <div class="speaker-place">Одесса, Украина</div>
+            </div>
+            <!--<div class="speaker-socials">-->
+              <!--<a href="http://github.com/ma3str0" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>-->
+              <!--<a href="https://twitter.com/anton_caceres" target="_blank"><i class="fa fa-twitter"-->
+                                                                             <!--aria-hidden="true"></i></a>-->
+              <!--<a href="https://caceres.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>-->
+            <!--</div>-->
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer class="p-15">
+    <footer class="footer">
       <div class="container">
-        footer
+        <div class="footer-container">
+          <div class="footer-logo">
+            <a href="#heading" data-scroll-animate>
+              <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
+            </a>
+          </div>
+
+          <div class="p text-right footer-contacts">
+            <div class="nowrap">
+              <span class="text-blue">Email:</span>
+              <a href="mailto:odessa.pycon@gmail.com">odessa.pycon@gmail.com</a><br>
+            </div>
+
+            <div class="nowrap">
+              <span class="text-blue">Tel:</span>
+              <a href="tel:+380982845165">+38 (098) 284 51 65</a> / Maria
+            </div>
+
+            <div class="nowrap">
+              <a href="tel:+380636116011">+38 (063) 611 60 11</a> / Alena
+            </div>
+
+            <div class="nowrap">
+              <address><a href="#venue" data-scroll-animate>BC «Solnechnyiy», 5, Sonyachna St.</a></address>
+            </div>
+          </div>
+        </div>
 
       </div>
     </footer>
@@ -388,7 +523,7 @@
 </div>
 
 <!-- go-up-btn -->
-<a href="#heading" class="go-up-btn"></a>
+<a href="#heading" class="go-up-btn" data-scroll-animate></a>
 <!-- go-up-btn -->
 
 

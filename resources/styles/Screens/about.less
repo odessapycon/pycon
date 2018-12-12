@@ -21,33 +21,48 @@
   padding: 45px 0 0;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .about-ticket {
   padding: 35px 20px;
   border-radius: 10px;
-  color: @color_black;
   max-width: 420px;
   background-color: @color_yellow;
-  text-decoration: none;
+
+  a {
+    color: @color_black;
+    text-decoration: none;
+  }
 }
 
 @media @mobileLg {
   .about {
     padding: 0 0 30px;
   }
-  .about-tickets {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .subtitle {
-    padding-left: 20px;
-    text-align: center;
-  }
 
   .about-ticket {
     margin-top: 30px;
     .font-size(30)
+  }
+
+  .about-tickets {
+    ul {
+      padding-left: 20px;
+    }
+  }
+}
+
+
+@media @mobileMd{
+
+
+  .about-tickets {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .subtitle {
+    padding-right: 0 !important;
   }
 }

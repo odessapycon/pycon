@@ -4,3 +4,30 @@
     position: relative;
   }
 }
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-list-item {
+  &.speaker-item {
+    cursor: auto;
+    width: 28%;
+    min-width: 230px;
+  }
+
+  .speaker-img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid @color_yellow;
+
+    img {
+      filter: grayscale(1);
+    }
+  }
+  .speaker-socials {
+    margin-top: 10px;
+  }
+}
