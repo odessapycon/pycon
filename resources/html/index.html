@@ -6,7 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${{ index.meta_description }}$">
 
-  <link rel="icon" href="public/dsg/img/favicon.png">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="public/img/dsg/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/img/dsg/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/img/dsg/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/img/dsg/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/img/dsg/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/img/dsg/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/img/dsg/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/img/dsg/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/img/dsg/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="public/img/dsg/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/img/dsg/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/img/dsg/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/img/dsg/favicon/favicon-16x16.png">
+  <link rel="manifest" href="public/img/dsg/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="public/img/dsg/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- favicon -->
+
+
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -51,7 +72,8 @@
     <div class="header-cont container">
       <div class="logo">
         <a href="#heading">
-          <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
+          <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01"
+               alt="${{ index.meta_title }}$">
         </a>
       </div>
       <div class="flex a-i-center">
@@ -105,7 +127,8 @@
         <div class="heading-content">
 
           <div class="heading-logo user-select-none">
-            <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
+            <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01"
+                 alt="${{ index.meta_title }}$">
           </div>
 
           <div class="h4 text-center m-t-25">
@@ -139,15 +162,14 @@
           <div class="flex about-tickets">
             <div class="subtitle text-left p-r-20">
               <ul>
-
-                <li>${{ index.about_list_1 }}$</li>
-                <li>${{ index.about_list_2 }}$</li>
-                <li>${{ index.about_list_3 }}$</li>
-                <li>${{ index.about_list_4 }}$</li>
+                <li class="m-b-10">${{ index.about_list_1 }}$</li>
+                <li class="m-b-10">${{ index.about_list_2 }}$</li>
+                <li class="m-b-10">${{ index.about_list_3 }}$</li>
+                <li class="m-b-10">${{ index.about_list_4 }}$</li>
                 <li>${{ index.about_list_5 }}$</li>
               </ul>
             </div>
-            <div class="h2 about-ticket" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <div class="h3 about-ticket" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
               <a href="#" target="_blank" itemprop="url">
                 <meta itemprop="availability" content="http://schema.org/InStock">
                 <meta itemprop="validFrom" content="2019-03-16">
@@ -209,8 +231,13 @@
         <h2 class="h2">
           ${{ index.sponsors_head }}$
         </h2>
+        <div class="text-center m-t-25">
+          <a href="public/docs/sponsorship_proposal.pdf?v1.01" target="_blank" class="btn">
+            ${{ index.sponsors_program }}$
+          </a>
+        </div>
 
-        <div class="text-center sponsors-text m-t-25">
+        <div class="text-center sponsors-text m-t-50">
           <p>
             ${{ index.sponsors_txt_1 }}$
           </p>
@@ -236,11 +263,7 @@
         <!--${{ index.sponsors_julia }}$-->
         <!--</p>-->
 
-        <div class="text-center m-t-20">
-          <a href="public/docs/sponsorship_proposal.pdf?v1.01" target="_blank" class="btn">
-            ${{ index.sponsors_program }}$
-          </a>
-        </div>
+
         <!--</div>-->
 
         <!-- Sponsors -->
@@ -434,31 +457,37 @@
     <section id="team" class="team gradient-border">
       <div class="container">
         <h2 class="h2 text-center m-t-0 m-b-50">
-          Organizers
+          ${{ index.team_head }}$
         </h2>
 
         <div class="team-list">
           <div class="speaker-item team-list-item">
             <div>
-              <div class="speaker-img"><img src="public/img/cont/team/team_member_1.jpg" alt="Anton Caceres"></div>
-              <div class="speaker-name">Мария Кунева</div>
-              <!--<div class="speaker-position">CEO</div>-->
-              <div class="speaker-place">Одесса, Украина</div>
+              <div class="speaker-img">
+                <img src="public/img/cont/team/team_member_1.jpg" alt="${{ index.team_member_1_name }}$">
+              </div>
+              <div class="speaker-name">
+                ${{ index.team_member_1_name }}$
+              </div>
+              <!--<div class="speaker-position">${{ index.team_member_1_position }}$</div>-->
+              <div class="speaker-place">${{ index.team_member_1_city }}$</div>
             </div>
-            <!--<div class="speaker-socials">-->
-              <!--<a href="http://github.com/ma3str0" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>-->
-              <!--<a href="https://twitter.com/anton_caceres" target="_blank"><i class="fa fa-twitter"-->
-                                                                             <!--aria-hidden="true"></i></a>-->
-              <!--<a href="https://caceres.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>-->
-            <!--</div>-->
+            <div class="speaker-socials">
+              <a href="https://www.facebook.com/kuneva.mariia" target="_blank"><i class="fa fa-facebook"
+                                                                                  aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/maria-kuneva-07b986121/" target="_blank"><i class="fa fa-linkedin"
+                                                                                               aria-hidden="true"></i></a>
+            </div>
           </div>
 
           <div class="speaker-item team-list-item">
             <div>
-              <div class="speaker-img"><img src="public/img/cont/team/team_member_2.png" alt="Anton Caceres"></div>
-              <div class="speaker-name">Anton Caceres</div>
-              <div class="speaker-position">CEO, TECH-5</div>
-              <div class="speaker-place">Мюнхен, Германия</div>
+              <div class="speaker-img">
+                <img src="public/img/cont/team/team_member_2.png" alt="${{ index.team_member_2_name }}$">
+              </div>
+              <div class="speaker-name">${{ index.team_member_2_name }}$</div>
+              <div class="speaker-position">${{ index.team_member_2_position }}$</div>
+              <div class="speaker-place">${{ index.team_member_2_city }}$</div>
             </div>
             <div class="speaker-socials">
               <a href="http://github.com/ma3str0" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -470,17 +499,19 @@
 
           <div class="speaker-item team-list-item">
             <div>
-              <div class="speaker-img"><img src="public/img/cont/team/team_member_3.png" alt="Anton Caceres"></div>
-              <div class="speaker-name">Алена Яицкая</div>
-              <!--<div class="speaker-position">CEO</div>-->
-              <div class="speaker-place">Одесса, Украина</div>
+              <div class="speaker-img">
+                <img src="public/img/cont/team/team_member_3.png" alt="${{ index.team_member_3_name }}$">
+              </div>
+              <div class="speaker-name">${{ index.team_member_3_name }}$</div>
+              <!--<div class="speaker-position">${{ index.team_member_3_position }}$</div>-->
+              <div class="speaker-place">${{ index.team_member_3_city }}$</div>
             </div>
-            <!--<div class="speaker-socials">-->
-              <!--<a href="http://github.com/ma3str0" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>-->
-              <!--<a href="https://twitter.com/anton_caceres" target="_blank"><i class="fa fa-twitter"-->
-                                                                             <!--aria-hidden="true"></i></a>-->
-              <!--<a href="https://caceres.me" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>-->
-            <!--</div>-->
+            <div class="speaker-socials">
+              <a href="https://www.facebook.com/profile.php?id=100003399980949" target="_blank"><i class="fa fa-facebook"
+                                                                                  aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/алена-яицкая-71a82485" target="_blank"><i class="fa fa-linkedin"
+                                                                                               aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -491,7 +522,8 @@
         <div class="footer-container">
           <div class="footer-logo">
             <a href="#heading" data-scroll-animate>
-              <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
+              <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01"
+                   alt="${{ index.meta_title }}$">
             </a>
           </div>
 
@@ -502,16 +534,16 @@
             </div>
 
             <div class="nowrap">
-              <span class="text-blue">Tel:</span>
-              <a href="tel:+380982845165">+38 (098) 284 51 65</a> / Maria
+              <span class="text-blue">${{ index.footer_tel }}$:</span>
+              <a href="tel:+380982845165">+38 (098) 284 51 65</a> / ${{ index.footer_org_1 }}$
             </div>
 
             <div class="nowrap">
-              <a href="tel:+380636116011">+38 (063) 611 60 11</a> / Alena
+              <a href="tel:+380636116011">+38 (063) 611 60 11</a> / ${{ index.footer_org_2 }}$
             </div>
 
             <div class="nowrap">
-              <address><a href="#venue" data-scroll-animate>BC «Solnechnyiy», 5, Sonyachna St.</a></address>
+              <address><a href="#venue" data-scroll-animate>${{ index.footer_address }}$</a></address>
             </div>
           </div>
         </div>
@@ -528,7 +560,7 @@
 
 
 <!-- Modals -->
-<div class="remodal speakers-modal" data-remodal-id="preparty-speakers-modal" id="preparty-speakers-modal">
+<!--<div class="remodal speakers-modal" data-remodal-id="preparty-speakers-modal" id="preparty-speakers-modal">
   <button data-remodal-action="close" class="remodal-close"></button>
   <div class="flex speakers-modal_heading">
     <div class="speakers-modal_img">
@@ -557,7 +589,7 @@
       ${{ index.poup_next }}$
     </button>
   </div>
-</div>
+</div>-->
 
 <div class="remodal speakers-modal" data-remodal-id="main-speakers-modal" id="main-speakers-modal">
   <button data-remodal-action="close" class="remodal-close"></button>
@@ -592,14 +624,6 @@
 <!-- Modals -->
 
 <script src="public/js/index.js"></script>
-
-
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7X8M58"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
 

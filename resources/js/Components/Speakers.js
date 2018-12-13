@@ -17,12 +17,12 @@ export class SpeakersComponent extends BaseComponent {
       container: '#main-speakers-list'
     });
 
-    this.prepartySpeakers = new RenderSpeakers({
-      modal: 'preparty-speakers-modal',
-      speakersRu: PrepartySpeakersRu,
-      speakersEn: PrepartySpeakersEn,
-      container: '#preparty-speakers-list'
-    });
+    // this.prepartySpeakers = new RenderSpeakers({
+    //   modal: 'preparty-speakers-modal',
+    //   speakersRu: PrepartySpeakersRu,
+    //   speakersEn: PrepartySpeakersEn,
+    //   container: '#preparty-speakers-list'
+    // });
   }
 
   _events() {
