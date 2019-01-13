@@ -36,7 +36,7 @@ export const MainSpeakersEn = [
     place : 'Kiev, Ukraine',
     rept : [
       {
-        title : '',
+        title : 'Data science from the trenches',
         description : ''
       }
     ],
