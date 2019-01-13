@@ -114,7 +114,7 @@
           </li>
         </ul>
 
-        <div class="brgr-menu"></div>
+        <div class="brgr-menu"><span aria-hidden="true"></span></div>
       </div>
 
     </div>
@@ -198,7 +198,7 @@
         <div class="m-t-30 text-center">
           <a href="https://goo.gl/forms/8e0geCzB484onWVy1" target="_blank" class="btn">Call for papers</a>
         </div>
-        <!--<div class="flex j-c-space-around speakers-list" id="main-speakers-list"></div>-->
+        <div class="flex j-c-center speakers-list" id="main-speakers-list"></div>
       </div>
     </section>
 
@@ -318,7 +318,9 @@
 
         <address class="h4 text-yellow text-center m-b-30">
           <span class="icon icon-pin p-r-10"></span>
-          ${{ index.location_address }}$
+          <span class="nowrap">${{ index.location_address_1 }}$</span>
+          <span class="nowrap">${{ index.location_address_2 }}$</span>
+          <span class="nowrap">${{ index.location_address_3 }}$</span>
         </address>
       </div>
 

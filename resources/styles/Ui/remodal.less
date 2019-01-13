@@ -16,7 +16,14 @@
   color: #fff;
   background-color: @color_blue;
   border: none;
+  border-radius: 4px;
 
+  &:hover {
+    background-color: darken(@color_blue, 3%);
+  }
+  &:active {
+    background-color: darken(@color_blue, 5%);
+  }
 }
 
 .remodal-prev {}
