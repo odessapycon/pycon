@@ -57,4 +57,41 @@ export const MainSpeakersEn = [
       }
     ]
   },
+  {
+    image : '../public/img/cont/speakers/alexey_borisenko.jpg',
+    name : 'Alexey Borisenko',
+    position : 'DevNet developer',
+    company : 'Cisco',
+    place : 'Kiev, Ukraine',
+    rept : [
+      {
+        title : 'Network Programmability using Python',
+        description : '<p> the talk will be considered the scope Network programmability (development, opportunities, tasks).\n' +
+        'We\'ll consider:</p>\n' +
+        '\n' +
+        '<ul>\n' +
+        '  <li>infrastructure application development</li>\n' +
+        '  <li>newest trends such as software-defined networking</li>\n' +
+        '  <li>libraries and solutions for Network programmability</li>\n' +
+        '  <li>tasks that can be solved using Python</li>\n' +
+        '</ul>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/alex_dev_k',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://github.com/oborys',
+        fatype : 'github'
+      },
+      {
+        link : 'https://developer.cisco.com/',
+        fatype : 'link'
+      }
+    ]
+  },
 ];
