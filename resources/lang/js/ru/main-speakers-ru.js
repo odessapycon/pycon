@@ -59,7 +59,7 @@ export const MainSpeakersRu = [
   },
   {
     image : 'public/img/cont/speakers/alexey_borisenko.jpg',
-    name : 'Борисенко Алексей',
+    name : 'Алексей Борисенко',
     position : 'DevNet developer',
     company : 'Cisco',
     place : 'Киев, Украина',
@@ -88,6 +88,43 @@ export const MainSpeakersRu = [
       },
       {
         link : 'https://developer.cisco.com/',
+        fatype : 'link'
+      }
+    ]
+  },
+  {
+    image : '../public/img/cont/speakers/gabriel_bianconi.jpg',
+    name : 'Gabriel Bianconi',
+    position : 'Founder',
+    company : 'Scalar Research',
+    place : 'New York, United States',
+    rept : [
+      {
+        title : 'Introduction to Face Processing with Computer Vision',
+        description :
+        '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
+        '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
+        ' with open-source libraries and pre-trained models.</p>' +
+        '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
+        'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
+        'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
+        ' manipulation (e.g. Snapchat filters), and more.\n' +
+        '</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/GabrielBianconi',
+        fatype : 'twitter'
+      },
+      {
+        link : 'http://github.com/GabrielBianconi',
+        fatype : 'github'
+      },
+      {
+        link : 'https://gabrielbianconi.com/',
         fatype : 'link'
       }
     ]
