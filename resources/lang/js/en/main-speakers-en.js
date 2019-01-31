@@ -188,10 +188,10 @@ export const MainSpeakersEn = [
         link : 'https://twitter.com/pentestable',
         fatype : 'twitter'
       },
-      // {
-      //   link : 'https://www.linkedin.com/feed/',
-      //   fatype : 'linkedin'
-      // },
+      {
+        link : 'https://www.linkedin.com/feed/https://www.linkedin.com/in/mikefaraponov/',
+        fatype : 'linkedin'
+      },
       {
         link : 'https://github.com/mikefaraponov',
         fatype : 'link'
