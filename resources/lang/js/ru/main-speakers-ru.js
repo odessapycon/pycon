@@ -164,4 +164,35 @@ export const MainSpeakersRu = [
       }
     ]
   },
+  {
+    image : 'public/img/cont/speakers/mikhail_faraponov.jpeg',
+    name : 'Михаил Фарапонов',
+    position : 'Software Engineer',
+    company : 'Lohika',
+    place : 'Одесса, Украина',
+    rept : [
+      {
+        title : 'Overview of Kubernetes Metacontrollers with Python',
+        description :
+        '<p>В этом докладе я расскажу как с помощью CRD и аддонов для K8s можно воплотить в жизнь все ваши идеи ' +
+        'по автоматизации обслуживания stateful приложений</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/pentestable',
+        fatype : 'twitter'
+      },
+      // {
+      //   link : 'https://www.linkedin.com/feed/',
+      //   fatype : 'linkedin'
+      // },
+      {
+        link : 'https://github.com/mikefaraponov',
+        fatype : 'link'
+      }
+    ]
+  },
 ];
