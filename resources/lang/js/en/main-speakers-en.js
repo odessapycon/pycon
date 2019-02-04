@@ -28,6 +28,79 @@ export const MainSpeakersEn = [
   //     },
   //   ]
   // },
+
+  {
+    image : '../public/img/cont/speakers/christian_barra.jpg',
+    name : 'Christian Barra',
+    position : 'Senior Backend Developer',
+    company : 'Infarm',
+    place : 'Berlin, Germany',
+    rept : [
+      {
+        title : 'Not just a Developer',
+        description :
+            '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
+            'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
+            ' It might hurt, but at the end it is actually useful for you. </p>'+
+            '<p>During this talk I will tell you a story of breaking the boundaries of a traditional developer stereotype:' +
+            ' how can one wander the world with a single backpack, organize events for thousands of people, run a business' +
+            ' and yet still write code.</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/christianbarra',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://www.linkedin.com/in/christianbarra/',
+        fatype : 'linkedin'
+      },
+      {
+        link : 'https://www.chrisbarra.xyz/',
+        fatype : 'link'
+      }
+    ]
+  },
+  {
+    image : '../public/img/cont/speakers/gabriel_bianconi.jpg',
+    name : 'Gabriel Bianconi',
+    position : 'Founder',
+    company : 'Scalar Research',
+    place : 'New York, United States',
+    rept : [
+      {
+        title : 'Introduction to Face Processing with Computer Vision',
+        description :
+            '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
+            '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
+            ' with open-source libraries and pre-trained models.</p>' +
+            '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
+            'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
+            'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
+            ' manipulation (e.g. Snapchat filters), and more.\n' +
+            '</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/GabrielBianconi',
+        fatype : 'twitter'
+      },
+      {
+        link : 'http://github.com/GabrielBianconi',
+        fatype : 'github'
+      },
+      {
+        link : 'https://gabrielbianconi.com/',
+        fatype : 'link'
+      }
+    ]
+  },
   {
     image : '../public/img/cont/speakers/vsevolod_solovyov.jpg',
     name : 'Vsevolod Solovyov',
@@ -90,78 +163,6 @@ export const MainSpeakersEn = [
       },
       {
         link : 'https://developer.cisco.com/',
-        fatype : 'link'
-      }
-    ]
-  },
-  {
-    image : '../public/img/cont/speakers/gabriel_bianconi.jpg',
-    name : 'Gabriel Bianconi',
-    position : 'Founder',
-    company : 'Scalar Research',
-    place : 'New York, United States',
-    rept : [
-      {
-        title : 'Introduction to Face Processing with Computer Vision',
-        description :
-        '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
-        '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
-        ' with open-source libraries and pre-trained models.</p>' +
-        '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
-        'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
-        'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
-        ' manipulation (e.g. Snapchat filters), and more.\n' +
-        '</p>'
-      }
-    ],
-    aboutSpeaker : '',
-    socialsRendered : '',
-    socials : [
-      {
-        link : 'https://twitter.com/GabrielBianconi',
-        fatype : 'twitter'
-      },
-      {
-        link : 'http://github.com/GabrielBianconi',
-        fatype : 'github'
-      },
-      {
-        link : 'https://gabrielbianconi.com/',
-        fatype : 'link'
-      }
-    ]
-  },
-  {
-    image : '../public/img/cont/speakers/christian_barra.jpg',
-    name : 'Christian Barra',
-    position : '',
-    company : '',
-    place : 'Berlin, Germany',
-    rept : [
-      {
-        title : 'Not just a Developer',
-        description :
-        '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
-        'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
-        ' It might hurt, but at the end it is actually useful for you. </p>'+
-        '<p>During this talk I will tell you a story of breaking the boundaries of a traditional developer stereotype:' +
-        ' how can one wander the world with a single backpack, organize events for thousands of people, run a business' +
-        ' and yet still write code.</p>'
-      }
-    ],
-    aboutSpeaker : '',
-    socialsRendered : '',
-    socials : [
-      {
-        link : 'https://twitter.com/christianbarra',
-        fatype : 'twitter'
-      },
-      {
-        link : 'https://www.linkedin.com/in/christianbarra/',
-        fatype : 'linkedin'
-      },
-      {
-        link : 'https://www.chrisbarra.xyz/',
         fatype : 'link'
       }
     ]
