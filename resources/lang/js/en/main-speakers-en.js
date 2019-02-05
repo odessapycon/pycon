@@ -65,6 +65,51 @@ export const MainSpeakersEn = [
     ]
   },
   {
+    image : '../public/img/cont/speakers/jorge_torres.jpg',
+    name : 'Jorge Torres',
+    position : 'Co-founder & CTO',
+    company : 'MindsDB',
+    place : 'Berkeley, California, USA',
+    rept : [
+      {
+        title : 'Machine Learning Democratization with Python',
+        description :
+            '<p>This talk is divided in three sections: The first one, dives into the ' +
+            'importance of democratizing Machine Learning, its objective is to demonstrate' +
+            ' why now this is a crucial issue to be solved and to show the risks and problems' +
+            ' that present themselves when Machine Learning Engineers take in the responsibility ' +
+            'of building predictive technologies in domains that are not necessarily where they ' +
+            'are the most experts on.</p>'+
+            '<p>The second part of this talk, focuses on some solutions and approaches to challenges ' +
+            'of democratizing Machine Learning with Python, as well as the journey and results ' +
+            'we have seen while building the open source Python project MindsDB as well as what' +
+            ' would be new ways that the ML community can think of the next generation of tools ' +
+            'being built.</p>'+
+            '<p>The third section of this talk, focuses on the new issues that are born once ' +
+            'machine Learning capabilities are on the hands of not ML experts, more importantly ' +
+            'the implications of delegating the Machine Learning machinery to a Python toolset,' +
+            ' and what is important in order to trust those systems. Which leads to the importance ' +
+            'in further developing tools in explainability, interpretability and robustness of ML.</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/mindsdb',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://github.com/mindsdb/mindsdb',
+        fatype : 'github'
+      },
+      {
+        link : 'https://www.linkedin.com/in/torresjorge/',
+        fatype : 'linkedin'
+      }
+    ]
+  },
+  {
     image : '../public/img/cont/speakers/gabriel_bianconi.jpg',
     name : 'Gabriel Bianconi',
     position : 'Founder',
