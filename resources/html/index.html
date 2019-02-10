@@ -183,7 +183,7 @@
             </div>
           </div>
 
-          <div>
+          <div style="display: ${{ index.diversity_display_en }}$">
             <div class="h3 text-yellow m-b-20">${{ index.diversity_title }}$</div>
             <div class="subtitle text-center m-b-30">
               ${{ index.diversity_text_1 }}$ <br>
@@ -349,7 +349,21 @@
 
           <a class="sponsors-media-item" href="https://od.itstep.org/" target="_blank">
             <div class="sponsors-media-img">
-              <img data-src="public/img/cont/media_partners/shag.png" alt="itstep">
+              <img data-src="public/img/cont/media_partners/shag.jpg" alt="itstep">
+            </div>
+          </a>
+
+          <a class="sponsors-media-item" href="https://edu.cbsystematics.com/ru/" target="_blank">
+            <div class="sponsors-media-img">
+              <img data-src="public/img/cont/media_partners/cbs.svg"
+                   style="width: 100%" alt="CBS">
+            </div>
+          </a>
+
+          <a class="sponsors-media-item" href="https://itvdn.com/ru" target="_blank">
+            <div class="sponsors-media-img">
+              <img data-src="public/img/cont/media_partners/itvdn.svg"
+                   style="width: 100%" alt="ITVDN">
             </div>
           </a>
         </div>
@@ -457,6 +471,19 @@
 
         <div class="m-t-30 text-center">
           <a href="public/docs/сode_of_conduct.pdf?v1.01" target="_blank" class="btn">Code of conduct</a>
+        </div>
+
+        <div class="text-center p-t-50 p-t-10" style="display: ${{ index.diversity_display_ru }}$">
+          <div class="h3 text-yellow m-b-20 m-t-30">${{ index.diversity_title }}$</div>
+          <div class="subtitle text-center m-b-30">
+            ${{ index.diversity_text_1 }}$ <br>
+            ${{ index.diversity_text_2 }}$
+          </div>
+
+          <div>
+            <a href="https://goo.gl/forms/svh1HQ0dqhCUs11s1" target="_blank"
+               class="btn">${{ index.diversity_btn }}$</a>
+          </div>
         </div>
       </div>
     </section>

@@ -23,6 +23,8 @@
   "diversity_title": "Diversity scholarships",
   "diversity_text_1": "Can't afford the ticket?",
   "diversity_text_2": "Please fill in the form with all information about yourself",
+  "diversity_display_ru": "none",
+  "diversity_display_en": "block",
   "diversity_btn": "Get ticket",
   "about_ticket_buy": "Buy ticket",
   "about_ticket_uah": "Uah",
