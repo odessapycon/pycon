@@ -36,14 +36,14 @@ export const MainSpeakersRu = [
     place : 'Berlin, Germany',
     rept : [
       {
-        title : 'Not just a Developer',
+        title : 'Not just a Developer [En]',
         description :
-            '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
-            'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
-            ' It might hurt, but at the end it is actually useful for you. </p>'+
-            '<p>During this talk I will tell you a story of breaking the boundaries of a traditional developer stereotype:' +
-            ' how can one wander the world with a single backpack, organize events for thousands of people, run a business' +
-            ' and yet still write code.</p>'
+        '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
+        'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
+        ' It might hurt, but at the end it is actually useful for you. </p>' +
+        '<p>During this talk I will tell you a story of breaking the boundaries of a traditional developer stereotype:' +
+        ' how can one wander the world with a single backpack, organize events for thousands of people, run a business' +
+        ' and yet still write code.</p>'
       }
     ],
     aboutSpeaker : '',
@@ -71,7 +71,7 @@ export const MainSpeakersRu = [
     place : 'Berkeley, California, USA',
     rept : [
       {
-        title : 'Machine Learning Democratization with Python',
+        title : 'Machine Learning Democratization with Python [En]',
         description :
             '<p>This talk is divided in three sections: The first one, dives into the ' +
             'importance of democratizing Machine Learning, its objective is to demonstrate' +
@@ -116,16 +116,16 @@ export const MainSpeakersRu = [
     place : 'New York, United States',
     rept : [
       {
-        title : 'Introduction to Face Processing with Computer Vision',
+        title : 'Introduction to Face Processing with Computer Vision [En]',
         description :
-            '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
-            '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
-            ' with open-source libraries and pre-trained models.</p>' +
-            '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
-            'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
-            'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
-            ' manipulation (e.g. Snapchat filters), and more.\n' +
-            '</p>'
+        '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
+        '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
+        ' with open-source libraries and pre-trained models.</p>' +
+        '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
+        'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
+        'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
+        ' manipulation (e.g. Snapchat filters), and more.\n' +
+        '</p>'
       }
     ],
     aboutSpeaker : '',
@@ -153,8 +153,13 @@ export const MainSpeakersRu = [
     place : 'Киев, Украина',
     rept : [
       {
-        title : 'Data science from the trenches',
-        description : ''
+        title : 'Data science з печі до столу [Ru]',
+        description : 'У світі вже написано більше ніж 100 мільйонів наукових' +
+        ' статей й темп публікацій все пришвидшується. Більш ніж один мільйон' +
+        ' з цих статей написаний якимось Вангом. Робота з результатами наукової' +
+        ' діяльності може бути досить далекою від самої наукової діяльності. ' +
+        'Завітайте на цю доповідь, щоб почути різні історії щодо обробки та ' +
+        'визначення суті цих даних.'
       }
     ],
     aboutSpeaker : '',
@@ -171,7 +176,7 @@ export const MainSpeakersRu = [
       {
         link : 'https://www.facebook.com/vsevolod.solovyov',
         fatype : 'facebook'
-      },
+      }
     ]
   },
   {
@@ -182,7 +187,7 @@ export const MainSpeakersRu = [
     place : 'Киев, Украина',
     rept : [
       {
-        title : 'Сетевая программируемость с использованием Python',
+        title : 'Сетевая программируемость с использованием Python [Ru]',
         description : '<p>Во время доклада будет рассмотрена сфера Network programmability (развитие, возможности, задачи). Мы рассмотрим:</p>\n' +
         '<ul>\n' +
         '  <li>разработка приложений для инфраструктуры</li>\n' +
@@ -217,7 +222,7 @@ export const MainSpeakersRu = [
     place : 'Одесса, Украина',
     rept : [
       {
-        title : 'Overview of Kubernetes Metacontrollers with Python',
+        title : 'Overview of Kubernetes Metacontrollers with Python [Ru]',
         description :
         '<p>В этом докладе я расскажу как с помощью CRD и аддонов для K8s можно воплотить в жизнь все ваши идеи ' +
         'по автоматизации обслуживания stateful приложений</p>'
@@ -239,5 +244,5 @@ export const MainSpeakersRu = [
         fatype : 'link'
       }
     ]
-  },
+  }
 ];

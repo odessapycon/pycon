@@ -37,7 +37,7 @@ export const MainSpeakersEn = [
     place : 'Berlin, Germany',
     rept : [
       {
-        title : 'Not just a Developer',
+        title : 'Not just a Developer [En]',
         description :
             '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
             'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
@@ -72,7 +72,7 @@ export const MainSpeakersEn = [
     place : 'Berkeley, California, USA',
     rept : [
       {
-        title : 'Machine Learning Democratization with Python',
+        title : 'Machine Learning Democratization with Python [En]',
         description :
             '<p>This talk is divided in three sections: The first one, dives into the ' +
             'importance of democratizing Machine Learning, its objective is to demonstrate' +
@@ -117,7 +117,7 @@ export const MainSpeakersEn = [
     place : 'New York, United States',
     rept : [
       {
-        title : 'Introduction to Face Processing with Computer Vision',
+        title : 'Introduction to Face Processing with Computer Vision [En]',
         description :
             '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
             '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
@@ -154,8 +154,12 @@ export const MainSpeakersEn = [
     place : 'Kiev, Ukraine',
     rept : [
       {
-        title : 'Data science from the trenches',
-        description : ''
+        title : 'Data science from the trenches [Ru]',
+        description : 'There are more than 100 million scientific papers and the pace' +
+        ' of publishing is ever-increasing. More than one million articles are authored' +
+        ' by someone named Wang. Working with the product of academia can be really far' +
+        ' from working in academia. Come to learn anecdotes and stories about parsing,' +
+        ' analyzing and extracting value from this kind of data.'
       }
     ],
     aboutSpeaker : '',
@@ -183,7 +187,7 @@ export const MainSpeakersEn = [
     place : 'Kiev, Ukraine',
     rept : [
       {
-        title : 'Network Programmability using Python',
+        title : 'Network Programmability using Python [Ru]',
         description : '<p> the talk will be considered the scope Network programmability (development, opportunities, tasks).\n' +
         'We\'ll consider:</p>\n' +
         '\n' +
@@ -220,7 +224,7 @@ export const MainSpeakersEn = [
     place : 'Одесса, Украина',
     rept : [
       {
-        title : 'Overview of Kubernetes Metacontrollers with Python',
+        title : 'Overview of Kubernetes Metacontrollers with Python [Ru]',
         description :
         '<p>In this talk I will explain how using CRD and Addons ' +
         'for Kubernetes can bring to life all your ideas for' +
