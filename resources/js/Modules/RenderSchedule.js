@@ -25,7 +25,7 @@ export class RenderSchedule {
       this.schedule = this.options.scheduleEn;
     }
 
-    let scheduleRow = '<div class="schedule-item {{if !time.start }} schedule-break{{/if}}">' +
+    let scheduleRow = '<div class="schedule-item {{if icon != \'file-text\' }} schedule-break{{/if}}">' +
       '                <div class="schedule-time">' +
       '                   {{if time.start}}' +
       '                     <span class="schedule-time-start">{{html time.start}}</span> ' +
@@ -35,7 +35,8 @@ export class RenderSchedule {
       '                        <span class="schedule-time-end">{{html time.end}}</span> ' +
       '                   {{/if}}' +
       '                 </div>' +
-      '                    {{html scheduleRendered}}' +
+      '                 <div class="schedule-icon"><i class="fa fa-{{html icon }}"></i></div>'+
+      '                 {{html scheduleRendered}}' +
       '              </div>';
     $.template('scheduleRow', scheduleRow);
 

@@ -1,4 +1,4 @@
-.schedule{
+.schedule {
   padding: 65px 0 55px;
   border-bottom: 6px solid @color_blue;
 }
@@ -7,6 +7,7 @@
   max-width: 900px;
   margin: 30px auto 0;
 }
+
 .schedule-head {
   display: flex;
   width: 100%;
@@ -31,6 +32,7 @@
   padding: 7px;
   align-items: center;
 }
+
 .schedule-time {
   .h4();
   max-width: 150px;
@@ -39,11 +41,11 @@
   margin-right: 2%;
 }
 
-.schedule-time-start{
+.schedule-time-start {
   color: @color_yellow;
 }
 
-.schedule-time-end{
+.schedule-time-end {
   color: @color_blue;
 }
 
@@ -57,26 +59,39 @@
   background-position: center;
   background-size: contain;
   margin-right: 2%;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
 
-  &.profile{
+  .fa {
+    .font-size(35)
+  }
+
+  &.profile {
     background-image: url("../img/profile.svg");
   }
-  &.people{
+
+  &.people {
     background-image: url("../img/people.svg");
   }
-  &.clock{
+
+  &.clock {
     background-image: url("../img/clock.svg");
   }
-  &.sheet{
+
+  &.sheet {
     background-image: url("../img/sheet.svg");
   }
-  &.cup{
+
+  &.cup {
     background-image: url("../img/cup.svg");
   }
-  &.plate{
+
+  &.plate {
     background-image: url("../img/plate.svg");
   }
 }
+
 .schedule-text {
   color: @color_white;
   .h4();
@@ -89,9 +104,9 @@
   }
 }
 
-.schedule-author{
+.schedule-author {
   margin-top: 10px;
-  color: @color_white;
+  color: @color_yellow;
   .p();
 }
 
@@ -99,17 +114,21 @@
   .schedule-time {
     .font-size(18);
   }
+
   .schedule-text {
     .font-size(18);
   }
 }
+
 @media @mobileLg {
   .schedule {
     padding: 30px 0;
   }
+
   .schedule-time {
     .font-size(16);
   }
+
   .schedule-text {
     .font-size(16);
   }
@@ -120,6 +139,7 @@
     width: 100%;
     overflow-x: auto;
   }
+
   .schedule-list {
     min-width: 540px;
   }
