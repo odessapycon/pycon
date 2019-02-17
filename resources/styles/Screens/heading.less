@@ -47,10 +47,61 @@
   }
 }
 
+.countdown {
+  min-height: 117px;
+  text-align: center;
+  font-weight: bold;
+
+  .cont {
+    display: inline-block;
+    margin: 0 7px;
+    .font-size(30);
+  }
+
+  .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 75px;
+    height: 70px;
+    margin-bottom: 10px;
+    color: @color_yellow;
+    border: 1px solid @color_blue;
+    .font-size(45);
+    background: @color_black;
+    border-radius: 4px;
+  }
+}
+
 @media @laptop {
   .heading-content {
     max-width: 50%;
     min-width: 190px;
 
+  }
+}
+
+@media @mobileLg {
+
+  .heading-content {
+    max-width: 100%;
+  }
+
+  .countdown {
+    min-height: 117px;
+
+    .cont {
+      margin: 0 7px;
+      .font-size(30);
+    }
+
+    .num {
+      padding: 5px;
+      width: 50px;
+      height: 70px;
+      margin-bottom: 10px;
+      .font-size(20);
+    }
   }
 }
