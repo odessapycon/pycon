@@ -1,6 +1,4 @@
 import $ from 'jquery';
-// import jQuery from 'jquery'
-// import '../Base/globalJQuery.js';
 import { BaseComponent } from '../Base/BaseComponent';
 
 
@@ -22,16 +20,18 @@ export class CountdownComponent extends BaseComponent {
 
     $('#clock').countdown('2019/02/26 23:59:59')
       .on('update.countdown', function (event) {
-        var format = `%-D ${ day } %H:%M:%S`;
+        let format = `%-D ${ day } %H:%M:%S`;
         $(this).html(event.strftime(
-          `<span class="cont"><span class="num">%-D</span><br>${day}</span>
-          <span class="cont"><span class="num">%H</span><br>${hours}</span>
-          <span class="cont"><span class="num">%M</span><br>${min}</span>
-          <span class="cont"><span class="num">%S</span><br>${sec}</span>`));
+          `<span class="cont"><span class="num">%-D</span><br>${ day }</span>
+          <span class="cont"><span class="num">%H</span><br>${ hours }</span>
+          <span class="cont"><span class="num">%M</span><br>${ min }</span>
+          <span class="cont"><span class="num">%S</span><br>${ sec }</span>`));
       })
       .on('finish.countdown', function (event) {
+        $('#share-block').hide();
         $(this).html('00:00:00')
           .parent().addClass('disabled');
+
       });
 
   }
