@@ -55,7 +55,6 @@ export class LazyLoading {
 
 
   _setSource(img) {
-    console.log(img);
     if(img.hasAttribute('data-bg-src')) {
       $(img).css({
         'background-image' : `url(${ img.getAttribute('data-bg-src') })`
