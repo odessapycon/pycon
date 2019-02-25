@@ -17,9 +17,6 @@ class App {
 
   _initModules() {
     new LazyLoading();
-    this.map = new Map({
-      selector : '#map'
-    });
   }
 
   _initComponents() {

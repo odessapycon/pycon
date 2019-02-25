@@ -1,22 +1,32 @@
-.help-size(@list, @type){
-  .margin-loop(@i: length(@list)) when(@i > 0){
+.help-size(@list, @type) {
+  .margin-loop(@i: length(@list)) when (@i > 0) {
     .margin-loop(@i - 1);
     @size: extract(@list, @i);
-    &-@{size}{   @{type}:         unit(@size, px) !important;}
-    &-r-@{size}{ @{type}-right:   unit(@size, px) !important;}
-    &-l-@{size}{ @{type}-left:    unit(@size, px) !important;}
-    &-t-@{size}{ @{type}-top:     unit(@size, px) !important;}
-    &-b-@{size}{ @{type}-bottom:  unit(@size, px) !important;}
+    &-@{size} {
+        @{type}: unit(@size, px) !important;
+    }
+    &-r-@{size} {
+        @{type}-right: unit(@size, px) !important;
+    }
+    &-l-@{size} {
+        @{type}-left: unit(@size, px) !important;
+    }
+    &-t-@{size} {
+        @{type}-top: unit(@size, px) !important;
+    }
+    &-b-@{size} {
+        @{type}-bottom: unit(@size, px) !important;
+    }
   }
   .margin-loop();
 }
 
-.m{
+.m {
   @marginList: 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 70, 80, -5, -10, -15, -20, -25, -30, -35, -40, -45, -50;
   .help-size(@marginList, margin);
 }
 
-.p{
+.p {
   @marginList: 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 80;
   .help-size(@marginList, padding);
 }
@@ -24,12 +34,15 @@
 .text-left {
   text-align: left;
 }
+
 .text-right {
   text-align: right;
 }
+
 .text-center {
   text-align: center;
 }
+
 .text-justify {
   text-align: justify;
 }
@@ -61,7 +74,7 @@
     left: 0;
     height: 100%;
     width: 100% !important;
-    max-width: 100%!important;
+    max-width: 100% !important;
   }
 }
 
@@ -84,14 +97,22 @@
 }
 
 
-[data-src] {
+[data-src*="img"] {
   opacity: 0;
-  transition: .2s;
+  transition: .3s;
 }
 
-@keyframes frame-load-anim{
-  0%   {background-color: rgba(0, 145, 155, 0.2);}
-  100%   {background-color: rgb(0, 0, 0);}
+[src*="img"] {
+  transition: .3s;
+}
+
+@keyframes frame-load-anim {
+  0% {
+    background-color: rgba(0, 145, 155, 0.2);
+  }
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
 }
 
 .gradient-border {
@@ -104,7 +125,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color:  #33b6df;
+    background-color: #33b6df;
     background-image: linear-gradient(to right, #fed43d 0%, #ffffff 50.5952%, #33b6df 100%);
   }
 }

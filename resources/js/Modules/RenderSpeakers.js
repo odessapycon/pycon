@@ -37,7 +37,7 @@ export class RenderSpeakers {
       '<div class="speaker-item">' +
       `<div data-remodal-target="${this.options.modal}" data-item-index="__ReplaceWithIndex">` +
       '<div class="speaker-img">' +
-      '<img src="${image}" alt="${name}">' +
+      '<img data-src="${image}" alt="${name}">' +
       '</div>' +
       '<div class="speaker-name">${name}</div>' +
       '<div class="speaker-position">${position} ' +

@@ -59,7 +59,7 @@ export class Map {
     } else {
       this.places = PlacesEn;
     }
-
+console.log('map init')
     this._events();
   }
 
