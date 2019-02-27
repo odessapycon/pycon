@@ -146,6 +146,35 @@ export const MainSpeakersRu = [
     ]
   },
   {
+    image : 'public/img/cont/speakers/emanuil_tolev.jpg',
+    name : 'Emanuil Tolev',
+    position : 'Community Advocate ',
+    company : 'Elastic',
+    place : 'London, UK',
+    rept : [
+      {
+        title : '',
+        description :''
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/emanuil_tolev/',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://github.com/emanuil-tolev/',
+        fatype : 'github'
+      },
+      {
+        link : 'https://www.linkedin.com/in/emanuil-tolev/',
+        fatype : 'linkedin'
+      }
+    ]
+  },
+  {
     image : 'public/img/cont/speakers/vsevolod_solovyov.jpg',
     name : 'Всеволод Соловьёв',
     position : 'Co-founder and CTO',

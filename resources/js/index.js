@@ -23,7 +23,7 @@ class App {
     new HeaderComponent();
     new SpeakersComponent();
     new ScheduleComponent();
-    new CountdownComponent();
+    // new CountdownComponent();
   }
 }
 
