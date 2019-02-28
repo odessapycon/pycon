@@ -209,6 +209,37 @@ export const MainSpeakersRu = [
     ]
   },
   {
+    image : 'public/img/cont/speakers/elena_shylko.jpg',
+    name : 'Елена Шилко',
+    position : 'Backend Developer',
+    company : 'Gurtam',
+    place : 'Minsk, Belarus',
+    rept : [
+      {
+        title : 'MQTT - прямая дорога в Интернет вещей [Ru]',
+        description : '<p>MQTT is a publish/subscribe messaging transport protocol. It is open, light-weight and simple.' +
+          ' These characteristics make it ideal for use for communication in Machine to Machine (M2M) and Internet of ' +
+          'Things (IoT) contexts. Python is also extremely popular in IoT world. So we have a great Python + MQTT combo.)</p>' +
+          '<p>In this talk I will introduce MQTT protocol and its main features. I’ll discuss what’s new in latest' +
+          ' MQTT 5.0 version and why is it cool. I will also show some interesting usage examples, our experience and' +
+          ' compare main brokers and clients implementations available right now (mainly concentrating on those' +
+          ' implemented in Python of course)</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/leenka42 https://github.com/Lenka42',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://www.facebook.com/lenka42',
+        fatype : 'facebook'
+      }
+    ]
+  },
+  {
     image : 'public/img/cont/speakers/alexey_borisenko.jpg',
     name : 'Алексей Борисенко',
     position : 'DevNet developer',

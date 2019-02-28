@@ -39,12 +39,12 @@ export const MainSpeakersEn = [
       {
         title : 'Not just a Developer [En]',
         description :
-            '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
-            'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
-            ' It might hurt, but at the end it is actually useful for you. </p>'+
-            '<p>During this talk I will tell you a story of breaking the boundaries of a traditional developer stereotype:' +
-            ' how can one wander the world with a single backpack, organize events for thousands of people, run a business' +
-            ' and yet still write code.</p>'
+          '<p>Did anyone ever tell you that you should not do something? Because you are not someone? No worries, ' +
+          'it happens to everyone. Once I was told: "we\'re looking for a developer, and you don\'t look like one".' +
+          ' It might hurt, but at the end it is actually useful for you. </p>' +
+          '<p>During this talk I will tell you a story of breaking the boundaries of a traditional developer stereotype:' +
+          ' how can one wander the world with a single backpack, organize events for thousands of people, run a business' +
+          ' and yet still write code.</p>'
       }
     ],
     aboutSpeaker : '',
@@ -74,22 +74,22 @@ export const MainSpeakersEn = [
       {
         title : 'Machine Learning Democratization with Python [En]',
         description :
-            '<p>This talk is divided in three sections: The first one, dives into the ' +
-            'importance of democratizing Machine Learning, its objective is to demonstrate' +
-            ' why now this is a crucial issue to be solved and to show the risks and problems' +
-            ' that present themselves when Machine Learning Engineers take in the responsibility ' +
-            'of building predictive technologies in domains that are not necessarily where they ' +
-            'are the most experts on.</p>'+
-            '<p>The second part of this talk, focuses on some solutions and approaches to challenges ' +
-            'of democratizing Machine Learning with Python, as well as the journey and results ' +
-            'we have seen while building the open source Python project MindsDB as well as what' +
-            ' would be new ways that the ML community can think of the next generation of tools ' +
-            'being built.</p>'+
-            '<p>The third section of this talk, focuses on the new issues that are born once ' +
-            'machine Learning capabilities are on the hands of not ML experts, more importantly ' +
-            'the implications of delegating the Machine Learning machinery to a Python toolset,' +
-            ' and what is important in order to trust those systems. Which leads to the importance ' +
-            'in further developing tools in explainability, interpretability and robustness of ML.</p>'
+          '<p>This talk is divided in three sections: The first one, dives into the ' +
+          'importance of democratizing Machine Learning, its objective is to demonstrate' +
+          ' why now this is a crucial issue to be solved and to show the risks and problems' +
+          ' that present themselves when Machine Learning Engineers take in the responsibility ' +
+          'of building predictive technologies in domains that are not necessarily where they ' +
+          'are the most experts on.</p>' +
+          '<p>The second part of this talk, focuses on some solutions and approaches to challenges ' +
+          'of democratizing Machine Learning with Python, as well as the journey and results ' +
+          'we have seen while building the open source Python project MindsDB as well as what' +
+          ' would be new ways that the ML community can think of the next generation of tools ' +
+          'being built.</p>' +
+          '<p>The third section of this talk, focuses on the new issues that are born once ' +
+          'machine Learning capabilities are on the hands of not ML experts, more importantly ' +
+          'the implications of delegating the Machine Learning machinery to a Python toolset,' +
+          ' and what is important in order to trust those systems. Which leads to the importance ' +
+          'in further developing tools in explainability, interpretability and robustness of ML.</p>'
       }
     ],
     aboutSpeaker : '',
@@ -119,14 +119,14 @@ export const MainSpeakersEn = [
       {
         title : 'Introduction to Face Processing with Computer Vision [En]',
         description :
-            '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
-            '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
-            ' with open-source libraries and pre-trained models.</p>' +
-            '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
-            'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
-            'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
-            ' manipulation (e.g. Snapchat filters), and more.\n' +
-            '</p>'
+          '<p>Ever wonder how Facebook’s facial recognition or Snapchat’s filters work?</p>' +
+          '<p>Faces are a fundamental piece of photography, and building applications around them has never been easier' +
+          ' with open-source libraries and pre-trained models.</p>' +
+          '<p>In this talk, we’ll help you understand some of the computer vision and machine learning techniques behind ' +
+          'these applications. Then, we’ll use this knowledge to develop our own prototypes to tackle tasks such as face ' +
+          'detection (e.g. digital cameras), recognition (e.g. Facebook Photos), classification (e.g. identifying emotions),' +
+          ' manipulation (e.g. Snapchat filters), and more.\n' +
+          '</p>'
       }
     ],
     aboutSpeaker : '',
@@ -155,7 +155,7 @@ export const MainSpeakersEn = [
     rept : [
       {
         title : '',
-        description :''
+        description : ''
       }
     ],
     aboutSpeaker : '',
@@ -185,10 +185,10 @@ export const MainSpeakersEn = [
       {
         title : 'Data science from the trenches [Ru]',
         description : 'There are more than 100 million scientific papers and the pace' +
-        ' of publishing is ever-increasing. More than one million articles are authored' +
-        ' by someone named Wang. Working with the product of academia can be really far' +
-        ' from working in academia. Come to learn anecdotes and stories about parsing,' +
-        ' analyzing and extracting value from this kind of data.'
+          ' of publishing is ever-increasing. More than one million articles are authored' +
+          ' by someone named Wang. Working with the product of academia can be really far' +
+          ' from working in academia. Come to learn anecdotes and stories about parsing,' +
+          ' analyzing and extracting value from this kind of data.'
       }
     ],
     aboutSpeaker : '',
@@ -209,6 +209,37 @@ export const MainSpeakersEn = [
     ]
   },
   {
+    image : '../public/img/cont/speakers/elena_shylko.jpg',
+    name : 'Elena Shylko',
+    position : 'Backend Developer',
+    company : 'Gurtam',
+    place : 'Minsk, Belarus',
+    rept : [
+      {
+        title : 'MQTT - straight way into IoT world [Ru]',
+        description : '<p>MQTT is a publish/subscribe messaging transport protocol. It is open, light-weight and simple.' +
+          ' These characteristics make it ideal for use for communication in Machine to Machine (M2M) and Internet of ' +
+          'Things (IoT) contexts. Python is also extremely popular in IoT world. So we have a great Python + MQTT combo.)</p>' +
+          '<p>In this talk I will introduce MQTT protocol and its main features. I’ll discuss what’s new in latest' +
+          ' MQTT 5.0 version and why is it cool. I will also show some interesting usage examples, our experience and' +
+          ' compare main brokers and clients implementations available right now (mainly concentrating on those' +
+          ' implemented in Python of course)</p>'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://twitter.com/leenka42 https://github.com/Lenka42',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://www.facebook.com/lenka42',
+        fatype : 'facebook'
+      }
+    ]
+  },
+  {
     image : '../public/img/cont/speakers/alexey_borisenko.jpg',
     name : 'Alexey Borisenko',
     position : 'DevNet developer',
@@ -218,14 +249,14 @@ export const MainSpeakersEn = [
       {
         title : 'Network Programmability using Python [Ru]',
         description : '<p> the talk will be considered the scope Network programmability (development, opportunities, tasks).\n' +
-        'We\'ll consider:</p>\n' +
-        '\n' +
-        '<ul>\n' +
-        '  <li>infrastructure application development</li>\n' +
-        '  <li>newest trends such as software-defined networking</li>\n' +
-        '  <li>libraries and solutions for Network programmability</li>\n' +
-        '  <li>tasks that can be solved using Python</li>\n' +
-        '</ul>'
+          'We\'ll consider:</p>\n' +
+          '\n' +
+          '<ul>\n' +
+          '  <li>infrastructure application development</li>\n' +
+          '  <li>newest trends such as software-defined networking</li>\n' +
+          '  <li>libraries and solutions for Network programmability</li>\n' +
+          '  <li>tasks that can be solved using Python</li>\n' +
+          '</ul>'
       }
     ],
     aboutSpeaker : '',
@@ -255,9 +286,9 @@ export const MainSpeakersEn = [
       {
         title : 'Overview of Kubernetes Metacontrollers with Python [Ru]',
         description :
-        '<p>In this talk I will explain how using CRD and Addons ' +
-        'for Kubernetes can bring to life all your ideas for' +
-        ' automating the maintenance of stateful applications</p>'
+          '<p>In this talk I will explain how using CRD and Addons ' +
+          'for Kubernetes can bring to life all your ideas for' +
+          ' automating the maintenance of stateful applications</p>'
       }
     ],
     aboutSpeaker : '',
@@ -276,5 +307,5 @@ export const MainSpeakersEn = [
         fatype : 'link'
       }
     ]
-  },
+  }
 ];
