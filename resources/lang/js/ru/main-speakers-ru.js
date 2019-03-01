@@ -213,7 +213,7 @@ export const MainSpeakersRu = [
     name : 'Елена Шилко',
     position : 'Backend Developer',
     company : 'Gurtam',
-    place : 'Minsk, Belarus',
+    place : 'Минск, Беларусь',
     rept : [
       {
         title : 'MQTT - прямая дорога в Интернет вещей [Ru]',
