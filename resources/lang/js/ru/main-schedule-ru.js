@@ -128,7 +128,7 @@ export const MainScheduleRu = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Secret Speaker', title : ''}
+      {author : 'Елена Шилко', title : 'MQTT - прямая дорога в Интернет вещей [Ru]'}
     ]
   },
   {
@@ -172,7 +172,7 @@ export const MainScheduleRu = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Secret Speaker', title : ''}
+      {author : 'Emanuil Tolev', title : 'Advanced, free, open-source application performance monitoring for your Python web apps [En]'}
     ]
   },
   {

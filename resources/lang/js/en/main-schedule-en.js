@@ -128,7 +128,7 @@ export const MainScheduleEn = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Secret Speaker', title : ''}
+      {author : 'Elena Shylko', title : 'MQTT - straight way into IoT world [Ru]'}
     ]
   },
   {
@@ -172,7 +172,7 @@ export const MainScheduleEn = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Secret Speaker', title : ''}
+      {author : 'Emanuil Tolev', title : 'Advanced, free, open-source application performance monitoring for your Python web apps [En]'}
     ]
   },
   {
