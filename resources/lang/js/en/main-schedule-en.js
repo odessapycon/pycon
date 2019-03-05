@@ -172,7 +172,10 @@ export const MainScheduleEn = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Emanuil Tolev', title : 'Advanced, free, open-source application performance monitoring for your Python web apps [En]'}
+      {
+        author : 'Emanuil Tolev',
+        title : 'Advanced, free, open-source application performance monitoring for your Python web apps [En]'
+      }
     ]
   },
   {
@@ -194,7 +197,7 @@ export const MainScheduleEn = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Secret Speaker', title : ' '}
+      {author : 'Anton Caceres', title : 'The epic zoo of microservices [UA]'}
     ]
   },
   {
@@ -207,5 +210,5 @@ export const MainScheduleEn = [
     talks : [
       {author : '', title : 'Closing of the conference'}
     ]
-  },
+  }
 ];
