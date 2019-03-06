@@ -114,7 +114,7 @@ export const MainScheduleRu = [
       start : '15:00',
       end : '15:15'
     },
-    icon : 'cutlery',
+    icon : 'coffee',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Кофе-брейк'}
@@ -158,7 +158,7 @@ export const MainScheduleRu = [
       start : '16.45',
       end : '17:00'
     },
-    icon : 'cutlery',
+    icon : 'coffee',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Кофе-брейк'}
@@ -205,7 +205,7 @@ export const MainScheduleRu = [
       start : '18:30',
       end : '19:30'
     },
-    icon : 'cutlery',
+    icon : 'flag',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Закрытие конференции'}

@@ -318,5 +318,35 @@ export const MainSpeakersRu = [
         fatype : 'link'
       }
     ]
+  },
+  {
+    image : 'public/img/cont/speakers/taras_matsyk.jpg',
+    name : 'Тарас Мацик',
+    position : 'Sr. Software Engineer',
+    company : 'Lalafo',
+    place : 'Киев, Украина',
+    rept : [
+      {
+        title : 'Go && Python: Event Sourcing for ML solutions [UA]',
+        description : 'How did we come up with a flexible SaaS architecture to power classified using Go and Python to ' +
+          'deploy ML of all shapes and forms'
+      }
+    ],
+    aboutSpeaker : '',
+    socialsRendered : '',
+    socials : [
+      {
+        link : 'https://github.com/tarasmatsyk',
+        fatype : 'github'
+      },
+      {
+        link : 'https://twitter.com/tarasmatsyk/',
+        fatype : 'twitter'
+      },
+      {
+        link : 'https://tarasmatsyk.com',
+        fatype : 'link'
+      }
+    ]
   }
 ];
