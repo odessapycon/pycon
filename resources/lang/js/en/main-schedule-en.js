@@ -92,7 +92,7 @@ export const MainScheduleEn = [
       start : '14:10',
       end : '14:20'
     },
-    icon : 'cutlery',
+    icon : 'clock-o',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Break'}
@@ -136,7 +136,7 @@ export const MainScheduleEn = [
       start : '15:55',
       end : '16:05'
     },
-    icon : 'cutlery',
+    icon : 'clock-o',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Break'}
@@ -183,7 +183,7 @@ export const MainScheduleEn = [
       start : '17:40',
       end : '17:50'
     },
-    icon : 'cutlery',
+    icon : 'clock-o',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Break'}
