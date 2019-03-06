@@ -197,18 +197,51 @@ export const MainScheduleRu = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Anton Caceres', title : 'The epic zoo of microservices [UA]'}
+      {author : 'Тарас Мацик', title : 'Go && Python: Event Sourcing for ML solutions [UA]'}
     ]
   },
   {
     time : {
       start : '18:30',
-      end : '19:30'
+      end : '18:40'
+    },
+    icon : 'clock-o',
+    scheduleRendered : '',
+    talks : [
+      {author : '', title : 'Перерыв'}
+    ]
+  },
+  {
+    time : {
+      start : '18:40',
+      end : '19:20'
+    },
+    icon : 'file-text',
+    scheduleRendered : '',
+    talks : [
+      {author : 'Anton Caceres', title : 'The epic zoo of microservices [UA]'}
+    ]
+  },
+  {
+    time : {
+      start : '19:20',
+      end : '19:40'
     },
     icon : 'flag',
     scheduleRendered : '',
     talks : [
       {author : '', title : 'Закрытие конференции'}
+    ]
+  },
+  {
+    time : {
+      start : '20:00',
+      end : '22:00'
+    },
+    icon : 'glass',
+    scheduleRendered : '',
+    talks : [
+      {author : '', title : 'After-party'}
     ]
   }
 ];
