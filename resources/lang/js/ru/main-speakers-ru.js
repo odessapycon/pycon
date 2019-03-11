@@ -328,8 +328,7 @@ export const MainSpeakersRu = [
     rept : [
       {
         title : 'Go && Python: Event Sourcing for ML solutions [UA]',
-        description : 'How did we come up with a flexible SaaS architecture to power classified using Go and Python to ' +
-          'deploy ML of all shapes and forms'
+        description : 'Як загорнути розпізнавання картинок в розширюваний SaaS з Go, Python та розподілених обчислень.'
       }
     ],
     aboutSpeaker : '',

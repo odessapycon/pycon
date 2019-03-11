@@ -327,7 +327,7 @@ export const MainSpeakersEn = [
     name : 'Taras Matsyk',
     position : 'Sr. Software Engineer',
     company : 'Lalafo',
-    place : 'Kyiv, Ukraine',
+    place : 'Kiev, Ukraine',
     rept : [
       {
         title : 'Go && Python: Event Sourcing for ML solutions [UA]',
