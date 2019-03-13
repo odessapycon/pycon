@@ -5,12 +5,14 @@ export const PlacesRu = [
     infoWindow : this.renderInfoWindowHTML({
       title : 'Бизнес-центр Солнечный',
       content : '<p><strong>Адрес: </strong>Солнечная, 5</p>'
-      // '<ul>' +
-      // '<li>july 6</li>' +
-      // '<li>Impact Hub</li>' +
-      // '</ul>',
-      // img: 'images/map_logos/hub.png',
-      // link: ''
     })
-  }
+  },
+  {
+    lat : 46.423925,
+    lng :  30.725593,
+    infoWindow : this.renderInfoWindowHTML({
+      title : 'Tref Beer Hub',
+      content : '<p><strong>Адрес: </strong>Люстдорфская дорога, 55 з</p>'
+    })
+  },
 ];

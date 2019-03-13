@@ -5,12 +5,14 @@ export const PlacesEn = [
     infoWindow : this.renderInfoWindowHTML({
       title : 'Business-center Solnechnyiy',
       content : '<p><strong>Address: </strong>5, Sonyachna St.</p>'
-      // '<ul>' +
-      // '<li>july 6</li>' +
-      // '<li>Impact Hub</li>' +
-      // '</ul>',
-      // img: 'images/map_logos/hub.png',
-      // link: ''
     })
-  }
+  },
+  {
+    lat : 46.423925,
+    lng :  30.725593,
+    infoWindow : this.renderInfoWindowHTML({
+      title : 'Tref Beer Hub',
+      content : '<p><strong>Address: </strong>55 z, Lyustdorfskaya st.</p>'
+    })
+  },
 ];

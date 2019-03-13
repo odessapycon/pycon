@@ -232,7 +232,7 @@ export const MainSpeakersRu = [
     place : 'Киев, Украина',
     rept : [
       {
-        title : 'Сетевая программируемость с использованием Python [Ru]',
+        title : 'Сетевая программируемость с использованием Python [Ua]',
         description : '<p>Во время доклада будет рассмотрена сфера Network programmability (развитие, возможности, задачи). Мы рассмотрим:</p>\n' +
           '<ul>\n' +
           '  <li>разработка приложений для инфраструктуры</li>\n' +
@@ -327,7 +327,7 @@ export const MainSpeakersRu = [
     place : 'Киев, Украина',
     rept : [
       {
-        title : 'Go && Python: Event Sourcing for ML solutions [UA]',
+        title : 'Event Driven ML [UA]',
         description : 'Як загорнути розпізнавання картинок в розширюваний SaaS з Go, Python та розподілених обчислень.'
       }
     ],

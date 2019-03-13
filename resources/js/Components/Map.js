@@ -1,7 +1,8 @@
 import $ from 'jquery';
 import { GoogleApiModule } from '../Modules/GoogleApi';
 import { Helpers } from '../Helpers';
-
+// import { PlacesEn } from '../../lang/js/en/palces-en';
+// import { PlacesRu } from '../../lang/js/ru/palces-ru';
 
 
 window.jQuery = $;
@@ -37,7 +38,15 @@ export class Map {
         lng : 30.749558,
         infoWindow : this.renderInfoWindowHTML({
           title : 'Business-center Solnechnyiy',
-          content : '<p><span>Address: </span>5, Sonyachna St.</p>'
+          content : '<p><strong>Address: </strong>5, Sonyachna St.</p>'
+        })
+      },
+      {
+        lat : 46.423925,
+        lng : 30.725593,
+        infoWindow : this.renderInfoWindowHTML({
+          title : 'Tref Beer Hub',
+          content : '<p><strong>Address: </strong>55 z, Lyustdorfskaya st.</p>'
         })
       }
     ];
@@ -48,7 +57,15 @@ export class Map {
         lng : 30.749558,
         infoWindow : this.renderInfoWindowHTML({
           title : 'Бизнес-центр Солнечный',
-          content : '<p><span>Адрес: </span>Солнечная, 5</p>'
+          content : '<p><strong>Адрес: </strong>Солнечная, 5</p>'
+        })
+      },
+      {
+        lat : 46.423925,
+        lng : 30.725593,
+        infoWindow : this.renderInfoWindowHTML({
+          title : 'Tref Beer Hub',
+          content : '<p><strong>Адрес: </strong>Люстдорфская дорога, 55 з</p>'
         })
       }
     ];
@@ -59,7 +76,6 @@ export class Map {
     } else {
       this.places = PlacesEn;
     }
-console.log('map init')
     this._events();
   }
 

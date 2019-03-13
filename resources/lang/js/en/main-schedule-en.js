@@ -68,29 +68,7 @@ export const MainScheduleEn = [
   {
     time : {
       start : '12:25',
-      end : '13:30'
-    },
-    icon : 'cutlery',
-    scheduleRendered : '',
-    talks : [
-      {author : '', title : 'Lunch'}
-    ]
-  },
-  {
-    time : {
-      start : '13:30',
-      end : '14:10'
-    },
-    icon : 'file-text',
-    scheduleRendered : '',
-    talks : [
-      {author : 'Mikhail Faraponov', title : 'Overview of Kubernetes <br> Metacontrollers with Python [Ru]'}
-    ]
-  },
-  {
-    time : {
-      start : '14:10',
-      end : '14:20'
+      end : '12:35'
     },
     icon : 'clock-o',
     scheduleRendered : '',
@@ -100,52 +78,8 @@ export const MainScheduleEn = [
   },
   {
     time : {
-      start : '14:20',
-      end : '15:00'
-    },
-    icon : 'file-text',
-    scheduleRendered : '',
-    talks : [
-      {author : 'Gabriel Bianconi', title : 'Introduction to Face Processing with Computer Vision [En]'}
-    ]
-  },
-  {
-    time : {
-      start : '15:00',
-      end : '15:15'
-    },
-    icon : 'coffee',
-    scheduleRendered : '',
-    talks : [
-      {author : '', title : 'Coffee break'}
-    ]
-  },
-  {
-    time : {
-      start : '15:15',
-      end : '15:55'
-    },
-    icon : 'file-text',
-    scheduleRendered : '',
-    talks : [
-      {author : 'Elena Shylko', title : 'MQTT - straight way into IoT world [Ru]'}
-    ]
-  },
-  {
-    time : {
-      start : '15:55',
-      end : '16:05'
-    },
-    icon : 'clock-o',
-    scheduleRendered : '',
-    talks : [
-      {author : '', title : 'Break'}
-    ]
-  },
-  {
-    time : {
-      start : '16:05',
-      end : '16:45'
+      start : '12:35',
+      end : '13:15'
     },
     icon : 'file-text',
     scheduleRendered : '',
@@ -155,8 +89,52 @@ export const MainScheduleEn = [
   },
   {
     time : {
-      start : '16.45',
-      end : '17:00'
+      start : '13:15',
+      end : '14:15'
+    },
+    icon : 'cutlery',
+    scheduleRendered : '',
+    talks : [
+      {author : '', title : 'Lunch'}
+    ]
+  },
+  {
+    time : {
+      start : '14:15',
+      end : '14:55'
+    },
+    icon : 'file-text',
+    scheduleRendered : '',
+    talks : [
+      {author : 'Gabriel Bianconi', title : 'Introduction to Face Processing with Computer Vision [En]'}
+    ]
+  },
+  {
+    time : {
+      start : '14:55',
+      end : '15:05'
+    },
+    icon : 'clock-o',
+    scheduleRendered : '',
+    talks : [
+      {author : '', title : 'Break'}
+    ]
+  },
+  {
+    time : {
+      start : '15:05',
+      end : '15:45'
+    },
+    icon : 'file-text',
+    scheduleRendered : '',
+    talks : [
+      {author : 'Elena Shylko', title : 'MQTT - straight way into IoT world [Ru]'}
+    ]
+  },
+  {
+    time : {
+      start : '15:45',
+      end : '16:00'
     },
     icon : 'coffee',
     scheduleRendered : '',
@@ -166,8 +144,30 @@ export const MainScheduleEn = [
   },
   {
     time : {
-      start : '17:00',
-      end : '17:40'
+      start : '16:00',
+      end : '16:40'
+    },
+    icon : 'file-text',
+    scheduleRendered : '',
+    talks : [
+      {author : 'Mikhail Faraponov', title : 'Overview of Kubernetes <br> Metacontrollers with Python [Ru]'}
+    ]
+  },
+  {
+    time : {
+      start : '16:40',
+      end : '16:50'
+    },
+    icon : 'clock-o',
+    scheduleRendered : '',
+    talks : [
+      {author : '', title : 'Break'}
+    ]
+  },
+  {
+    time : {
+      start : '16:50',
+      end : '17:30'
     },
     icon : 'file-text',
     scheduleRendered : '',
@@ -180,30 +180,30 @@ export const MainScheduleEn = [
   },
   {
     time : {
-      start : '17:40',
-      end : '17:50'
+      start : '17:30',
+      end : '17:45'
     },
-    icon : 'clock-o',
+    icon : 'coffee',
     scheduleRendered : '',
     talks : [
-      {author : '', title : 'Break'}
+      {author : '', title : 'Coffee break'}
     ]
   },
   {
     time : {
-      start : '17:50',
-      end : '18:30'
+      start : '17:45',
+      end : '18:25'
     },
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Taras Matsyk', title : 'Go && Python: Event Sourcing for ML solutions [UA]'}
+      {author : 'Taras Matsyk', title : 'Event Driven ML [UA]'}
     ]
   },
   {
     time : {
-      start : '18:30',
-      end : '18:40'
+      start : '18:25',
+      end : '18:35'
     },
     icon : 'clock-o',
     scheduleRendered : '',
@@ -213,8 +213,8 @@ export const MainScheduleEn = [
   },
   {
     time : {
-      start : '18:40',
-      end : '19:20'
+      start : '18:35',
+      end : '19:15'
     },
     icon : 'file-text',
     scheduleRendered : '',
@@ -222,6 +222,7 @@ export const MainScheduleEn = [
       {author : 'Anton Caceres', title : 'The epic zoo of microservices [UA]'}
     ]
   },
+
   {
     time : {
       start : '19:20',

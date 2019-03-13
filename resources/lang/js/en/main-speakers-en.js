@@ -330,7 +330,7 @@ export const MainSpeakersEn = [
     place : 'Kiev, Ukraine',
     rept : [
       {
-        title : 'Go && Python: Event Sourcing for ML solutions [UA]',
+        title : 'Event Driven ML [UA]',
         description : 'How did we come up with a flexible SaaS architecture to power classified using Go and Python to ' +
           'deploy ML of all shapes and forms'
       }
