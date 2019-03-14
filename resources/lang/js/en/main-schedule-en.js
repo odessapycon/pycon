@@ -128,7 +128,10 @@ export const MainScheduleEn = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {author : 'Elena Shylko', title : 'MQTT - straight way into IoT world [Ru]'}
+      {
+        author : 'Emanuil Tolev',
+        title : 'Advanced, free, open-source application performance monitoring for your Python web apps [En]'
+      }
     ]
   },
   {
@@ -172,10 +175,8 @@ export const MainScheduleEn = [
     icon : 'file-text',
     scheduleRendered : '',
     talks : [
-      {
-        author : 'Emanuil Tolev',
-        title : 'Advanced, free, open-source application performance monitoring for your Python web apps [En]'
-      }
+
+      {author : 'Elena Shylko', title : 'MQTT - straight way into IoT world [Ru]'}
     ]
   },
   {
