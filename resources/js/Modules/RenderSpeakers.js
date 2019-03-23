@@ -51,6 +51,11 @@ export class RenderSpeakers {
       '</div>' +
       '</div>' +
       '<div class="speaker-socials">{{html socialsRendered}}</div>' +
+      '{{if slideshare}}'+
+      '<div class="speaker-socials"><a href="${slideshare}" target="_blank">' +
+        '<i class="fa {{if slideshareType}} fa-file-pdf-o {{else}} fa-file-powerpoint-o {{/if}}"></i>' +
+      '</a></div>'+
+      '{{/if}}' +
       '</div>';
 
     $.template('speakerTemplate', speakerItem);

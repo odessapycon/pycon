@@ -65,6 +65,8 @@ export const MainSpeakersEn = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
+    slideshare : '../public/docs/slideshare/jorge_torres_-_machine_learning_democratization_with_python.pdf',
+    slideshareType : 'pdf',
     socials : [
       {
         link : 'https://twitter.com/mindsdb',
@@ -178,6 +180,8 @@ export const MainSpeakersEn = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
+    slideshare : '../public/docs/slideshare/vsevolod_solovyov_-_data_science_from_the_trenches.pdf',
+    slideshareType : 'pdf',
     socials : [
       {
         link : 'https://twitter.com/murkt',
@@ -246,6 +250,8 @@ export const MainSpeakersEn = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
+    slideshare : '../public/docs/slideshare/alexey_borisenko_-_network_programmability_using_python.pdf',
+    slideshareType : 'pdf',
     socials : [
       {
         link : 'https://twitter.com/alex_dev_k',
@@ -278,6 +284,7 @@ export const MainSpeakersEn = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
+    slideshare : 'public/docs/slideshare/mikhail_faraponov_-_overview_of_kubernetes_metacontrollers_with_python.pptx',
     socials : [
       {
         link : 'https://twitter.com/pentestable',
@@ -337,6 +344,8 @@ export const MainSpeakersEn = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
+    slideshare : '../public/docs/slideshare/taras_matsyk_-_event_driven_ml.pdf',
+    slideshareType : 'pdf',
     socials : [
       {
         link : 'https://github.com/tarasmatsyk',

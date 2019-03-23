@@ -178,7 +178,7 @@
       </div>
 
       <div class="container">
-        <div class="about-content text-center">
+        <div class="about-content text-center p-b-0">
           <hr class="hr-yellow">
 
           <div class="h3 text-yellow m-b-15">${{ index.about_head }}$</div>
@@ -188,28 +188,44 @@
 
           <hr class="hr-yellow">
 
-          <div class="flex about-tickets m-b-50">
-            <div class="subtitle text-left p-r-20">
-              <ul>
-                <li class="m-b-10">${{ index.about_list_1 }}$</li>
-                <li class="m-b-10">${{ index.about_list_2 }}$</li>
-                <li class="m-b-10">${{ index.about_list_3 }}$</li>
-                <li class="m-b-10">${{ index.about_list_4 }}$</li>
-                <li>${{ index.about_list_5 }}$</li>
-              </ul>
-            </div>
-            <div class="h3 about-ticket" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-              <a href="https://pyconodessa.ticketforevent.com/" target="_blank" itemprop="url">
-                <meta itemprop="availability" content="http://schema.org/InStock">
-                <meta itemprop="validFrom" content="2019-03-16">
-                <meta itemprop="priceCurrency" content="UAH">
-                <meta itemprop="price" content="1200.00">
+          <div class="about-tickets m-b-30">
+          <!--<div class="flex about-tickets m-b-50">-->
+            <!--<div class="subtitle text-left p-r-20">-->
+            <!--<ul>-->
+            <!--<li class="m-b-10">${{ index.about_list_1 }}$</li>-->
+            <!--<li class="m-b-10">${{ index.about_list_2 }}$</li>-->
+            <!--<li class="m-b-10">${{ index.about_list_3 }}$</li>-->
+            <!--<li class="m-b-10">${{ index.about_list_4 }}$</li>-->
+            <!--<li>${{ index.about_list_5 }}$</li>-->
+            <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="h3 about-ticket" itemprop="offers" itemscope itemtype="http://schema.org/Offer">-->
+            <!--<a href="https://pyconodessa.ticketforevent.com/" target="_blank" itemprop="url">-->
+            <!--<meta itemprop="availability" content="http://schema.org/InStock">-->
+            <!--<meta itemprop="validFrom" content="2019-03-16">-->
+            <!--<meta itemprop="priceCurrency" content="UAH">-->
+            <!--<meta itemprop="price" content="1200.00">-->
 
-                <span class="nowrap">
-                  ${{ index.about_ticket_buy }}$
-                  <span class="icon icon-wallet m-l-15"></span>
-                </span> <br>
-                1200 ${{ index.about_ticket_uah }}$
+            <!--<span class="nowrap">-->
+            <!--${{ index.about_ticket_buy }}$-->
+            <!--<span class="icon icon-wallet m-l-15"></span>-->
+            <!--</span> <br>-->
+            <!--1200 ${{ index.about_ticket_uah }}$-->
+            <!--</a>-->
+            <!--</div>-->
+            <div class="h3 text-yellow m-b-15">The Conference materials</div>
+            <div class="flex j-c-center f-w-w m-t-50">
+              <a href="https://www.slideshare.net/PyConOdessa" class="btn m-15 m-15" target="_blank">
+                <i class="fa fa-slideshare"></i>
+                Slideshare
+              </a>
+              <!--<a href="" class="btn m-15 m-15" target="_blank">-->
+                <!--<i class="fa fa-video-camera"></i>-->
+                <!--Video records-->
+              <!--</a>-->
+              <a href="https://www.facebook.com/pg/PyConOdessa/photos/?ref=page_internal" class="btn m-15 m-15" target="_blank">
+                <i class="fa fa-camera"></i>
+                Photo
               </a>
             </div>
           </div>
