@@ -3,6 +3,7 @@ import { BaseComponent } from '../Base/BaseComponent';
 import { RenderSpeakers } from '../Modules/RenderSpeakers';
 import { MainSpeakersRu } from '../../lang/js/ru/main-speakers-ru.js';
 import { MainSpeakersEn } from '../../lang/js/en/main-speakers-en.js';
+import { MeetupSpeakers } from '../../lang/js/ru/pyday-speakers.js';
 import { PrepartySpeakersEn } from '../../lang/js/en/preparty-speakers-en';
 import { PrepartySpeakersRu } from '../../lang/js/ru/preparty-speakers-ru';
 
@@ -15,6 +16,13 @@ export class SpeakersComponent extends BaseComponent {
       speakersRu: MainSpeakersRu,
       speakersEn: MainSpeakersEn,
       container: '#main-speakers-list'
+    });
+
+    this.meetupSpeakers = new RenderSpeakers({
+      modal: 'main-speakers-modal',
+      speakersRu: MeetupSpeakers,
+      speakersEn: MeetupSpeakers,
+      container: '#meetup-speakers-list'
     });
 
     // this.prepartySpeakers = new RenderSpeakers({

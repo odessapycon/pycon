@@ -12,6 +12,7 @@ let gulp = require('gulp'),
   hash_src = require('gulp-hash-src'),
   htmlmin = require('gulp-htmlmin');
   i18n = require('gulp-html-i18n');
+  del = require('del');
   browserSync = require('browser-sync').create();
 
 var replace = require('gulp-replace');
@@ -42,6 +43,15 @@ gulp.task('browser-sync', function() {
             baseDir: "./"
         }
     });
+    browserSync.watch(`${options.src}/**/*.*`).on('change', browserSync.reload);
+});
+
+gulp.task('clean', function () {
+
+
+    return function() {
+      return del(PUBLIC_DIR);
+    };
 });
 
 gulp.task('fonts', function () {
@@ -56,9 +66,17 @@ gulp.task('docs', function () {
     .pipe(gulp.dest(PUBLIC_DIR + '/docs'));
 });
 
+gulp.task('html', function () {
+  return gulp.src('resources/html/**/*.*')
+    .pipe(copy())
+    .pipe(gulp.dest(PUBLIC_DIR + '/html'))
+    .pipe(copy())
+    .pipe(gulp.dest(''));
+});
+
 gulp.task('img', function () {
   return gulp.src(path.img)
-    .pipe(imagemin())
+    // .pipe(imagemin())
     .pipe(gulp.dest(PUBLIC_DIR + '/img'));
 });
 
@@ -101,7 +119,7 @@ gulp.task('less', function () {
 });
 
 gulp.task('hash', function () {
-  return gulp.src(['./resources/html/*.html'])
+  return gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
     .pipe(htmlmin({
       collapseWhitespace : true,
       removeComments : true
@@ -118,41 +136,41 @@ gulp.task('hash', function () {
     .pipe(livereload());
 });
 
-gulp.task('localize', ['hash'], function () {
-  var index = './public/html/index.html';
-  var dest = './public/html/localized';
+// gulp.task('localize', ['hash'], function () {
+//   // var index = './public/html/index.html';
+//   var dest = './public/html/localized';
 
-  return gulp.src(index)
-    .pipe(i18n({
-      langDir : './resources/lang/html',
-      createLangDirs : true,
-      defaultLang : 'ru'
-    }))
-    .pipe(gulp.dest(dest));
-});
+//   return gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
+//     .pipe(i18n({
+//       langDir : './resources/lang/html',
+//       createLangDirs : true,
+//       defaultLang : 'ru'
+//     }))
+//     .pipe(gulp.dest(dest));
+// });
 
-gulp.task('localize-en', ['localize'], function () {
-  gulp.src('./public/html/localized/en/index.html')
-    .pipe(replace('public/', '../public/'))
-    .pipe(gulp.dest('en/'));
-});
+// gulp.task('localize-en', ['localize'], function () {
+//   gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
+//     .pipe(replace('public/', '../public/'))
+//     .pipe(gulp.dest('en/'));
+// });
 
-gulp.task('localize-default', ['localize-en'], function () {
-  gulp.src('./public/html/localized/index.html')
-    .pipe(copy())
-    .pipe(gulp.dest(''));
-});
+// gulp.task('localize-default', ['localize-en'], function () {
+//   gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
+//     .pipe(copy())
+//     .pipe(gulp.dest(''));
+// });
 
 gulp.task('watch', function () {
   livereload.listen();
   gulp.watch('resources/**/*.js', ['script']);
   gulp.watch('resources/styles/**/*.less', ['less']);
-  gulp.watch('resources/html/index.html', ['localize-default']);
-  gulp.watch('resources/lang/**/*.json', ['localize-default']);
+  gulp.watch('resources/html/*', ['html']);
+  gulp.watch('resources/lang/**/*.json', ['html']);
 });
 
 gulp.task('default', function (callback) {
-  runSequence('script', 'less', 'fonts', 'docs', 'img', /*'hash', */'localize-default', 'browser-sync', 'watch', callback)});
+  runSequence('clean', 'script', 'less', 'html','fonts', 'docs', 'img', /*'hash', 'localize-default',*/ 'browser-sync', 'watch', callback)});
 
 gulp.task('prod', function (callback) {
-  runSequence('script-min', 'less', 'fonts', 'docs', 'img', /*'hash', */'localize-default', callback)});
+  runSequence('clean', 'script', 'less', 'html','fonts', 'docs', 'img', /*'hash', 'localize-default',*/  callback)});

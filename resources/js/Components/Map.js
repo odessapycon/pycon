@@ -34,38 +34,23 @@ export class Map {
 
     const PlacesEn = [
       {
-        lat : 46.436590,
-        lng : 30.749558,
+        lat : 46.461530,
+        lng : 30.749864,
         infoWindow : this.renderInfoWindowHTML({
-          title : 'Business-center Solnechnyiy',
-          content : '<p><strong>Address: </strong>5, Sonyachna St.</p>'
+          title : 'офис компании KeepSolid',
+          content : '<p><strong>Address: </strong> пр-т Шевченко, 2А</p>'
         })
       },
-      {
-        lat : 46.423925,
-        lng : 30.725593,
-        infoWindow : this.renderInfoWindowHTML({
-          title : 'Tref Beer Hub',
-          content : '<p><strong>Address: </strong>55 z, Lyustdorfskaya st.</p>'
-        })
-      }
+      
     ];
 
     const PlacesRu = [
       {
-        lat : 46.436590,
-        lng : 30.749558,
+        lat : 46.461530,
+        lng : 30.749864,
         infoWindow : this.renderInfoWindowHTML({
-          title : 'Бизнес-центр Солнечный',
-          content : '<p><strong>Адрес: </strong>Солнечная, 5</p>'
-        })
-      },
-      {
-        lat : 46.423925,
-        lng : 30.725593,
-        infoWindow : this.renderInfoWindowHTML({
-          title : 'Tref Beer Hub',
-          content : '<p><strong>Адрес: </strong>Люстдорфская дорога, 55 з</p>'
+          title : 'офис компании KeepSolid',
+          content : '<p><strong>Адрес: </strong> пр-т Шевченко, 2А</p>'
         })
       }
     ];

@@ -50,7 +50,7 @@ export class RenderSpeakers {
       '{{each rept }} {{html $value.title}} {{if $value.title}}</br> </br>{{/if}}{{/each}}' +
       '</div>' +
       '</div>' +
-      '<div class="speaker-socials">{{html socialsRendered}}</div>' +
+      '{{if socials}}<div class="speaker-socials">{{html socialsRendered}}</div>{{/if}}' +
       '{{if slideshare}}'+
       '<div class="speaker-socials"><a href="${slideshare}" target="_blank">' +
         '<i class="fa {{if slideshareType}} fa-file-pdf-o {{else}} fa-file-powerpoint-o {{/if}}"></i>' +
@@ -126,13 +126,13 @@ export class RenderSpeakers {
       speakerName && $modalNameElement.text(speakerName);
       $modalSpeakerPosition.text(speakerPosition);
       $modalSpeakerCompany.text(speakerCompany ? `@${speakerCompany}` : '');
-      speakerPlace && $modalPlaceElement.text(speakerPlace);
+      if(speakerData.place) speakerPlace && $modalPlaceElement.text(speakerPlace);
 
       reportsContent && $modalReportsContainer.html(reportsContent);
 
       // speakerAboutText && $modalSpeakerAboutText.find('.modal-body__text').text(speakerAboutText).end().toggle(true);
 
-      $modalSpeakerLinks.html(speakerSocials);
+      if(speakerData.socials)$modalSpeakerLinks.html(speakerSocials);
 
       this.helpers.hideLoader($modalBody);
 
