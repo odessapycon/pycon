@@ -165,7 +165,7 @@ gulp.task('watch', function () {
   livereload.listen();
   gulp.watch('resources/**/*.js', ['script']);
   gulp.watch('resources/styles/**/*.less', ['less']);
-  gulp.watch('resources/html/*', ['html']);
+  gulp.watch('resources/html/*.*', ['html']);
   gulp.watch('resources/lang/**/*.json', ['html']);
 });
 
