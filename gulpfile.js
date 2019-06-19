@@ -43,7 +43,7 @@ gulp.task('browser-sync', function() {
             baseDir: "./"
         }
     });
-    browserSync.watch(`${options.src}/**/*.*`).on('change', browserSync.reload);
+  browserSync.watch(`./**/*.*`).on('change', browserSync.reload);
 });
 
 gulp.task('clean', function () {
@@ -119,7 +119,7 @@ gulp.task('less', function () {
 });
 
 gulp.task('hash', function () {
-  return gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
+  return gulp.src('./resources/html/**/*.html')
     .pipe(htmlmin({
       collapseWhitespace : true,
       removeComments : true
@@ -165,7 +165,7 @@ gulp.task('watch', function () {
   livereload.listen();
   gulp.watch('resources/**/*.js', ['script']);
   gulp.watch('resources/styles/**/*.less', ['less']);
-  gulp.watch('resources/html/*.*', ['html']);
+  gulp.watch('resources/html/**/*.html', ['html']);
   gulp.watch('resources/lang/**/*.json', ['html']);
 });
 
