@@ -51,6 +51,23 @@ export const MeetupSpeakers = [
             '<p>Я расскажу что такое паттерны, какие они вообще бывают и на какие подгруппы они разделены в книге банды четырех, почему их надо знать, а так же плюсы и минусы. После чего мы пройдемся по всем паттернам, с точки зрения зачем он был придуман, нужен ли он сейчас и как его реализовать если таки он нужен в Python</p>'
         }
       ]
-    }
+    },
+
+  {
+    image: '../public/img/cont/speakers/0.jfif',
+    name: 'Виталий Бойко ',
+    position: '',
+    company: '',
+    rept: [
+      {
+        title: 'Python in science',
+        description:
+          '<p>I would like to share some of my knowledge and experience acquired during more than 17 years of commercial programming.'+
+          'This knowledge would help you to make good decisions on where to apply your time and efforts to not waste your them on something useless.'+
+          'One of extremely useful projects from my point of view is Python- Java bridge.Academia has a big amount of legacy Java code and this bridge helps scientists to move to Python.'+
+          'Python - Java bridge will be the most used software in academic environment.In particular it will help developers of fusion reactor immensely.Fusion reactor is a source of almost free energy for everyone.</p>'
+      }
+    ]
+  }
     
   ];
