@@ -6,7 +6,7 @@ export const MeetupSpeakers = [
       company : 'CQR',
       rept : [
         {
-          title : 'Как научить свою бабушку программировать',
+          title: 'Как научить свою бабушку программировать [Ru]',
           description :
             '<p>Компьютеры сейчас занимают всё больше места в нашей жизни. Всё больше действий можно автоматизировать. И многим людям было бы полезно окунуться в мир программирования. Об этом говорят в том числе Билл Гейтс, Марк Цукенберг, Гейб Ньюэлл.</p><br/>' +
             '<p>Традиционный подход к обучению программированию скорее "машинно-ориентированный". Это:</p>' +
@@ -33,26 +33,12 @@ export const MeetupSpeakers = [
       company : 'The Product Engine',
       rept : [
         {
-          title : 'Чому Python? Шлях найпопулярнішого інструмента в Машинному Навчанні',
+          title: 'Чому Python? Шлях найпопулярнішого інструмента в Машинному Навчанні [Ua]',
           description :
             '<p>В рамках доповіді ми обговоримо як і чому Python зайняв впевнену позицію найефективнішого інструмента Машинного Навчання</p> '
         }
       ]
     },
-    {
-      image : '../public/img/cont/speakers/pavlo-galushko.jpeg',
-      name : 'Павел Галушко',
-      position : 'AIOps, Senior Software Developer',
-      company : 'Namecheap. Inc',
-      rept : [
-        {
-          title : '[<b>Мастер-класс</b>] Паттерны GoF в Python: что это такое, зачем они нужны. Когда их надо использовать и когда не надо',
-          description :
-            '<p>Я расскажу что такое паттерны, какие они вообще бывают и на какие подгруппы они разделены в книге банды четырех, почему их надо знать, а так же плюсы и минусы. После чего мы пройдемся по всем паттернам, с точки зрения зачем он был придуман, нужен ли он сейчас и как его реализовать если таки он нужен в Python</p>'
-        }
-      ]
-    },
-
   {
     image: '../public/img/cont/speakers/0.jfif',
     name: 'Виталий Бойко ',
@@ -60,14 +46,29 @@ export const MeetupSpeakers = [
     company: '',
     rept: [
       {
-        title: 'Python in science',
+        title: 'Использование Python в науке [Ru]',
         description:
-          '<p>I would like to share some of my knowledge and experience acquired during more than 17 years of commercial programming.'+
-          'This knowledge would help you to make good decisions on where to apply your time and efforts to not waste your them on something useless.'+
-          'One of extremely useful projects from my point of view is Python- Java bridge.Academia has a big amount of legacy Java code and this bridge helps scientists to move to Python.'+
+          '<p>I would like to share some of my knowledge and experience acquired during more than 17 years of commercial programming.' +
+          'This knowledge would help you to make good decisions on where to apply your time and efforts to not waste your them on something useless.' +
+          'One of extremely useful projects from my point of view is Python- Java bridge.Academia has a big amount of legacy Java code and this bridge helps scientists to move to Python.' +
           'Python - Java bridge will be the most used software in academic environment.In particular it will help developers of fusion reactor immensely.Fusion reactor is a source of almost free energy for everyone.</p>'
       }
     ]
-  }
+  },
+    {
+      image : '../public/img/cont/speakers/pavlo-galushko.jpeg',
+      name : 'Павел Галушко',
+      position : 'AIOps, Senior Software Developer',
+      company : 'Namecheap. Inc',
+      rept : [
+        {
+          title: '[<b>Мастер-класс</b>] Паттерны GoF в Python: что это такое, зачем они нужны. Когда их надо использовать и когда не надо [Ru]',
+          description :
+            '<p>Я расскажу что такое паттерны, какие они вообще бывают и на какие подгруппы они разделены в книге банды четырех, почему их надо знать, а так же плюсы и минусы. После чего мы пройдемся по всем паттернам, с точки зрения зачем он был придуман, нужен ли он сейчас и как его реализовать если таки он нужен в Python</p>'
+        }
+      ]
+    },
+
+  
     
   ];

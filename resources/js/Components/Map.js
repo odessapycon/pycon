@@ -34,11 +34,11 @@ export class Map {
 
     const PlacesEn = [
       {
-        lat : 46.461530,
-        lng : 30.749864,
+        lat: 46.4871088,
+        lng: 30.7278933,
         infoWindow : this.renderInfoWindowHTML({
-          title : 'офис компании KeepSolid',
-          content : '<p><strong>Address: </strong> пр-т Шевченко, 2А</p>'
+          title: 'КА "ШАГ" ',
+          content: '<p><strong>Address: </strong> ул. Садовая, 3, 2ой этаж, 31 аудитория</p>'
         })
       },
       
@@ -46,11 +46,11 @@ export class Map {
 
     const PlacesRu = [
       {
-        lat : 46.461530,
-        lng : 30.749864,
+        lat: 46.4871088,
+        lng: 30.7278933,
         infoWindow : this.renderInfoWindowHTML({
-          title : 'офис компании KeepSolid',
-          content : '<p><strong>Адрес: </strong> пр-т Шевченко, 2А</p>'
+          title: 'КА "ШАГ"',
+          content: '<p><strong>Адрес: </strong> ул. Садовая, 3, 2ой этаж, 31 аудитория</p>'
         })
       }
     ];
