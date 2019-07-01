@@ -41,17 +41,16 @@ export const MeetupSpeakers = [
     },
   {
     image: '../public/img/cont/speakers/0.jfif',
-    name: 'Виталий Бойко ',
+    name: 'Виталий Бойко',
     position: '',
     company: '',
     rept: [
       {
         title: 'Использование Python в науке [Ru]',
         description:
-          '<p>I would like to share some of my knowledge and experience acquired during more than 17 years of commercial programming.' +
-          'This knowledge would help you to make good decisions on where to apply your time and efforts to not waste your them on something useless.' +
-          'One of extremely useful projects from my point of view is Python- Java bridge.Academia has a big amount of legacy Java code and this bridge helps scientists to move to Python.' +
-          'Python - Java bridge will be the most used software in academic environment.In particular it will help developers of fusion reactor immensely.Fusion reactor is a source of almost free energy for everyone.</p>'
+          '<p>Я хочу поделиться некоторыми знаниями и опытом, приобретенными на протяжении 17 лет работы программистом.' +
+          'Эти знания могут вам помочь принимать взвешенные решения относительно того, как применить ваше время и силы, не потратить их впустую на бесполезные вещи.' +
+          'Одним из наиболее полезных проектов, на мой взгляд, является Python-Java bridge, используемый в академической среде. Этот opensource софт поможет учёным начать использовать  Python вместо Java на проекте WX-7, самого большого в мире плазменного реактора. Реакторы этого вида предоставят почти бесплатную электроэнергию для всех.</p>'
       }
     ]
   },
