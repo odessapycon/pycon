@@ -24,7 +24,7 @@ export const MeetupSchedule = [
     {
         time: {
             start: '13:00',
-            end: '13:10'
+            end: '13:20'
         },
         icon: 'coffee',
         scheduleRendered: '',
@@ -34,8 +34,8 @@ export const MeetupSchedule = [
     },
     {
         time: {
-            start: '13:10',
-            end: '13:50'
+            start: '13:20',
+            end: '14:00'
         },
         icon: 'file-text',
         scheduleRendered: '',
@@ -45,30 +45,8 @@ export const MeetupSchedule = [
     },
     {
         time: {
-            start: '13:50',
-            end: '14:00'
-        },
-        icon: 'coffee',
-        scheduleRendered: '',
-        talks: [
-            { author: '', title: 'Кофе-брейк' }
-        ]
-    },
-    {
-        time: {
             start: '14:00',
-            end: '14:40'
-        },
-        icon: 'file-text',
-        scheduleRendered: '',
-        talks: [
-            { author: 'Виталий Бойко', title: 'Использование Python в науке [Ru]' }
-        ]
-    },
-    {
-        time: {
-            start: '14:40',
-            end: '15:00'
+            end: '14:20'
         },
         icon: 'coffee',
         scheduleRendered: '',
@@ -78,8 +56,8 @@ export const MeetupSchedule = [
     },
     {
         time: {
-            start: '15:00',
-            end: '16:00'
+            start: '14:20',
+            end: '15:20'
         },
         icon: 'file-text',
         scheduleRendered: '',
@@ -89,8 +67,8 @@ export const MeetupSchedule = [
     },
     {
         time: {
-            start: '16:00',
-            end: '16:10'
+            start: '15:20',
+            end: '15:30'
         },
         icon: 'clock-o',
         scheduleRendered: '',
@@ -100,8 +78,8 @@ export const MeetupSchedule = [
     },
     {
         time: {
-            start: '16:10',
-            end: '17:10'
+            start: '15:30',
+            end: '16:30'
         },
         icon: 'file-text',
         scheduleRendered: '',
@@ -111,8 +89,8 @@ export const MeetupSchedule = [
     },
     {
         time: {
-            start: '17:10',
-            end: '18:00'
+            start: '16:30',
+            end: '17:30'
         },
         icon: 'coffee',
         scheduleRendered: '',
