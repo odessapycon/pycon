@@ -35,7 +35,7 @@ export class Map {
     let PlacesEn = [],
         PlacesRu = [];
 
-    if(window.CONFIG.PAGE === 'payday2'){
+    if(window.CONFIG.PAGE === 'payday-second'){
       PlacesEn = [
         {
           lat: 46.461144,
