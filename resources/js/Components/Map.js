@@ -32,29 +32,58 @@ export class Map {
 
     this.markers = [];
 
-    const PlacesEn = [
-      {
-        lat: 46.4871088,
-        lng: 30.7278933,
-        infoWindow : this.renderInfoWindowHTML({
-          title: 'КА "ШАГ" ',
-          content: '<p><strong>Address: </strong> ул. Садовая, 3, 2ой этаж, 31 аудитория</p>'
-        })
-      },
-      
-    ];
+    let PlacesEn = [],
+        PlacesRu = [];
 
-    const PlacesRu = [
-      {
-        lat: 46.4871088,
-        lng: 30.7278933,
-        infoWindow : this.renderInfoWindowHTML({
-          title: 'КА "ШАГ"',
-          content: '<p><strong>Адрес: </strong> ул. Садовая, 3, 2ой этаж, 31 аудитория</p>'
-        })
-      }
-    ];
+    if(window.CONFIG.PAGE === 'payday2'){
+      PlacesEn = [
+        {
+          lat: 46.461144,
+          lng: 30.749602,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'KeepSolid',
+            content: '<p><strong>Address: </strong> Офис компании KeepSolid. Одесса, пр-т Шевченко, 2А</p>'
+          })
+        },
 
+      ];
+
+      PlacesRu = [
+        {
+          lat: 46.461144,
+          lng: 30.749602,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'KeepSolid',
+            content: '<p><strong>Адрес: </strong> Офис компании KeepSolid. Одесса, пр-т Шевченко, 2А</p>'
+          })
+        }
+      ];
+
+    } else {
+      PlacesEn = [
+        {
+          lat: 46.4871088,
+          lng: 30.7278933,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'КА "ШАГ" ',
+            content: '<p><strong>Address: </strong> ул. Садовая, 3, 2ой этаж, 31 аудитория</p>'
+          })
+        },
+
+      ];
+
+      PlacesRu = [
+        {
+          lat: 46.4871088,
+          lng: 30.7278933,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'КА "ШАГ"',
+            content: '<p><strong>Адрес: </strong> ул. Садовая, 3, 2ой этаж, 31 аудитория</p>'
+          })
+        }
+      ];
+
+    }
 
     if(this.CONFIG.LANG === 'ru') {
       this.places = PlacesRu;

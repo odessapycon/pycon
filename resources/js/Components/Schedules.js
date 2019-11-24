@@ -4,6 +4,7 @@ import { MainScheduleRu } from '../../lang/js/ru/main-schedule-ru';
 import { PrepartyScheduleEn } from '../../lang/js/en/preparty-schedule-en';
 import { PrepartyScheduleRu } from '../../lang/js/ru/preparty-schedule-ru';
 import { MeetupSchedule } from '../../lang/js/ru/meetup-schedule-ru';
+import { MeetupSchedule2 } from '../../lang/js/ru/meetup-schedule-2-ru';
 import { RenderSchedule } from '../Modules/RenderSchedule';
 
 
@@ -30,6 +31,14 @@ export class ScheduleComponent extends BaseComponent {
       scheduleEn: MeetupSchedule,
       container: '#meetup-schedule-list'
     });
+
+    this.meetupSchedulePart2 = new RenderSchedule({
+      scheduleRu: MeetupSchedule2,
+      scheduleEn: MeetupSchedule2,
+      container: '#meetup-2-schedule-list'
+    });
+
+
 
   }
 

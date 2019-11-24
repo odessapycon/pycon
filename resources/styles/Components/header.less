@@ -67,7 +67,8 @@
     a {
       position: relative;
       display: inline-block;
-      padding: 15px 25px;
+      //padding: 15px 25px;
+      padding: 15px 10px;
       font-weight: 400;
       .font-size(15);
       color: @color_white;
@@ -130,11 +131,12 @@
 
 @media (max-width: 1250px) {
   .lang li a, .menu li a {
-    padding: 15px;
+    //padding: 15px;
   }
 }
 
-@media @laptop {
+//@media @laptop {
+@media (max-width: 1230px) {
 
   .header-cont {
     justify-content: space-between;
