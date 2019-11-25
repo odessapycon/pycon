@@ -16,6 +16,29 @@
     //}
   }
 
+  .dropdown_header {
+    position: relative;
+
+    &:hover {
+      .dropdown_list {
+        display: block;
+      }
+    }
+  }
+
+  .dropdown_list {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    border-top: 4px solid transparent;
+    list-style: none;
+
+    a {
+      width: 100%;
+    }
+  }
 }
 
 .header-cont {
