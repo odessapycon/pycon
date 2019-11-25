@@ -160,7 +160,6 @@
 
 //@media @laptop {
 @media (max-width: 1230px) {
-
   .header-cont {
     justify-content: space-between;
   }
@@ -190,6 +189,23 @@
       display: block;
       width: 100%;
       margin-bottom: 15px;
+
+      &.dropdown_header {
+        & > a.link {
+          display: none;
+        }
+      }
+
+      .dropdown_list {
+        display: block;
+        position: unset;
+        height: auto;
+        padding: 0;
+
+        li:last-child {
+          margin-bottom: 0;
+        }
+      }
 
       a {
         padding: 12px 0 7px;
