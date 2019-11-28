@@ -33,6 +33,25 @@
   }
 }
 
+.events-list {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    text-decoration: none;
+    color: @color_white;
+
+    &:hover {
+
+      text-decoration: underline;
+    }
+  }
+}
+
 @media @mobileMd {
   .footer {
     padding: 40px 0 25px;
