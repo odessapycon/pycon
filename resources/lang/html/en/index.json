@@ -11,6 +11,7 @@
   "menu_contacts": "Contacts",
   "menu_tickets": "Tickets",
   "heading_start": "March 16, 2019 | Odessa",
+  "heading_start2020": "April 25-26, 2020 | Odessa",
   "heading_count_head": "Seven days discount",
   "heading_count_finish": "Until the end of the action left",
   "heading_count_rules": "Rules",
@@ -62,6 +63,7 @@
   "sponsors_conference_heading": "Conference Partners",
   "sponsors_hr_heading": "HR Partner",
   "sponsors_media_heading": "Media Partners",
+  "sponsors_heading": "Sponsors",
   "sponsors_tech_heading": "Technical Partner",
   "sponsors_silver": "Silver",
   "sponsors_golden": "Golden",
@@ -97,5 +99,7 @@
   "footer_tel": "Tel.",
   "footer_org_1": "Mariia",
   "footer_org_2": "Alena",
-  "footer_address": "BC «Solnechnyiy», 5, Sonyachna St."
+  "footer_address": "BC «Solnechnyiy», 5, Sonyachna St.",
+  "poup_next": "Next",
+  "poup_previous": "Back"
 }

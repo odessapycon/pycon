@@ -1,6 +1,6 @@
 export const PrepartySpeakersEn = [
   {
-    image : '../public/img/speakers/eugen_gavrilenko.jpg',
+    image : '../../public/img/speakers/eugen_gavrilenko.jpg',
     name : 'Eugen Gavrilenko',
     position : 'Senior software engineer',
     company : 'Lohika',

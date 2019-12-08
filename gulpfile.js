@@ -19,6 +19,13 @@ var replace = require('gulp-replace');
 var htmlreplace = require('gulp-html-replace');
 var runSequence = require('run-sequence');
 
+let filesToLocalise = [
+  '',
+  '2019/',
+  'pyday/',
+  'pyday-second/'
+];
+
 require('any-promise/register')('bluebird');
 
 livereload({start : true});
@@ -136,30 +143,44 @@ gulp.task('hash', function () {
     .pipe(livereload());
 });
 
-// gulp.task('localize', ['hash'], function () {
-//   // var index = './public/html/index.html';
-//   var dest = './public/html/localized';
+gulp.task('localize', /*['hash'],*/ function () {
+  // var index = './public/html/index.html';
+  var dest = './public/html/localized';
 
-//   return gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
-//     .pipe(i18n({
-//       langDir : './resources/lang/html',
-//       createLangDirs : true,
-//       defaultLang : 'ru'
-//     }))
-//     .pipe(gulp.dest(dest));
-// });
+  filesToLocalise.map(path => {
+    return gulp.src(['./resources/html/' + path + '*.html'])
+      .pipe(i18n({
+        langDir: './resources/lang/html',
+        createLangDirs: true,
+        defaultLang: '' + path
+      }))
+      .pipe(gulp.dest(dest + path));
+  })
+});
 
-// gulp.task('localize-en', ['localize'], function () {
-//   gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
-//     .pipe(replace('public/', '../public/'))
-//     .pipe(gulp.dest('en/'));
-// });
+gulp.task('localize-en', ['localize'], function () {
+  filesToLocalise.map(path => {
+    gulp.src(['./public/html/localized' + path + '/en/*.html'])
+      .pipe(replace('public/', '../public/'))
+      .pipe(replace("LANG: 'ru'", "LANG: 'en'"))
+      .pipe(replace(":lang", "/en"))
+      .pipe(gulp.dest('en/' + path));
+  });
+});
 
-// gulp.task('localize-default', ['localize-en'], function () {
-//   gulp.src(['./resources/html/*.html', './resources/html/pyday/*.html'])
-//     .pipe(copy())
-//     .pipe(gulp.dest(''));
-// });
+gulp.task('localize-default', ['localize-en'], function () {
+  filesToLocalise.map(path => {
+    gulp.src(['./public/html/localized' + path + '/ru/*.html'])
+      .pipe(copy())
+      .pipe(replace(':lang', ''))
+      .pipe(gulp.dest(path));
+
+    /*gulp.src(['./en/' + path + '/!*.html'])
+      .pipe(copy())
+      .pipe(gulp.dest('en/' + path));*/
+  })
+
+});
 
 gulp.task('watch', function () {
   livereload.listen();
@@ -170,7 +191,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', function (callback) {
-  runSequence('clean', 'script', 'less', 'html','fonts', 'docs', 'img', /*'hash', 'localize-default',*/ 'browser-sync', 'watch', callback)});
+  runSequence('clean', 'script', 'less', 'html','fonts', 'docs', 'img', /*'hash',*/ 'localize-default', 'browser-sync', 'watch', callback)});
 
 gulp.task('prod', function (callback) {
-  runSequence('clean', 'script', 'less', 'html','fonts', 'docs', 'img', /*'hash', 'localize-default',*/  callback)});
+  runSequence('clean', 'script', 'less', 'html','fonts', 'docs', 'img', /*'hash',*/ 'localize-default',  callback)});

@@ -70,10 +70,8 @@ export class RenderSpeakers {
       $.each($.tmpl('socialsTemplate', sp.socials), function (a, i) {
         sp.socialsRendered += i.outerHTML;
       });
-
       let item = $.tmpl('speakerTemplate', sp)[0].outerHTML;
       speakersHtml += item.replace('__ReplaceWithIndex', i);
-
     });
 
     $(this.options.container).html(speakersHtml);

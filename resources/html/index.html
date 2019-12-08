@@ -84,8 +84,8 @@
                   PyDay Odessa
                 </a>
                 <ul class="dropdown_list">
-                  <li><a href="/pyday" target="_blank" class="link">PyDay Odessa#1</a></li>
-                  <li><a href="/pyday-second" target="_blank" class="link">PyDay Odessa#2</a></li>
+                  <li><a href=":lang/pyday" target="_blank" class="link">PyDay Odessa#1</a></li>
+                  <li><a href=":lang/pyday-second" target="_blank" class="link">PyDay Odessa#2</a></li>
                 </ul>
 
               </li>
@@ -102,7 +102,8 @@
                   Локация
                 </a></li>-->
               <li><a href="#contacts">
-                  Контакты
+<!--                  Контакты-->
+                ${{ index.menu_contacts }}$
                 </a></li>
              <!-- <li><a href="https://pydayodessa.ticketforevent.com" target="_blank" class="link">
                   Билеты
@@ -139,7 +140,8 @@
             </div>
 
             <div class="h4 text-center m-t-25">
-              25-26 апреля, 2020 | Одесса
+              <!--25-26 апреля, 2020 | Одесса-->
+              ${{ index.heading_start2020 }}$
             </div>
 
             <!--<div id="share-block" class="text-center m-t-40">-->
@@ -182,7 +184,8 @@
         <div class="about-banner">
           <div class="container">
             <div class="h3">
-              Присоединяйся к одесскому Python сообществу
+              <!--Присоединяйся к одесскому Python сообществу-->
+              ${{ index.about_banner }}$
             </div>
           </div>
         </div>
@@ -817,7 +820,7 @@
         <div class="container">
           <ul class="events-list">
             <li>
-              <a href="/2019">
+              <a href=":lang/2019">
                 PyCon Odessa'19
               </a>
             </li>
@@ -888,10 +891,12 @@
 
     <div class="flex j-c-space-between">
       <button class="remodal-prev">
-        Назад
+        <!--Назад-->
+        ${{ index.popup_previous }}$
       </button>
       <button class="remodal-next">
-        Далее
+        <!--Далее-->
+        ${{ index.popup_next }}$
       </button>
     </div>
   </div>

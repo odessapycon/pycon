@@ -59,6 +59,29 @@ export class Map {
         }
       ];
 
+    } else if (window.CONFIG.PAGE === 'payday-2019') {
+      PlacesEn = [
+        {
+          lat: 46.436992,
+          lng: 30.749723,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'БЦ «Солнечный»',
+            content: '<p><strong>Address: </strong> БЦ «Солнечный». ул. Солнечная, 5</p>'
+          })
+        },
+
+      ];
+
+      PlacesRu = [
+        {
+          lat: 46.436992,
+          lng: 30.749723,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'БЦ «Солнечный»',
+            content: '<p><strong>Адрес: </strong> БЦ «Солнечный». ул. Солнечная, 5</p>'
+          })
+        }
+      ];
     } else {
       PlacesEn = [
         {
