@@ -101,5 +101,8 @@
   "footer_org_2": "Alena",
   "footer_address": "BC «Solnechnyiy», 5, Sonyachna St.",
   "poup_next": "Next",
-  "poup_previous": "Back"
+  "poup_previous": "Back",
+  "location_address_1_2020": "25-26 April 2020 |",
+  "about_txt_1_2020": "PyCon Odessa - конференция, посвященная разработке на Python, которая пройдет в Одессе, 25-26 Апреля.",
+  "about_txt_2_2020": "Мы готовим программу конференции, будем рады видеть вас среди спикеров PyCon Odessa 2020."
 }
