@@ -102,7 +102,16 @@
   "footer_address": "BC «Solnechnyiy», 5, Sonyachna St.",
   "poup_next": "Next",
   "poup_previous": "Back",
-  "location_address_1_2020": "25-26 April 2020 |",
-  "about_txt_1_2020": "PyCon Odessa - конференция, посвященная разработке на Python, которая пройдет в Одессе, 25-26 Апреля.",
-  "about_txt_2_2020": "Мы готовим программу конференции, будем рады видеть вас среди спикеров PyCon Odessa 2020."
+  "location_address_1_2020": "April 25-26, 2020 |",
+  "about_txt_1_2020": "PyCon Odessa - the conference dedicated to Python development, to be held in Odessa on April 25-26.",
+  "about_txt_2_2020": "We are preparing a conference program, and we will be glad to see you among the speakers of PyCon Odessa 2020.",
+  "past_events": "Previous events",
+  "team_member_4_name": "Vadim Linnikov",
+  "team_member_4_position": "Organizer",
+  "team_member_4_city": "Odessa, Ukraine",
+  "team_member_5_name": "Pavel Galushko",
+  "team_member_5_position": "Conference program / Speakers",
+  "team_member_5_city": "Kharkiv, Ukraine",
+  "fill_yourself_form": "Fill out the form with the info about yourself,",
+  "we_ll_call_you": "We will consider the application and will contact you soon."
 }

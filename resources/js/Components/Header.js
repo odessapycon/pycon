@@ -5,6 +5,8 @@ export class HeaderComponent extends BaseComponent {
 
     constructor() {
         super();
+
+        this.hideCurrentLanguage()
     }
 
     _events() {
@@ -61,6 +63,13 @@ export class HeaderComponent extends BaseComponent {
     navigateToBlock(selector, time) {
         let top = $(selector).offset().top;
         $('body,html').animate({scrollTop: top}, time || 800);
+    }
+
+    hideCurrentLanguage() {
+        let pathname = location.pathname;
+
+        $(`a[href="${pathname}"]`).hide();
+
     }
 
 }

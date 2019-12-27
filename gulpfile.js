@@ -158,7 +158,17 @@ gulp.task('localize', /*['hash'],*/ function () {
   })
 });
 
-gulp.task('localize-en', ['localize'], function () {
+gulp.task('localize-ru', ['localize'], function () {
+  filesToLocalise.map(path => {
+    gulp.src(['./public/html/localized' + path + '/ru/*.html'])
+      .pipe(replace('public/', '../public/'))
+      .pipe(replace("LANG: 'ua'", "LANG: 'ru'"))
+      .pipe(replace(":lang", "/ru"))
+      .pipe(gulp.dest('ru/' + path));
+  });
+});
+
+gulp.task('localize-en', ['localize-ru'], function () {
   filesToLocalise.map(path => {
     gulp.src(['./public/html/localized' + path + '/en/*.html'])
       .pipe(replace('public/', '../public/'))
@@ -170,7 +180,7 @@ gulp.task('localize-en', ['localize'], function () {
 
 gulp.task('localize-default', ['localize-en'], function () {
   filesToLocalise.map(path => {
-    gulp.src(['./public/html/localized' + path + '/ru/*.html'])
+    gulp.src(['./public/html/localized' + path + '/ua/*.html'])
       .pipe(copy())
       .pipe(replace(':lang', ''))
       .pipe(gulp.dest(path));
