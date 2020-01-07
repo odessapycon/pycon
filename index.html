@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="${{ index.lang }}">
 
 <head>
   <meta charset="UTF-8">
@@ -68,7 +68,7 @@
     <header id="header" class="header gradient-border">
       <div class="header-cont container">
         <div class="logo">
-          <a href="#heading">
+          <a href="/ua">
             <img src="https://via.placeholder.com/1x1" data-src="public/img/dsg/logo.svg?v1.01" alt="PyCon Odessa">
           </a>
         </div>
@@ -79,7 +79,6 @@
                 <a href="javascript:void(0)"
                    target="_blank"
                    class="link">
-                  PyDay Odessa
                   Минулі заходи
                 </a>
                 <ul class="dropdown_list">
@@ -89,6 +88,9 @@
 
               </li>
 
+              <li><a href="#venue">
+                Локація
+                </a></li>
               <li><a href="#contacts">
                 Контакти
                 </a></li>
@@ -159,6 +161,29 @@
         </div>
       </section>
 
+      <section id="partners" class="sponsors text-center">
+        <div class="container">
+          <div class="m-t-80">
+            <h2 class="h2">
+              Медіа партнери
+            </h2>
+          </div>
+
+
+          <div class="m-t-30">
+            <div class="sponsors-media-list">
+
+              <a class="sponsors-media-item" href="https://www.digest.pro/" target="_blank">
+                <div class="sponsors-media-img">
+                  <img data-src="public/img/cont/media_partners/digest_pro.jpg" alt="Digest Pro">
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="venue" class="location" data-map>
         <div class="container">
           <h2 class="h2 text-center m-t-0 m-b-80">
@@ -188,7 +213,7 @@
             <div class="speaker-item team-list-item">
               <div>
                 <div class="speaker-img">
-                  <img data-src="public/img/cont/team/team_member_1.jpg" alt="Мария Кунева">
+                  <img data-src="public/img/cont/team/team_member_1_new.jpg" alt="Марія Кунєва">
                 </div>
                 <div class="speaker-name">
                   Марія Кунєва
@@ -278,10 +303,6 @@
                 <a href="tel:+380982845165">+38 (098) 284 51 65</a> / Марія
               </div>
 
-              <!--<div class="nowrap">
-                <a href="tel:+380636116011">+38 (063) 611 60 11</a> / Алена
-              </div>-->
-
               <div class="nowrap">
                 <address><a href="#venue" data-scroll-animate> БЦ «Сонячний», вул. Сонячна, 5</a></address>
               </div>
@@ -299,18 +320,6 @@
 
         </div>
       </footer>
-
-      <div class="past_events">
-        <div class="container">
-          <ul class="events-list">
-            <li>
-              <a href="/2019">
-                PyCon Odessa'19
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
 
     </div>
   </div>
@@ -347,7 +356,7 @@
       </button>
       <button class="remodal-next">
         <!--Далее-->
-        Далее
+        Далі
       </button>
     </div>
   </div>
