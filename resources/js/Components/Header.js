@@ -68,7 +68,7 @@ export class HeaderComponent extends BaseComponent {
     hideCurrentLanguage() {
         let pathname = location.pathname;
 
-        $(`a[href="${pathname}"]`).hide();
+        $(`li a[href="${pathname}"]`).hide();
 
     }
 
