@@ -69,7 +69,6 @@ export class HeaderComponent extends BaseComponent {
         let pathname = location.pathname;
 
         $(`li a[href="${pathname}"]`).hide();
-
     }
 
 }
