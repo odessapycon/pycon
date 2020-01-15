@@ -21,6 +21,8 @@ export class RenderSchedule {
   _init() {
     if(this.CONFIG.LANG === 'ru') {
       this.schedule = this.options.scheduleRu;
+    } else if(this.CONFIG.LANG === 'ua') {
+      this.schedule = this.options.scheduleUa;
     } else {
       this.schedule = this.options.scheduleEn;
     }

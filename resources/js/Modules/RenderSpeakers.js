@@ -22,8 +22,11 @@ export class RenderSpeakers {
 
 
   _init() {
+
     if(this.CONFIG.LANG === 'ru') {
       this.speakers = this.options.speakersRu;
+    } else if(this.CONFIG.LANG === 'ua') {
+      this.speakers = this.options.speakersUa;
     } else {
       this.speakers = this.options.speakersEn;
     }

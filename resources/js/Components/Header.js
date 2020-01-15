@@ -6,7 +6,8 @@ export class HeaderComponent extends BaseComponent {
     constructor() {
         super();
 
-        this.hideCurrentLanguage()
+        this.hideCurrentLanguage();
+        this.changeNotTranslatedLangsLinks();
     }
 
     _events() {
@@ -71,4 +72,18 @@ export class HeaderComponent extends BaseComponent {
         $(`li a[href="${pathname}"]`).hide();
     }
 
+    // if page doesn't have translation, change link to existing translation
+    changeNotTranslatedLangsLinks() {
+        let $links = $('.partial-translated'),
+            pathname = location.pathname;
+
+        if($links.length) {
+            $links.each((i, e) => {
+                let $el = $(e);
+                if($el.data('empty-lang') ===  pathname){
+                    e.setAttribute('href', $el.data('replacement') + $el.attr('href').replace('.', ''));
+                }
+            })
+        }
+    }
 }

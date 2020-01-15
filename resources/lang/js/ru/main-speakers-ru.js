@@ -1,6 +1,6 @@
 export const MainSpeakersRu = [
   {
-    image : '../public/img/cont/speakers/christian_barra.jpg',
+    image : '/public/img/cont/speakers/christian_barra.jpg',
     name : 'Christian Barra',
     position : 'Senior Backend Developer',
     company : 'Infarm',
@@ -35,7 +35,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/jorge_torres.jpg',
+    image : '/public/img/cont/speakers/jorge_torres.jpg',
     name : 'Jorge Torres',
     position : 'Co-founder & CTO',
     company : 'MindsDB',
@@ -64,7 +64,7 @@ export const MainSpeakersRu = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
-    slideshare : '../public/docs/slideshare/jorge_torres_-_machine_learning_democratization_with_python.pdf',
+    slideshare : '/public/docs/slideshare/jorge_torres_-_machine_learning_democratization_with_python.pdf',
     slideshareType : 'pdf',
     socials : [
       {
@@ -82,7 +82,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/gabriel_bianconi.jpg',
+    image : '/public/img/cont/speakers/gabriel_bianconi.jpg',
     name : 'Gabriel Bianconi',
     position : 'Founder',
     company : 'Scalar Research',
@@ -119,7 +119,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/emanuil_tolev.jpg',
+    image : '/public/img/cont/speakers/emanuil_tolev.jpg',
     name : 'Emanuil Tolev',
     position : 'Community Engineer',
     company : 'Elastic',
@@ -162,7 +162,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/vsevolod_solovyov.jpg',
+    image : '/public/img/cont/speakers/vsevolod_solovyov.jpg',
     name : 'Всеволод Соловьёв',
     position : 'Co-founder and CTO',
     company : 'Prophy Science',
@@ -180,7 +180,7 @@ export const MainSpeakersRu = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
-    slideshare : '../public/docs/slideshare/vsevolod_solovyov_-_data_science_from_the_trenches.pdf',
+    slideshare : '/public/docs/slideshare/vsevolod_solovyov_-_data_science_from_the_trenches.pdf',
     slideshareType : 'pdf',
     socials : [
       {
@@ -198,7 +198,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/elena_shylko.jpg',
+    image : '/public/img/cont/speakers/elena_shylko.jpg',
     name : 'Елена Шилко',
     position : 'Backend Developer',
     company : 'Gurtam',
@@ -229,7 +229,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/alexey_borisenko.jpg',
+    image : '/public/img/cont/speakers/alexey_borisenko.jpg',
     name : 'Алексей Борисенко',
     position : 'DevNet developer',
     company : 'Cisco',
@@ -248,7 +248,7 @@ export const MainSpeakersRu = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
-    slideshare : '../public/docs/slideshare/alexey_borisenko_-_network_programmability_using_python.pdf',
+    slideshare : '/public/docs/slideshare/alexey_borisenko_-_network_programmability_using_python.pdf',
     slideshareType : 'pdf',
     socials : [
       {
@@ -266,7 +266,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/mikhail_faraponov.jpeg',
+    image : '/public/img/cont/speakers/mikhail_faraponov.jpeg',
     name : 'Михаил Фарапонов',
     position : 'Software Engineer',
     company : 'Lohika',
@@ -281,7 +281,7 @@ export const MainSpeakersRu = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
-    slideshare : '../public/docs/slideshare/mikhail_faraponov_-_overview_of_kubernetes_metacontrollers_with_python.pptx',
+    slideshare : '/public/docs/slideshare/mikhail_faraponov_-_overview_of_kubernetes_metacontrollers_with_python.pptx',
     socials : [
       {
         link : 'https://twitter.com/pentestable',
@@ -298,7 +298,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/anton_caceres.jpg',
+    image : '/public/img/cont/speakers/anton_caceres.jpg',
     name : 'Anton Caceres',
     position : 'CEO',
     company : 'TECH-5',
@@ -327,7 +327,7 @@ export const MainSpeakersRu = [
     ]
   },
   {
-    image : '../public/img/cont/speakers/taras_matsyk.jpg',
+    image : '/public/img/cont/speakers/taras_matsyk.jpg',
     name : 'Тарас Мацик',
     position : 'Sr. Software Engineer',
     company : 'Lalafo',
@@ -340,7 +340,7 @@ export const MainSpeakersRu = [
     ],
     aboutSpeaker : '',
     socialsRendered : '',
-    slideshare : '../public/docs/slideshare/taras_matsyk_-_event_driven_ml.pdf',
+    slideshare : '/public/docs/slideshare/taras_matsyk_-_event_driven_ml.pdf',
     slideshareType : 'pdf',
     socials : [
       {

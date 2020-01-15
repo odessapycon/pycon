@@ -1,6 +1,9 @@
 import { BaseComponent } from '../Base/BaseComponent';
 import { MainScheduleEn } from '../../lang/js/en/main-schedule-en';
 import { MainScheduleRu } from '../../lang/js/ru/main-schedule-ru';
+import { MainSchedule2020En } from '../../lang/js/en/main-schedule-2020-en';
+import { MainSchedule2020Ru } from '../../lang/js/ru/main-schedule-2020-ru';
+import { MainSchedule2020Ua } from '../../lang/js/ua/main-schedule-2020-ua';
 import { PrepartyScheduleEn } from '../../lang/js/en/preparty-schedule-en';
 import { PrepartyScheduleRu } from '../../lang/js/ru/preparty-schedule-ru';
 import { MeetupSchedule } from '../../lang/js/ru/meetup-schedule-ru';
@@ -24,6 +27,13 @@ export class ScheduleComponent extends BaseComponent {
       scheduleRu : MainScheduleRu,
       scheduleEn : MainScheduleEn,
       container : '#main-schedule-list'
+    });
+
+    this.mainSchedule2020 = new RenderSchedule({
+      scheduleRu : MainSchedule2020Ru,
+      scheduleUa : MainSchedule2020Ua,
+      scheduleEn : MainSchedule2020En,
+      container : '#main-schedule-2020-list'
     });
 
     this.meetupSchedule = new RenderSchedule({
