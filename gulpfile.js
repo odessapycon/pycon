@@ -172,7 +172,7 @@ gulp.task('localize-en', ['localize-ru'], function () {
   filesToLocalise.map(path => {
     gulp.src(['./public/html/localized' + path + '/en/*.html'])
       .pipe(replace('public/', '../public/'))
-      .pipe(replace("LANG: 'ru'", "LANG: 'en'"))
+      .pipe(replace("LANG: 'ua'", "LANG: 'en'"))
       .pipe(replace(":lang", "/en"))
       .pipe(gulp.dest('en/' + path));
   });
