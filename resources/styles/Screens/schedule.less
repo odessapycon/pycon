@@ -119,14 +119,16 @@
 
 .day-2020 {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  //cursor: pointer;
 }
 
 .label-yellow {
   background: #FDD24A;
   border-radius: 100px;
   padding: 10px 40px;
+  margin-right: 35px;
 }
 
 .subtitle-date-2020 {
@@ -198,6 +200,33 @@
     padding-top: 0;
   }
 }
+
+@media (max-width: 1170px) {
+  .label-yellow {
+    font-size: 20px;
+  }
+
+  .subtitle-date-2020 {
+    font-size: 17px;
+  }
+
+  .schedule-item-2020 {
+    .schedule-time {
+      font-size: 19px;
+    }
+
+    .schedule-text {
+     font-size: 16px;
+    }
+  }
+
+  .schedule-separator-2020 {
+    .schedule-text {
+      font-size: 19px;
+    }
+  }
+}
+
 
 @media @tablet {
   .schedule-time {

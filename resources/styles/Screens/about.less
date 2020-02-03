@@ -61,7 +61,7 @@
 
 .about-content-2020 {
   display: flex;
-  width: 1132px;
+  max-width: 1132px;
   margin: auto;
   padding: 94px 0 110px;
   background: #fff;
@@ -109,8 +109,11 @@
 
 @media (max-width: 1170px) {
   .about-content-2020 {
+    padding-top: 40px;
+
     .description-about {
       font-size: 16px;
+      padding-top: 0;
     }
 
     .image-about {
@@ -131,6 +134,33 @@
   .about-tickets {
     ul {
       padding-left: 20px;
+    }
+  }
+
+  .about-2020 {
+    padding-bottom: 70px;
+  }
+
+  .about-content-2020 {
+    flex-direction: column;
+
+    .image-about {
+      max-width: 300px;
+      margin: auto;
+    }
+
+    .description-about {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+  .dates-block-2020 {
+    flex-direction: column;
+    align-items: center;
+
+    .date-block {
+      margin-bottom: 20px;
     }
   }
 }
@@ -155,4 +185,24 @@
   font-size: 0.8rem;
 color: #1a171b;
 opacity: 0.8;
+}
+
+@media (max-width: 550px) {
+  .dates-block-2020 {
+    .date-title {
+      font-size: 20px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    .date-block {
+      padding-right: 0;
+
+      img {
+        width: 70px;
+      }
+    }
+  }
 }

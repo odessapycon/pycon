@@ -47,6 +47,22 @@
   }
 }
 
+@media (max-width: 1170px) {
+  .location_map-2020 {
+    height: 320px!important;
+  }
+
+  .location-title {
+    font-size: 23px;
+  }
+
+  .location-2020 {
+    .location_text-2020 {
+      font-size: 16px;
+    }
+  }
+}
+
 @media @mobileLg {
   .location {
     padding: 30px 0;
@@ -61,6 +77,15 @@
     &_item {
       width: 100%;
       max-width: 100% !important;
+    }
+  }
+
+  .location-2020 {
+    flex-direction: column;
+
+    .location_text-2020 {
+      padding: 20px;
+      width: 100%;
     }
   }
 }

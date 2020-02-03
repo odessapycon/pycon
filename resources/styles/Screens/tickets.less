@@ -99,3 +99,37 @@
     z-index: 2;
   }
 }
+
+@media @mobileLg {
+  .ticket_types {
+    flex-direction: column;
+    align-items: center;
+
+    .ticket_type {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+
+  .tickets-2020 {
+    .ticket_type-content {
+      width: 100%;
+      .ticket_type-header {
+        padding: 30px 40px;
+      }
+
+      .ticket_type-list {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    .ticket_type {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+}

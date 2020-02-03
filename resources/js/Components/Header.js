@@ -29,6 +29,7 @@ export class HeaderComponent extends BaseComponent {
             $('#header').find('.menu').slideToggle();
             $('.brgr-menu').toggleClass('active');
             $('body').toggleClass('hidden');
+            $('#header').find('.menu-2020').slideToggle();
         }
 
         $(window).on('resize', (e)=> {

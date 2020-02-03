@@ -148,4 +148,54 @@
       .font-size(20);
     }
   }
+
+  .heading-2020 {
+    padding-bottom: 90px;
+
+    .heading-content {
+      max-width: 60%;
+    }
+
+    .join-us {
+      font-size: 30px;
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+
+    .conf-date,
+    .conf-place {
+      font-size: 15px;
+      margin-right: 10px;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .heading-2020 {
+    .join-us {
+      font-size: 18px;
+    }
+
+    .heading-content {
+      padding: 60px 0 0;
+
+      .flex {
+        flex-direction: column;
+        margin-top: 55px;
+      }
+    }
+
+    .conf-date,
+    .conf-place {
+      margin-right: 0;
+      margin-bottom: 20px;
+      width: 170px;
+    }
+  }
 }

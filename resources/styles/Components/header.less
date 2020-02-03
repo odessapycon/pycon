@@ -308,6 +308,54 @@
     justify-content: space-between;
   }
 
+  .header-cont-2020 {
+    .brgr-menu {
+      top: 20px;
+    }
+
+    .menu-2020 {
+      display: none;
+      position: fixed;
+      background-color: #142C82;
+      top: 50px;
+      z-index: 110;
+      left: 0;
+      width: 100%;
+      height: ~'calc(100vh - 50px)';
+      padding: 30px 20px;
+      overflow-y: auto;
+      //color: #000000;
+
+      li {
+        display: block;
+
+        &.lang {
+          display: inline-block;
+        }
+
+        a {
+          //color: #000000;
+        }
+
+        &.dropdown_header {
+          position: initial;
+
+          &:hover {
+            .dropdown_list-2020 {
+              display: block;
+            }
+          }
+        }
+
+        .dropdown_list-2020 {
+          position: relative;
+          visibility: visible;
+          display: none;
+        }
+      }
+    }
+  }
+
   .logo {
     display: block;
   }
