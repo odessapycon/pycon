@@ -23,7 +23,8 @@ let filesToLocalise = [
   '',
   '2019/',
   'pyday/',
-  'pyday-second/'
+  'pyday-second/',
+  'pycon-2020/'
 ];
 
 require('any-promise/register')('bluebird');

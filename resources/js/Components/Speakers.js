@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import { BaseComponent } from '../Base/BaseComponent';
-import { RenderSpeakers } from '../Modules/RenderSpeakers';
+import { RenderSpeakers } from '../Modules/RenderSpeakers'; //need to remove
+import { RenderSpeakers2020 } from '../Modules/RenderSpeakers-2020';
 import { MainSpeakersRu } from '../../lang/js/ru/main-speakers-ru.js';
 import { MainSpeakersEn } from '../../lang/js/en/main-speakers-en.js';
 import { MainSpeakers2020Ru } from '../../lang/js/ru/main-speakers-2020-ru.js';
@@ -18,7 +19,15 @@ export class SpeakersComponent extends BaseComponent {
   constructor() {
     super();
 
-    this.mainSpeakers2020 = new RenderSpeakers({
+    this.mainSpeakers2020 =  window.CONFIG.DESIGN_VERSION === '2' ? // remove this kostyl
+      new RenderSpeakers2020({
+        modal: 'main-speakers-2020-modal',
+        speakersRu: MainSpeakers2020Ru,
+        speakersEn: MainSpeakers2020En,
+        speakersUa: MainSpeakers2020Ua,
+        container: '#main-speakers-2020-list'
+      }) :
+      new RenderSpeakers({
       modal: 'main-speakers-2020-modal',
       speakersRu: MainSpeakers2020Ru,
       speakersEn: MainSpeakers2020En,

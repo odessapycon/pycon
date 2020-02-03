@@ -17,4 +17,36 @@
   &:active {
     background-color: darken(@color_blue, 5%);
   }
+
+  &.btn-round {
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #16B8E2;
+    padding: 11px 36px;
+
+    &.big-text {
+      font-size: 24px;
+    }
+
+    &:hover {
+      background-color: darken(#16B8E2, 3%);
+    }
+    &:active {
+      background-color: darken(#16B8E2, 5%);
+    }
+  }
+}
+
+@media (max-width: 1170px) {
+  .btn {
+    &.btn-round {
+      font-size: 16px;
+
+      &.big-text {
+        font-size: 19px;
+      }
+    }
+  }
 }

@@ -1,0 +1,101 @@
+.tickets-2020 {
+  background: #142C82;
+  padding-top: 90px;
+}
+
+.ticket_types {
+  margin-top: 88px;
+  margin-bottom: -205px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.ticket_type {
+  padding: 0 58px;
+  
+  &.regular {
+    .ticket_type-header {
+      background-color: #16B8E2;
+    }
+
+    .ticket_type-list li:before {
+      background-color: #16B8E2;
+    }
+  }
+
+  &.last {
+    .ticket_type-header {
+      background-color: #EF495B;
+    }
+
+    .ticket_type-list li:before {
+      background-color: #EF495B;
+    }
+    
+    .btn {
+      background-color: #EF495B;
+    }
+  }
+
+}
+
+.ticket_type-content {
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+  max-width: 320px;
+  padding-bottom: 45px;
+
+  .ticket_type-header {
+    padding: 30px 80px;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 7px 7px 0 0;
+
+    .date {
+      font-size: 18px;
+    }
+  }
+
+   .ticket_type-list {
+     padding: 35px 40px 0 45px;
+     list-style: none;
+
+     li {
+       padding-left: 30px;
+       position: relative;
+       font-size: 16px;
+       margin-bottom: 15px;
+       color: #000;
+
+       &:before {
+         content: '';
+         display: block;
+         width: 10px;
+         height: 10px;
+         position: absolute;
+         left: 0;
+         top: 0;
+         border-radius: 50%;
+       }
+     }
+   }
+
+  .ticket_type-price {
+    margin: 15px 0 25px;
+  }
+
+  .btn {
+    margin: auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1170px) {
+  section.tickets-2020 {
+    z-index: 2;
+  }
+}

@@ -106,6 +106,7 @@
   "footer_address": "BC «Solnechnyiy», 5, Sonyachna St.",
   "location_address_1_2020": "April 25-26, 2020 |",
   "about_txt_1_2020": "PyCon Odessa is a unique opportunity to immerse into a professional environment. <br> The conference will be held in two days, April 25 - the main day with talks in one track, April 26 - light networking on the seashore. <br> <br> The proper atmosphere, useful contacts, and sea air - a fortunate combination of the upcoming PyCon Odessa 2020.",
+  "about_txt_1_2020-short": "is a unique opportunity to immerse into a professional environment. <br> The conference will be held in two days, April 25 - the main day with talks in one track, April 26 - light networking on the seashore. <br> <br> The proper atmosphere, useful contacts, and sea air - a fortunate combination of the upcoming PyCon Odessa 2020.",
   "about_txt_2_2020": "We are preparing a conference program, and we will be glad to see you among the speakers of PyCon Odessa 2020.",
   "past_events": "Previous events",
   "team_member_4_name": "Vadim Linnikov",
@@ -115,5 +116,9 @@
   "team_member_5_position": "Conference program / Speakers",
   "team_member_5_city": "Kharkiv, Ukraine",
   "fill_yourself_form": "Fill out the form with the info about yourself,",
-  "we_ll_call_you": "We will consider the application and will contact you soon."
+  "we_ll_call_you": "We will consider the application and will contact you soon.",
+  "sponsors_text_1_new": "Усі додаткові питання та умови партнерства можуть обговорюватися індивідуально.",
+  "sponsors_text_2_new": "Для нас важлива ваша підтримка!",
+  "sponsors_supports": "Нас вже підтримали:",
+  "location_address_city": "Одеса"
 }

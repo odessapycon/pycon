@@ -19,7 +19,17 @@
   }
 }
 
-html, body {
+html {
+  width: 100%;
+  height: 100%;
+
+  &.hidden {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+
+body {
   width: 100%;
   height: 100%;
 
@@ -38,6 +48,14 @@ html, body {
   &.hidden {
     overflow: hidden;
     height: 100vh;
+  }
+}
+
+.pyconf-2020-body {
+  background: #fff;
+
+  * {
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -60,12 +78,52 @@ html, body {
   }
 }
 
+.wrapper-2020 {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  transition: .2s;
+  padding: 0;
+
+  &.wrapper-blured {
+    filter: blur(9px);
+
+    // fix for apple
+    // disable content scroll when popup opened
+    // input caret change position issue in fixed position popup
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
 .container {
   max-width: 1750px;
   width: 100%;
   margin: 0 auto;
   padding: 0 80px;
   z-index: 1;
+}
+
+.small-container {
+  max-width: 945px;
+  width: 100%;
+  margin: auto;
+  pointer-events: none;
+}
+
+.main-bg {
+  position: absolute;
+  top: 0;
+  width: 31%;
+  z-index: 1;
+
+  &.main-bg-left {
+    left: 0;
+  }
+
+  &.main-bg-right {
+    right: 0;
+  }
 }
 
 section {
@@ -88,9 +146,31 @@ section {
   z-index: 2;
 }
 
+@media (max-width: 1700px) {
+  .main-bg {
+    width: 25%;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .container {
     padding: 0 25px;
+  }
+
+  section:not(.heading-2020) {
+    position: relative;
+    z-index: 1;
+  }
+
+  .about-2020,
+  .speakers-2020,
+  .schedule-2020,
+  .sponsors-2020 {
+    background: #ffffff;
+  }
+
+  .main-bg {
+    width: 20%;
   }
 }
 
