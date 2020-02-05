@@ -4,7 +4,6 @@
 }
 
 .ticket_types {
-  margin-top: 88px;
   margin-bottom: -205px;
   display: flex;
   justify-content: center;
@@ -86,6 +85,9 @@
 
   .ticket_type-price {
     margin: 15px 0 25px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #142C82;
   }
 
   .btn {
@@ -94,6 +96,27 @@
   }
 }
 
+@media (max-width: 1600px) {
+  .ticket_type-content {
+    max-width: 300px;
+
+    .ticket_type-header {
+      padding: 20px 50px;
+    }
+
+    .ticket_type-price {
+      font-size: 28px;
+    }
+    .ticket_type-list {
+      margin-top: 0;
+      padding: 25px 25px 0 30px;
+
+      li {
+        font-size: 14px;
+      }
+    }
+  }
+}
 @media (max-width: 1170px) {
   section.tickets-2020 {
     z-index: 2;

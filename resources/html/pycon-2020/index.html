@@ -219,9 +219,6 @@
     <section id="tickets" class="tickets-2020">
 
       <div class="container">
-        <div class="title-2020 c-white text-center">
-          Виды и стоимость билетов
-        </div>
 
         <div class="ticket_types">
           <div class="ticket_type regular">
@@ -229,33 +226,33 @@
               <div class="ticket_type-header">
                 Regular
                 <div class="date">
-                  c 20.01.2020
+                  ${{ index.from }}$ 20.01.2020
                 </div>
               </div>
               <ul class="ticket_type-list">
                 <li>
-                  Участие в конференции (2 дня)
+                  ${{ index.participate }}$
                 </li>
                 <li>
-                  Обед и кофе-брейки
+                  ${{ index.dinner }}$
                 </li>
                 <li>
-                  Участие во всех розыгрышах на конференции
+                  ${{ index.sales }}$
                 </li>
                 <li>
                   After-party
                 </li>
                 <li>
-                  Доступ к видеозаписям докладов
+                  ${{ index.access_to_video }}$
                 </li>
               </ul>
               <div class="ticket_type-price text-center">
-                1400 грн
+                1400 ${{ index.uah }}$
               </div>
 
               <div class="text-center">
                 <a href="#" class="btn btn-round">
-                  Беру!
+                  ${{ index.get }}$
                 </a>
               </div>
             </div>
@@ -266,33 +263,33 @@
               <div class="ticket_type-header">
                 Last Chance
                 <div class="date">
-                  c 20.01.2020
+                  ${{ index.from }}$ 06.04.2020
                 </div>
               </div>
               <ul class="ticket_type-list">
                 <li>
-                  Участие в конференции (2 дня)
+                  ${{ index.participate }}$
                 </li>
                 <li>
-                  Обед и кофе-брейки
+                  ${{ index.dinner }}$
                 </li>
                 <li>
-                  Участие во всех розыгрышах на конференции
+                  ${{ index.sales }}$
                 </li>
                 <li>
                   After-party
                 </li>
                 <li>
-                  Доступ к видеозаписям докладов
+                  ${{ index.access_to_video }}$
                 </li>
               </ul>
               <div class="ticket_type-price text-center">
-                5000 грн
+                2000 ${{ index.uah }}$
               </div>
 
               <div class="text-center">
                 <a href="#" class="btn btn-round">
-                  Ок, возьму потом!
+                  ${{ index.get_later }}$
                 </a>
               </div>
             </div>
@@ -308,13 +305,6 @@
           <!--Доклады-->
           ${{ index.speakers_head }}$
         </h2>
-
-        <!--<div class="m-t-30 text-center">-->
-        <!--<a href="https://goo.gl/forms/8e0geCzB484onWVy1" target="_blank" class="btn">Call for papers</a>-->
-        <!--</div>-->
-<!--        <h4 class="h4 text-center">-->
-<!--          ${{ index.speakers_descr }}$-->
-<!--        </h4>-->
 
         <div class="flex j-c-center speakers-list" id="main-speakers-2020-list"></div>
 

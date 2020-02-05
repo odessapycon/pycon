@@ -33,6 +33,7 @@ export class Map {
     this.markers = [];
 
     let PlacesEn = [],
+        PlacesUa = [],
         PlacesRu = [];
 
     if(window.CONFIG.PAGE === 'payday-second'){
@@ -82,6 +83,42 @@ export class Map {
           })
         }
       ];
+    } else if (window.CONFIG.PAGE === 'pycon-2020') {
+      PlacesEn = [
+        {
+          lat: 46.436566,
+          lng: 30.749783,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'Solnechnaya str, 5',
+            content: '<p><strong>Address: </strong> БЦ «Солнечный». ул. Солнечная, 5</p>'
+          })
+        },
+
+      ];
+
+      PlacesUa = [
+        {
+          lat: 46.436566,
+          lng: 30.749783,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'БЦ «Сонячний»',
+            content: '<p><strong>Адреса: </strong> вул. Сонячна, 5</p>'
+          })
+        },
+
+      ];
+
+
+      PlacesRu = [
+        {
+          lat: 46.436566,
+          lng: 30.749783,
+          infoWindow : this.renderInfoWindowHTML({
+            title: 'БЦ «Солнечный»',
+            content: '<p><strong>Адрес: </strong> БЦ «Солнечный». ул. Солнечная, 5</p>'
+          })
+        }
+      ];
     } else {
       PlacesEn = [
         {
@@ -110,6 +147,8 @@ export class Map {
 
     if(this.CONFIG.LANG === 'ru') {
       this.places = PlacesRu;
+    } else if(this.CONFIG.LANG === 'ua') {
+      this.places = PlacesUa || PlacesRu;
     } else {
       this.places = PlacesEn;
     }

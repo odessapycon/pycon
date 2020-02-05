@@ -4,7 +4,7 @@
   "meta_description": "PyCon Odessa - конференция, посвященная разработке на Python, которая пройдет в Одессе, 16 Марта.",
   "lang_link_ru": "javascript:void(0)",
   "lang_link_en": "en",
-  "menu_speakers": "Спікеры",
+  "menu_speakers": "Спікери",
   "menu_schedule": "Розклад",
   "menu_sponsors": "Спонсори",
   "menu_location": "Локація",
@@ -120,5 +120,13 @@
   "sponsors_text_1_new": "Усі додаткові питання та умови партнерства можуть обговорюватися індивідуально.",
   "sponsors_text_2_new": "Для нас важлива ваша підтримка!",
   "sponsors_supports": "Нас вже підтримали:",
-  "location_address_city": "Одеса"
+  "location_address_city": "Одеса",
+  "participate": "Участие в конференции (2 дня)",
+  "dinner": "Обед и кофе-брейки",
+  "sales": "Участие во всех розыгрышах на конференции",
+  "access_to_video": "Доступ к видеозаписям докладов",
+  "get": "Беру!",
+  "get_later": "Ок, возьму потом!",
+  "from": "с",
+  "uah": "грн"
 }
