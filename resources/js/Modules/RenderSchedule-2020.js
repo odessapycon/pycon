@@ -33,8 +33,8 @@ export class RenderSchedule2020 {
       '                     {{html time.start}}' +
       '                   {{/if}}' +
       '                   {{if time.end}}' +
-      '-' +
-      '{{html time.end}}' +
+      '                   -' +
+      '                     {{html time.end}}' +
       '                   {{/if}}' +
       '                 </div>' +
       '                 <div class="schedule-icon"><i class="fa fa-{{html icon }}"></i></div>'+
