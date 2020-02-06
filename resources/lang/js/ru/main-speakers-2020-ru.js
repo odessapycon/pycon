@@ -84,7 +84,7 @@ export const MainSpeakers2020Ru = [
                 fatype : 'twitter'
             },
             {
-                link : 'http://github.com/iaktech',
+                link : 'http://github.com/aktech',
                 fatype : 'github'
             },
             {
