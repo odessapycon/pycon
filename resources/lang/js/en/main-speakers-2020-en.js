@@ -95,7 +95,7 @@ export const MainSpeakers2020En = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/emily_woods.jpg',
+        image : '/public/img/cont/speakers/emily_woods.jpeg',
         name : 'Emily Woods',
         position : '',
         company : '',
