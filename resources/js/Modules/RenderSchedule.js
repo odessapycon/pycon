@@ -33,7 +33,7 @@ export class RenderSchedule {
       '                     <span class="schedule-time-start">{{html time.start}}</span> ' +
       '                   {{/if}}' +
       '                   {{if time.end}}' +
-      '                         -' +
+      '                         - ' +
       '                        <span class="schedule-time-end">{{html time.end}}</span> ' +
       '                   {{/if}}' +
       '                 </div>' +
