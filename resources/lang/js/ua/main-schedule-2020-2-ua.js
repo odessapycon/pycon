@@ -1,8 +1,8 @@
 export const MainSchedule2020Day2Ua = [
     {
         time : {
-            start : '10.00',
-            end : '11.00'
+            start : '10:00',
+            end : '11:00'
         },
         icon : 'coffee', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -12,8 +12,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '11.00',
-            end : '12.00'
+            start : '11:00',
+            end : '12:00'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -23,8 +23,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '12.00',
-            end : '12.30'
+            start : '12:00',
+            end : '12:30'
         },
         icon : 'clock-o', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -34,8 +34,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '12.30',
-            end : '13.30'
+            start : '12:30',
+            end : '13:30'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -45,8 +45,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '13.30',
-            end : '14.30'
+            start : '13:30',
+            end : '14:30'
         },
         icon : 'cutlery', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -56,8 +56,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '14.30',
-            end : '15.30'
+            start : '14:30',
+            end : '15:30'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -67,8 +67,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '15.30',
-            end : '16.00'
+            start : '15:30',
+            end : '16:00'
         },
         icon : 'clock-o', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -78,8 +78,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '16.00',
-            end : '17.00'
+            start : '16:00',
+            end : '17:00'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -89,8 +89,8 @@ export const MainSchedule2020Day2Ua = [
     },
     {
         time : {
-            start : '17.00',
-            end : '19.00'
+            start : '17:00',
+            end : '19:00'
         },
         icon : 'users', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',

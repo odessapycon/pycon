@@ -1,8 +1,8 @@
 export const MainSchedule2020En = [
     {
         time : {
-            start : '08.30',
-            end : '09.30'
+            start : '08:30',
+            end : '09:30'
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -12,7 +12,7 @@ export const MainSchedule2020En = [
     },
     {
         time : {
-            start : '09.30',
+            start : '09:30',
             end : '10:10'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
@@ -56,8 +56,8 @@ export const MainSchedule2020En = [
     },
     {
         time : {
-            start : '11.20',
-            end : '12.00'
+            start : '11:20',
+            end : '12:00'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
