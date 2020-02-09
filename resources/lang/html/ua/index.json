@@ -140,6 +140,5 @@
   "dont_forgot": "щоб не пропустити",
   "add_to_calendar": "Додати до календарю",
   "to_start": "До старту",
-  "details": "За подробицями перейдiть за посиланнями: https://pyconodessa.com/",
-  "address-full": "Одеса, БЦ «Сонячний», вул. Сонячна, 5"
+  "calendar_link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20200425T053000Z/20200426T160000Z&details=За+подробицями+перейдiть+за+посиланнями:+https://pyconodessa.com/&location=Одеса,+БЦ+«Сонячний»,+вул.+Сонячна,+5&sf=true&output=xml"
 }
