@@ -126,17 +126,24 @@
   text-decoration: none;
 
   .label-yellow {
-    background: rgba(253, 210, 74, 1);
+    background: #FDD24A;
     transition: 0.3s;
     border-radius: 100px;
     padding: 10px 40px;
     margin-right: 35px;
     font-size: 24px;
+    width: 175px;
+    min-width: 175px;
   }
 
   &:hover {
     .label-yellow {
-      background: rgba(253, 210, 74, 0.7);
+      background: #16B8E2;
+      color: #FDD24A!important;
+    }
+
+    .subtitle-date-2020 {
+      text-decoration: underline;
     }
   }
 }
@@ -279,5 +286,11 @@
 
   .schedule-list {
     min-width: 540px;
+  }
+
+  .day-2020 {
+    .label-yellow {
+      margin-right: 10px;
+    }
   }
 }

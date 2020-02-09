@@ -15,7 +15,7 @@ export class CountdownComponent extends BaseComponent {
   _events() {
     let lang = this.CONFIG.LANG;
     let day = lang === 'ru' ? 'дн' :  lang === 'ua' ? 'дн' :'d';
-    let hours = lang === 'ru' ? 'ч' : lang === 'ua' ? 'г' :'hr';
+    let hours = lang === 'ru' ? 'ч' : lang === 'ua' ? 'год' :'hr';
     let min = lang === 'ru' ? 'мин' : lang === 'ua' ? 'хв' :'min';
     let sec = lang === 'ru' ? 'сек' : lang === 'ua' ? 'сек' :'sec';
 
