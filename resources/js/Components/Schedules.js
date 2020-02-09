@@ -14,6 +14,9 @@ import { MeetupSchedule2 } from '../../lang/js/ru/meetup-schedule-2-ru';
 import { RenderSchedule } from '../Modules/RenderSchedule';
 import { RenderSchedule2020 } from '../Modules/RenderSchedule-2020';
 
+import $ from 'jquery';
+window.jQuery = $;
+
 
 
 export class ScheduleComponent extends BaseComponent {
@@ -84,7 +87,11 @@ export class ScheduleComponent extends BaseComponent {
   }
 
   _events() {
+    $('.day-2020').on('click', (e) => {
+      let $this = $(e.currentTarget);
 
+      $this.next().slideToggle();
+    })
   }
 
 }

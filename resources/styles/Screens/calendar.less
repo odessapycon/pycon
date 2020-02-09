@@ -1,0 +1,128 @@
+.calendar-2020 {
+  background: #FDD24A;
+  margin-top: 380px;
+  position: relative;
+  z-index: 1;
+  color: #000000;
+  padding: 0;
+
+  .label {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .cont {
+    display: inline-flex;
+    width: 122px;
+    height: 122px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+    margin-right: 25px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+
+    .num-2020 {
+      font-weight: 800;
+      font-size: 48px;
+      color: #16B8E2;
+      text-align: center;
+    }
+  }
+}
+
+.calendar-container {
+  display: flex;
+  max-width: 1132px;
+  margin: auto;
+  z-index: 1;
+}
+
+.calendar-description {
+  padding: 95px 75px;
+  background: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  max-width: 450px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  margin: -35px 50px -35px 0;
+
+  .btn {
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width: 1600px) {
+  .calendar-2020 {
+    z-index: 2!important;
+
+    .label {
+      .label {
+        font-size: 20px;
+      }
+    }
+
+    .cont {
+      width: 90px;
+      height: 90px;
+      font-size: 14px;
+
+      .num-2020 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .calendar-description {
+    font-size: 18px;
+    max-width: 370px;
+    padding: 55px 40px;
+
+    .btn {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 1145px) {
+  .calendar-description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .calendar-2020 {
+    .cont {
+      margin-right: 5px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .calendar-2020 {
+    .flex {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .calendar-description {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .calendar-2020 {
+    .cont {
+      font-size: 14px;
+      width: 65px;
+      height: 65px;
+    }
+  }
+}

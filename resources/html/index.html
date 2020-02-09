@@ -297,6 +297,36 @@
       </div>
     </section>
 
+    <section id="calendar" class="calendar-2020">
+      <div class="calendar-container">
+        <div class="flex a-i-center calendar_block">
+          <div class="calendar-description">
+            ${{ index.celebrate }}$
+            <div class="subtitle-2020 c-blue m-t-15 m-b-15">
+              GOOGLE
+              CALENDAR
+            </div>
+            ${{ index.dont_forgot }}$
+            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20200425T053000Z/20200426T160000Z&details=Для+подробностей+перейдите+сюда:+https://pyconodessa.com/&location=Одесcа,+БЦ+«Солнечный»,+ул.+Солнечная,+5&sf=true&output=xml"
+               target="_blank"
+               rel="nofollow"
+               class="btn btn-round">
+              ${{ index.add_to_calendar }}$
+            </a>
+          </div>
+          <div class="calendar_timer">
+            <div class="label text-center">
+              ${{ index.to_start }}$:
+            </div>
+
+            <div id="clock" class="countdown"></div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
     <section id="speakers" class="speakers-2020">
       <div class="container">
 
@@ -323,21 +353,21 @@
         <h2 class="title-2020 c-blue text-center"><!--Расписание-->${{ index.schedule_head }}$</h2>
 
         <div class="small-container">
-          <div class="day-2020">
+          <a href="javascript:void(0)" class="day-2020">
             <div class="subtitle-2020 label-yellow c-blue m-b-0">${{ index.schedule_day_1 }}$</div>
             <div class="subtitle-date-2020 m-t-0">25.04.2020</div>
-          </div>
-          <div class="schedule-list-container p-b-50">
+          </a>
+          <div class="schedule-list-container ">
             <div id="main-schedule-2020-list" class="schedule-list">
               <div class="schedule-body">
               </div>
             </div>
           </div>
 
-          <div class="day-2020">
+          <a  href="javascript:void(0)" class="day-2020 m-t-50">
             <div class="subtitle-2020 label-yellow c-blue m-b-0">${{ index.schedule_day_2 }}$</div>
             <div class="subtitle-date-2020 m-t-0">26.04.2020</div>
-          </div>
+          </a>
           <div class="schedule-list-container p-b-50">
             <div id="main-schedule-2020-2-list" class="schedule-list">
               <div class="schedule-body">

@@ -121,15 +121,24 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  cursor: pointer;
   //cursor: pointer;
-}
+  text-decoration: none;
 
-.label-yellow {
-  background: #FDD24A;
-  border-radius: 100px;
-  padding: 10px 40px;
-  margin-right: 35px;
-  font-size: 24px;
+  .label-yellow {
+    background: rgba(253, 210, 74, 1);
+    transition: 0.3s;
+    border-radius: 100px;
+    padding: 10px 40px;
+    margin-right: 35px;
+    font-size: 24px;
+  }
+
+  &:hover {
+    .label-yellow {
+      background: rgba(253, 210, 74, 0.7);
+    }
+  }
 }
 
 .subtitle-date-2020 {
@@ -185,6 +194,10 @@
     font-weight: 500;
     color: #868B9B;
   }
+}
+
+.schedule-list-container {
+  display: none;
 }
 
 .schedule-separator-2020 {

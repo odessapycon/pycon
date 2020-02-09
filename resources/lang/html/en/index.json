@@ -135,5 +135,11 @@
   "first_day": "April 25",
   "first_day_descr": "the main day with talks in one track",
   "second_day": "April 26",
-  "second_day_descr": "light networking at the seashore"
+  "second_day_descr": "light networking at the seashore",
+  "celebrate": "Отметьте это событие в",
+  "dont_forgot": "чтобы не пропустить",
+  "add_to_calendar": "Добавить в календарь",
+  "to_start": "До старта",
+  "details": "Для подробностей перейдите сюда: https://pyconodessa.com/en/",
+  "address-full": "Одеса, БЦ «Сонячний», вул. Сонячна, 5"
 }

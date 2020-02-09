@@ -13,19 +13,20 @@ export class CountdownComponent extends BaseComponent {
   }
 
   _events() {
-    let day = this.CONFIG.LANG === 'ru' ? 'дн' : 'd';
-    let hours = this.CONFIG.LANG === 'ru' ? 'ч' : 'hr';
-    let min = this.CONFIG.LANG === 'ru' ? 'мин' : 'min';
-    let sec = this.CONFIG.LANG === 'ru' ? 'сек' : 'sec';
+    let lang = this.CONFIG.LANG;
+    let day = lang === 'ru' ? 'дн' :  lang === 'ua' ? 'дн' :'d';
+    let hours = lang === 'ru' ? 'ч' : lang === 'ua' ? 'г' :'hr';
+    let min = lang === 'ru' ? 'мин' : lang === 'ua' ? 'хв' :'min';
+    let sec = lang === 'ru' ? 'сек' : lang === 'ua' ? 'сек' :'sec';
 
-    $('#clock').countdown('2019/02/26 23:59:59')
+    $('#clock').countdown('2020/04/25 08:30:00')
       .on('update.countdown', function (event) {
         let format = `%-D ${ day } %H:%M:%S`;
         $(this).html(event.strftime(
-          `<span class="cont"><span class="num">%-D</span><br>${ day }</span>
-          <span class="cont"><span class="num">%H</span><br>${ hours }</span>
-          <span class="cont"><span class="num">%M</span><br>${ min }</span>
-          <span class="cont"><span class="num">%S</span><br>${ sec }</span>`));
+          `<span class="cont"><span class="num-2020">%-D</span>${ day }</span>
+          <span class="cont"><span class="num-2020">%H</span>${ hours }</span>
+          <span class="cont"><span class="num-2020">%M</span>${ min }</span>
+          <span class="cont"><span class="num-2020">%S</span>${ sec }</span>`));
       })
       .on('finish.countdown', function (event) {
         $('#share-block').hide();
