@@ -91,28 +91,28 @@
                      data-empty-lang="/"
                      data-replacement="/ru"
                      target="_blank"
-                     class="link partial-translated">
+                     class="link partial-translated js-content-btn">
                     PyCon Odessa'19
                   </a>
                 </li>
-                <li><a href="/pyday" target="_blank" class="link">PyDay Odessa#1</a></li>
-                <li><a href="/pyday-second" target="_blank" class="link">PyDay Odessa#2</a></li>
+                <li><a href="/pyday" target="_blank" class="link js-content-btn">PyDay Odessa#1</a></li>
+                <li><a href="/pyday-second" target="_blank" class="link js-content-btn">PyDay Odessa#2</a></li>
               </ul>
 
             </li>
-            <li><a class="link" href="#speakers">
+            <li><a class="link js-content-btn" href="#speakers">
               ${{ index.menu_speakers }}$
             </a></li>
-            <li><a class="link" href="#schedule">
+            <li><a class="link js-content-btn" href="#schedule">
               ${{ index.menu_schedule }}$
             </a></li>
-            <li><a class="link" href="#venue">
+            <li><a class="link js-content-btn" href="#venue">
               ${{ index.menu_location }}$
             </a></li>
-            <li><a class="link" href="#contacts">
+            <li><a class="link js-content-btn" href="#contacts">
               ${{ index.menu_contacts }}$
             </a></li>
-            <li><a class="link external_link" target="_blank" href="https://pyconodessa2020.ticketforevent.com/">
+            <li><a class="link external_link js-checkout-btn" target="_blank" href="https://pyconodessa2020.ticketforevent.com/">
               ${{ index.menu_tickets }}$
             </a></li>
 
@@ -250,7 +250,7 @@
               </div>
 
               <div class="text-center m-t-15">
-                <a href="https://pyconodessa2020.ticketforevent.com/" target="_blank" class="btn btn-round">
+                <a href="https://pyconodessa2020.ticketforevent.com/" target="_blank" class="btn btn-round js-checkout-btn">
                   ${{ index.get }}$
                 </a>
               </div>
@@ -308,6 +308,7 @@
             </div>
             ${{ index.dont_forgot }}$
             <a href="${{ index.calendar_link }}$"
+               id="add-to-calendar-btn"
                target="_blank"
                rel="nofollow"
                class="btn btn-round">
@@ -581,7 +582,7 @@
         </div>
 
         <div class="m-t-80 text-center">
-          <a href="public/docs/сode_of_conduct.pdf?v1.01" target="_blank" class="btn btn-round">Code of conduct</a>
+          <a href="public/docs/сode_of_conduct.pdf?v1.01" target="_blank" class="btn btn-round js-content-btn">Code of conduct</a>
         </div>
       </div>
     </section>
@@ -730,12 +731,41 @@
     'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '511246529406719');
   fbq('track', 'PageView');
+
+  var wishBtn = document.getElementById('add-to-calendar-btn'),
+      viewContentBtn = document.getElementsByClassName('js-content-btn'),
+      checkoutBtn = document.getElementsByClassName('js-checkout-btn');
+
+  wishBtn.addEventListener(
+    'click',
+    function() {
+      fbq('track', 'AddToWishlist');
+    },
+    false
+  );
+
+
+  for (var i = 0; i < viewContentBtn.length; i++) {
+    viewContentBtn[i].addEventListener('click', function() {
+      fbq('track', 'ViewContent');
+    }, false);
+  }
+
+
+  for (var j = 0; j < checkoutBtn.length; j++) {
+    checkoutBtn[j].addEventListener('click', function() {
+      fbq('track', 'InitiateCheckout');
+    }, false);
+  }
 </script>
 <noscript><img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=511246529406719&ev=PageView&noscript=1" /></noscript>
 <!-- End Facebook Pixel Code -->
 
 <script src="/public/js/index.js"></script>
+
+
+
 </body>
 
 </html>

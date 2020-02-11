@@ -88,6 +88,8 @@ export class ScheduleComponent extends BaseComponent {
 
   _events() {
     $('.day-2020').on('click', (e) => {
+      e.preventDefault();
+
       let $this = $(e.currentTarget);
 
       $this.next().slideToggle();
