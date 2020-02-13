@@ -137,7 +137,7 @@
   "second_day": "April 26",
   "second_day_descr": "light networking at the seashore",
   "celebrate": "Add this event to",
-  "dont_forgot": "to not to miss",
+  "dont_forgot": "",
   "add_to_calendar": "Add to the calendar",
   "to_start": "The start in",
   "calendar_link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20200425T053000Z/20200426T160000Z&details=Click+here+for+details:+https://pyconodessa.com/en/&location=Одесcа,+БЦ+«Солнечный»,+ул.+Солнечная,+5&sf=true&output=xml"
