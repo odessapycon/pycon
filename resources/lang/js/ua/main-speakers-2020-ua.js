@@ -40,7 +40,7 @@ export const MainSpeakers2020Ua = [
         place : 'London, UK',
         rept : [
             {
-                title : '',
+                title : 'Тема уточнюється',
                 description : ''
             }
         ],
