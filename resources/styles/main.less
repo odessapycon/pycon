@@ -127,6 +127,24 @@ body {
   }
 }
 
+.side-tickets {
+  position: fixed;
+  left: -15px;
+  top: 50%;
+  margin-top: -100px;
+  z-index: 3;
+  animation: bounce1 3s infinite;
+}
+
+@keyframes bounce1 {
+  0% {transform: rotate(0deg)}
+  5% {transform: rotate(10deg)}
+  10% {transform: rotate(0deg)}
+  15% {transform: rotate(10deg)}
+  20% {transform: rotate(0deg)}
+  100% {transform: rotate(0deg)}
+}
+
 section {
   padding: 70px 0;
   display: inline-block;
