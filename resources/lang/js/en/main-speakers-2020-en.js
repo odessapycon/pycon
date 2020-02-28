@@ -144,7 +144,7 @@ export const MainSpeakers2020En = [
         place : 'Kharkiv, Ukraine',
         rept : [
             {
-                title : 'Word Embeddings in Python: from word2vec to BERT. Strange Quirks and Cool Features on production. [Ru]',
+                title : 'Word Embeddings in Python: from word2vec to BERT. Strange Quirks and Cool Features on production [Ru]',
                 description :
                     '<p>Let\'s talk about libraries and pre-learning models for Word Embeddings in Python. ' +
                     'When you read articles and description word2vec, fastText, Bert, etc. world looking amazing. ' +

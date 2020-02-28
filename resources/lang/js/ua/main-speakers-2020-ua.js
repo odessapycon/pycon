@@ -144,7 +144,7 @@ export const MainSpeakers2020Ua = [
         place : 'Харків, Україна',
         rept : [
             {
-                title : 'Word Embeddings в Python від word2vec до BERT. Фішки та особливості роботи на проді. [Ru]',
+                title : 'Word Embeddings в Python від word2vec до BERT. Фішки та особливості роботи на проді [Ru]',
                 description :
                     '<p>Ми поговоримо про бібліотеки та переднавченні моделі для Word Embeddings в Python. ' +
                     'Коли читаєш статті чи описи word2vec, fastText, Bert, etc. цей світ чудовий. ' +
