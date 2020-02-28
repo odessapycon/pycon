@@ -8,11 +8,11 @@ export const MainSpeakers2020En = [
         place : 'Kyiv, Ukraine',
         rept : [
             {
-                title : 'Двічі датасаєнсимо задачу: як сталося і як треба [Ua]',
+                title : 'Datasciencing the task twice: how it happened and how it should be [Ua]',
                 description :
-                    '<p>Нам потрібно було розібратися, у якому науковому журналі була опубіклована кожна з десятків мільйонів статей. ' +
-                    'Вирішуємо задачу, потім дізнаємося, що світ не такий, як здається, використовуємо науковий підхід замість ' +
-                    'ковбойського і отримуємо з того профіт.</p>'
+                    '<p>We needed to figure out in which scientific journal each of tens of millions of articles was published in. '+
+                     'We solve the problem, then we learn that the world is not what it seems, we use a scientific approach instead of cowboy one' +
+                     'and we get profit from that.</p>'
             }
         ],
         aboutSpeaker : '',
@@ -132,6 +132,37 @@ export const MainSpeakers2020En = [
             {
                 link : 'https://emilywoods.me',
                 fatype : 'link'
+            },
+
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/pavlo-galushko.jpeg',
+        name : 'Pavel Galushko',
+        position : 'AIOps, Senior Software Developer',
+        company : 'Namecheap. Inc',
+        place : 'Kharkiv, Ukraine',
+        rept : [
+            {
+                title : 'Word Embeddings in Python: from word2vec to BERT. Strange Quirks and Cool Features on production. [Ru]',
+                description :
+                    '<p>Let\'s talk about libraries and pre-learning models for Word Embeddings in Python. ' +
+                    'When you read articles and description word2vec, fastText, Bert, etc. world looking amazing. ' +
+                    'This a new cool magic! But, in reality, you have a lot of problems with performance, memory leaks, ' +
+                    'stability.<br>' +
+                    'So, which one of these things you should use and how to make it faster and stable?</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : "https://www.facebook.com/paul.galushko",
+                fatype : "facebook"
+            },
+            {
+                link : "https://www.linkedin.com/in/galushkopavlo/",
+                fatype : "linkedin"
             },
 
         ]

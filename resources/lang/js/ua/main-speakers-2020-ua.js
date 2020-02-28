@@ -10,7 +10,7 @@ export const MainSpeakers2020Ua = [
             {
                 title : 'Двічі датасаєнсимо задачу: як сталося і як треба [Ua]',
                 description :
-                    '<p>Нам потрібно було розібратися, у якому науковому журналі була опубіклована кожна з десятків мільйонів статей. ' +
+                    '<p>Нам потрібно було розібратися, у якому науковому журналі була опублікована кожна з десятків мільйонів статей. ' +
                     'Вирішуємо задачу, потім дізнаємося, що світ не такий, як здається, використовуємо науковий підхід замість ' +
                     'ковбойського і отримуємо з того профіт.</p>'
             }
@@ -134,6 +134,35 @@ export const MainSpeakers2020Ua = [
                 fatype : 'link'
             },
 
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/pavlo-galushko.jpeg',
+        name : 'Павло Галушко',
+        position : 'AIOps, Senior Software Developer',
+        company : 'Namecheap. Inc',
+        place : 'Харків, Україна',
+        rept : [
+            {
+                title : 'Word Embeddings в Python від word2vec до BERT. Фішки та особливості роботи на проді. [Ru]',
+                description :
+                    '<p>Ми поговоримо про бібліотеки та переднавченні моделі для Word Embeddings в Python. ' +
+                    'Коли читаєш статті чи описи word2vec, fastText, Bert, etc. цей світ чудовий. ' +
+                    'Але, в реальному світі, ви стикаєтеся з проблемами продуктивності, витоків пам\'яті і стабільності.</br>' +
+                    'Той що ж вам підійде краще за все для ваших задач і як це змусити працювати швидко і стабільно?</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : "https://www.facebook.com/paul.galushko",
+                fatype : "facebook"
+            },
+            {
+                link : "https://www.linkedin.com/in/galushkopavlo/",
+                fatype : "linkedin"
+            }
         ]
     }
 ];
