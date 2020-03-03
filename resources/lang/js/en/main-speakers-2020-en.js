@@ -203,5 +203,38 @@ export const MainSpeakers2020En = [
                 fatype : "linkedin"
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/igor_korotach.jpeg',
+        name : 'Igor Korotach',
+        position : 'Software Engineer',
+        company : 'Quantum',
+        place : 'Kharkiv, Ukraine',
+        rept : [
+            {
+                title : 'State of PySpark, tips and possible improvements [En]',
+                description :
+                    '<p>What is Spark? Why should one use it? PySpark and its internals, integrating Spark ' +
+                    'into Machine Learning pipelines using PyTorch and Tensorflow with maximum efficiency. ' +
+                    'What is the future of Spark in Python based ML projects.</p>'
+            }
+        ],
+        aboutSpeaker : 'Studying chemistry & computer science. Have previously used multiple programming languages ' +
+            'including Go, Rust, Python, Java, C. In the free time I enjoy playing an electric guitar and billiards.',
+        socialsRendered : '',
+        socials : [
+            {
+                link : "https://twitter.com/Emulebest",
+                fatype : "twitter"
+            },
+            {
+                link : "https://github.com/Emulebest",
+                fatype : "github"
+            },
+            {
+                link : "https://www.linkedin.com/in/igor-korotach-806435154/",
+                fatype : "linkedin"
+            }
+        ]
     }
 ];
