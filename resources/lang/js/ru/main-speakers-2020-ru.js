@@ -236,5 +236,42 @@ export const MainSpeakers2020Ru = [
                 fatype : "linkedin"
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/yehor_levchenko.jpg',
+        name : 'Егор Левченко',
+        position : 'Python Team Lead',
+        company : 'Serpstat',
+        place : 'Одесса, Украина',
+        rept : [
+            {
+                title : 'Гибкий парсинг: как мы парсим всё и не ожидаем ничего [Ru]',
+                description :
+                    '<p>Я расскажу о трудностях, с которыми мы сталкивались при парсинге поисковых систем, и что сделали, ' +
+                    'чтобы таких трудностей стало меньше. За время доклада я поделюсь болью работы с legacy, концептом ' +
+                    'нового парсера, коротко перескажу все итерации работы над идеей и кодом, и, конечно же, открою ' +
+                    'технические детали: используемые библиотеки, организация работы, особенности поддержки.</p>'
+            }
+        ],
+        aboutSpeaker : 'С 2010 года в маркетинге и разработке.<br>' +
+            '7 лет в управлении командами и проектами.<br>' +
+            'Работал с Harman, BMW, Fujitsu, Nickelodeon, MTV, Subway, OZON<br>' +
+            'Автор курса Indie Game Kids, преподаю в Hillel, LITS, Maker Space<br>' +
+            'Делаю игры.',
+        socialsRendered : '',
+        socials : [
+            {
+                link : "https://twitter.com/yehorlevchenko",
+                fatype : "twitter"
+            },
+            {
+                link : "https://github.com/yehorlevchenko",
+                fatype : "github"
+            },
+            {
+                link : "https://www.linkedin.com/in/yehorlevchenko/",
+                fatype : "linkedin"
+            }
+        ]
     }
 ];
