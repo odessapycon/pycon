@@ -108,35 +108,6 @@ export const MainSpeakers2020Ua = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/emily_woods.jpeg',
-        name : 'Emily Woods',
-        position : '',
-        company : '',
-        place : 'Berlin, Germany',
-        rept : [
-            {
-                title : 'Taking care of the environment(s) and coding your infrastructure [En]',
-                description :
-                    '<p>Infrastructure as Code uses code to provision, configure, and manage infrastructure. ' +
-                    'With the right set of tools, it’s relatively straightforward to create a description ' +
-                    'of the infrastructure on which your applications should be deployed. In this talk, ' +
-                    'I’ll take a high-level look at the current Infrastructure as Code (IaC) landscape. ' +
-                    'I’ll discuss some of the challenges and benefits that IaC can bring - from version controlling ' +
-                    'your infrastructure, to creating consistent, resilient processes, and sustaining developer happiness. ' +
-                    'Lastly, I’ll look at some of the neat features which some IaC tools can offer you.</p>'
-            }
-        ],
-        aboutSpeaker : '',
-        socialsRendered : '',
-        socials : [
-            {
-                link : 'https://emilywoods.me',
-                fatype : 'link'
-            },
-
-        ]
-    },
-    {
         image : '/public/img/cont/speakers/pavlo-galushko.jpeg',
         name : 'Павло Галушко',
         position : 'AIOps, Senior Software Developer',
