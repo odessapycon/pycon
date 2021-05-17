@@ -19,7 +19,7 @@ export class CountdownComponent extends BaseComponent {
     let min = lang === 'ru' ? 'мин' : lang === 'ua' ? 'хв' :'min';
     let sec = lang === 'ru' ? 'сек' : lang === 'ua' ? 'сек' :'sec';
 
-    $('#clock').countdown('2020/06/13 08:30:00')
+    $('#clock').countdown('2021/09/04 08:30:00')
       .on('update.countdown', function (event) {
         let format = `%-D ${ day } %H:%M:%S`;
         $(this).html(event.strftime(

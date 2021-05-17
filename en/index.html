@@ -300,36 +300,35 @@
       </div>
     </section>
 
-    <!--<section id="calendar" class="calendar-2020">-->
-      <!--<div class="calendar-container">-->
-        <!--<div class="flex a-i-center calendar_block">-->
-          <!--<div class="calendar-description">-->
-            <!--Add this event to-->
-            <!--<div class="subtitle-2020 c-blue m-t-15 m-b-15">-->
-              <!--GOOGLE-->
-              <!--CALENDAR-->
-            <!--</div>-->
-            <!---->
-            <!--<a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20210904T053000Z/20210905T160000Z&details=Click+here+for+details:+https://pyconodessa.com/en/&location=Одесcа,+БЦ+«Солнечный»,+ул.+Солнечная,+5&sf=true&output=xml"-->
-               <!--id="add-to-calendar-btn"-->
-               <!--target="_blank"-->
-               <!--rel="nofollow"-->
-               <!--class="btn btn-round">-->
-              <!--Add to the calendar-->
-            <!--</a>-->
-          <!--</div>-->
-          <!--<div class="calendar_timer">-->
-            <!--<div class="label text-center">-->
-              <!--The start in:-->
-            <!--</div>-->
+    <section id="calendar" class="calendar-2020">
+      <div class="calendar-container">
+        <div class="flex a-i-center calendar_block">
+          <div class="calendar-description">
+            Add this event to
+            <div class="subtitle-2020 c-blue m-t-15 m-b-15">
+              GOOGLE
+              CALENDAR
+            </div>
+            
+            <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20210904T053000Z/20210905T160000Z&details=Click+here+for+details:+https://pyconodessa.com/en/&location=Одесcа,+БЦ+«Солнечный»,+ул.+Солнечная,+5&sf=true&output=xml"
+               id="add-to-calendar-btn"
+               target="_blank"
+               rel="nofollow"
+               class="btn btn-round">
+              Add to the calendar
+            </a>
+          </div>
+          <div class="calendar_timer">
+            <div class="label text-center">
+              The start in:
+            </div>
 
-            <!--<div id="clock" class="countdown"></div>-->
-          <!--</div>-->
+            <div id="clock" class="countdown"></div>
+          </div>
 
-
-        <!--</div>-->
-      <!--</div>-->
-    <!--</section>-->
+        </div>
+      </div>
+    </section>
 
     <section id="speakers" class="speakers-2020">
       <div class="container">
@@ -805,23 +804,23 @@
   fbq('init', '511246529406719');
   fbq('track', 'PageView');
 
-  var wishBtn = document.getElementById('add-to-calendar-btn'),
-      viewContentBtn = document.getElementsByClassName('js-content-btn'),
+  // var wishBtn = document.getElementById('add-to-calendar-btn')
+  var viewContentBtn = document.getElementsByClassName('js-content-btn'),
       checkoutBtn = document.getElementsByClassName('js-checkout-btn'),
       wishActionActivated = false,
       viewContentActionActivated = false,
       initiateCheckoutActionActivated = false;
 
-  wishBtn.addEventListener(
-    'click',
-    function() {
-      if(wishActionActivated) return;
-
-      wishActionActivated = true;
-      fbq('track', 'AddToWishlist');
-    },
-    false
-  );
+  //  wishBtn.addEventListener(
+  //   'click',
+  //   function() {
+  //     if(wishActionActivated) return;
+//
+  //     wishActionActivated = true;
+  //     fbq('track', 'AddToWishlist');
+  //   },
+  //   false
+  // );
 
 
   for (var i = 0; i < viewContentBtn.length; i++) {
