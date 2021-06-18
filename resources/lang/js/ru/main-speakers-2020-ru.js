@@ -176,7 +176,7 @@ export const MainSpeakers2020Ru = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/igor_korotach.jpeg',
+        image : '/public/img/cont/speakers/ihor-korotach.jpg',
         name : 'Игорь Коротач',
         position : 'Software Engineer',
         company : 'Quantum',
