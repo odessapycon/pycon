@@ -207,36 +207,5 @@ export const MainSpeakers2020En = [
                 fatype : "linkedin"
             }
         ]
-    },
-    {
-        image : '/public/img/cont/speakers/yehor_levchenko.jpg',
-        name : 'Yehor Levchenko',
-        position : 'Python Team Lead',
-        place : 'Odesa, Ukraine',
-        rept : [
-            {
-                title : 'To be announced'
-            }
-        ],
-        aboutSpeaker : 'Working in marketing and development since 2010<br>' +
-            '7 years as a team lead / manager<br>' +
-            'Worked with Harman, BMW, Fujitsu, Nickelodeon, MTV, Subway, OZON<br>' +
-            'Author of Indie Game Kids, educator at Hillel, LITS, Maker Space<br>' +
-            'Making games.',
-        socialsRendered : '',
-        socials : [
-            {
-                link : "https://twitter.com/yehorlevchenko",
-                fatype : "twitter"
-            },
-            {
-                link : "https://github.com/yehorlevchenko",
-                fatype : "github"
-            },
-            {
-                link : "https://www.linkedin.com/in/yehorlevchenko/",
-                fatype : "linkedin"
-            }
-        ]
     }
 ];

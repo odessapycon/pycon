@@ -143,5 +143,5 @@
   "to_start": "До старту",
   "calendar_link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20210911T053000Z/20210912T160000Z&details=За+подробицями+перейдiть+за+посиланням:+https://pyconodessa.com/&location=Damani+hotell,+Дачный+кооператив,+участок 4,+Кароліно-Бугаз,+Одеська+область,+Україна,+67844&sf=true&output=xml",
   "new_format": "* пробуємо новий формат",
-  "quarantine": "** з дотриманням усіх карантиних норм"
+  "quarantine": "** з дотриманням усіх карантинних норм"
 }

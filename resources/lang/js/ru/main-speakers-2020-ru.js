@@ -207,36 +207,5 @@ export const MainSpeakers2020Ru = [
                 fatype : "linkedin"
             }
         ]
-    },
-    {
-        image : '/public/img/cont/speakers/yehor_levchenko.jpg',
-        name : 'Егор Левченко',
-        position : 'Python Team Lead',
-        place : 'Одесса, Украина',
-        rept : [
-            {
-                title : 'Тема доклада уточняется'
-            }
-        ],
-        aboutSpeaker : 'С 2010 года в маркетинге и разработке.<br>' +
-            '7 лет в управлении командами и проектами.<br>' +
-            'Работал с Harman, BMW, Fujitsu, Nickelodeon, MTV, Subway, OZON<br>' +
-            'Автор курса Indie Game Kids, преподаю в Hillel, LITS, Maker Space<br>' +
-            'Делаю игры.',
-        socialsRendered : '',
-        socials : [
-            {
-                link : "https://twitter.com/yehorlevchenko",
-                fatype : "twitter"
-            },
-            {
-                link : "https://github.com/yehorlevchenko",
-                fatype : "github"
-            },
-            {
-                link : "https://www.linkedin.com/in/yehorlevchenko/",
-                fatype : "linkedin"
-            }
-        ]
     }
 ];
