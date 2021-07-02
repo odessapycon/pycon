@@ -206,5 +206,34 @@ export const MainSpeakers2020Ua = [
                 fatype : "linkedin"
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/anton_caceres.jpg',
+        name : 'Anton Caceres',
+        position : 'CEO',
+        company : 'TECH-5',
+        place : 'Мюнхен, Німеччина',
+        rept : [
+            {
+                title : 'Тема уточнюється',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'http://github.com/ma3str0',
+                fatype : 'github'
+            },
+            {
+                link : 'https://twitter.com/anton_caceres',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://caceres.me',
+                fatype : 'link'
+            }
+        ]
     }
 ];
