@@ -235,5 +235,34 @@ export const MainSpeakers2020Ua = [
                 fatype : 'link'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/laysa_uchoa.jpg',
+        name : 'Laysa Uchoa',
+        position : 'Software Engineer',
+        company : 'The Mobility House',
+        place : 'Мюнхен, Німеччина',
+        rept : [
+            {
+                title : 'Тема уточнюється',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://github.com/laysauchoa',
+                fatype : 'github'
+            },
+            {
+                link : 'https://twitter.com/laysauchoa',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://www.linkedin.com/in/laysauchoa/',
+                fatype : 'link'
+            }
+        ]
     }
 ];

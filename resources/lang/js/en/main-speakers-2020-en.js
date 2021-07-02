@@ -216,7 +216,7 @@ export const MainSpeakers2020En = [
         place : 'Munich, Germany',
         rept : [
             {
-                title : 'Subject to be specified',
+                title : 'TBD',
                 description : ''
             }
         ],
@@ -233,6 +233,35 @@ export const MainSpeakers2020En = [
             },
             {
                 link : 'https://caceres.me',
+                fatype : 'link'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/laysa_uchoa.jpg',
+        name : 'Laysa Uchoa',
+        position : 'Software Engineer',
+        company : 'The Mobility House',
+        place : 'Munich, Germany',
+        rept : [
+            {
+                title : 'TBD',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://github.com/laysauchoa',
+                fatype : 'github'
+            },
+            {
+                link : 'https://twitter.com/laysauchoa',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://www.linkedin.com/in/laysauchoa/',
                 fatype : 'link'
             }
         ]
