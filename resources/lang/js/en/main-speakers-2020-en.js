@@ -8,11 +8,9 @@ export const MainSpeakers2020En = [
         place : 'Kyiv, Ukraine',
         rept : [
             {
-                title : 'Datasciencing the task twice: how it happened and how it should be [Ua]',
+                title : 'TBD',
                 description :
-                    '<p>We needed to figure out in which scientific journal each of tens of millions of articles was published in. '+
-                     'We solve the problem, then we learn that the world is not what it seems, we use a scientific approach instead of cowboy one ' +
-                     'and we get profit from that.</p>'
+                    ''
             }
         ],
         aboutSpeaker : '',
