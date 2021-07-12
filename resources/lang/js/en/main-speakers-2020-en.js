@@ -115,13 +115,9 @@ export const MainSpeakers2020En = [
         place : 'Kharkiv, Ukraine',
         rept : [
             {
-                title : 'Word Embeddings in Python: from word2vec to BERT. Strange Quirks and Cool Features on production [Ru]',
+                title : 'TBD',
                 description :
-                    '<p>Let\'s talk about libraries and pre-learning models for Word Embeddings in Python. ' +
-                    'When you read articles and description word2vec, fastText, Bert, etc. world looking amazing. ' +
-                    'This a new cool magic! But, in reality, you have a lot of problems with performance, memory leaks, ' +
-                    'stability.<br>' +
-                    'So, which one of these things you should use and how to make it faster and stable?</p>'
+                    ''
             }
         ],
         aboutSpeaker : '',
