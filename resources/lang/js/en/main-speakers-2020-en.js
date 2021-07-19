@@ -131,44 +131,44 @@ export const MainSpeakers2020En = [
             }
         ]
     },
-    {
-        image : '/public/img/cont/speakers/alex_figura.jpg',
-        name : 'Alexandre Figura',
-        position : 'Site Reliability Engineer',
-        company : 'HelloFresh',
-        place : 'Berlin, Germany',
-        rept : [
-            {
-                title : 'Instrumenting your Code like Mozart [En]',
-                description :
-                    '<p>In a world full of micro-services, with thousands and thousands of internal requests per second, ' +
-                    'logs are not enough anymore to help us understanding what\'s going on... ' +
-                    'But what to use then, and in which situation? There are so many tools out there, that it can ' +
-                    'become quite challenging to answer this question. Fortunately, after this talk, the world of ' +
-                    'micro-services monitoring will not have any secrets for you, and you will be ready to write your ' +
-                    'first symphony in Python.</p>' +
-                    '<p>I will speak about how to increase "observability" of an application. Things like tracing (with Jaeger), ' +
-                    'logging (with Graylog), metrics (with Prometheus), stacktraces (with Sentry), OpenTelemetry, ' +
-                    'and how to use them with Python.</p>'
-            }
-        ],
-        aboutSpeaker : 'Alexandre is a french Python developer, living since 4 years in Berlin. ' +
-            'In his short career, he already worked with more than 20 different nationalities. ' +
-            'Also, over the years, he gained experience in Web Programming and System/Network Engineering. ' +
-            'But his favorite topics are testing and code maintenance: because nothing is more important than writing ' +
-            'sustainable code, to make our planet great again!',
-        socialsRendered : '',
-        socials : [
-            {
-                link : "https://github.com/arugifa",
-                fatype : "github"
-            },
-            {
-                link : "https://www.linkedin.com/in/arugifa/",
-                fatype : "linkedin"
-            }
-        ]
-    },
+    // {
+    //     image : '/public/img/cont/speakers/alex_figura.jpg',
+    //     name : 'Alexandre Figura',
+    //     position : 'Site Reliability Engineer',
+    //     company : 'HelloFresh',
+    //     place : 'Berlin, Germany',
+    //     rept : [
+    //         {
+    //             title : 'Instrumenting your Code like Mozart [En]',
+    //             description :
+    //                 '<p>In a world full of micro-services, with thousands and thousands of internal requests per second, ' +
+    //                 'logs are not enough anymore to help us understanding what\'s going on... ' +
+    //                 'But what to use then, and in which situation? There are so many tools out there, that it can ' +
+    //                 'become quite challenging to answer this question. Fortunately, after this talk, the world of ' +
+    //                 'micro-services monitoring will not have any secrets for you, and you will be ready to write your ' +
+    //                 'first symphony in Python.</p>' +
+    //                 '<p>I will speak about how to increase "observability" of an application. Things like tracing (with Jaeger), ' +
+    //                 'logging (with Graylog), metrics (with Prometheus), stacktraces (with Sentry), OpenTelemetry, ' +
+    //                 'and how to use them with Python.</p>'
+    //         }
+    //     ],
+    //     aboutSpeaker : 'Alexandre is a french Python developer, living since 4 years in Berlin. ' +
+    //         'In his short career, he already worked with more than 20 different nationalities. ' +
+    //         'Also, over the years, he gained experience in Web Programming and System/Network Engineering. ' +
+    //         'But his favorite topics are testing and code maintenance: because nothing is more important than writing ' +
+    //         'sustainable code, to make our planet great again!',
+    //     socialsRendered : '',
+    //     socials : [
+    //         {
+    //             link : "https://github.com/arugifa",
+    //             fatype : "github"
+    //         },
+    //         {
+    //             link : "https://www.linkedin.com/in/arugifa/",
+    //             fatype : "linkedin"
+    //         }
+    //     ]
+    // },
     {
         image : '/public/img/cont/speakers/ihor-korotach.jpg',
         name : 'Igor Korotach',
