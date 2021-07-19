@@ -143,5 +143,6 @@
   "to_start": "The start in",
   "calendar_link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20210911T053000Z/20210912T160000Z&details=Click+here+for+details:+https://pyconodessa.com/&sf=true&output=xml",
   "new_format": "* trying new format",
-  "quarantine": "** in compliance with all quarantine standards"
+  "quarantine": "** in compliance with all quarantine standards",
+  "buy_ticket": "Buy ticket"
 }

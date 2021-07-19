@@ -143,5 +143,6 @@
   "to_start": "До старта",
   "calendar_link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20210911T053000Z/20210912T160000Z&details=Для+подробностей+перейдите+сюда:+https://pyconodessa.com/&sf=true&output=xml",
   "new_format": "* пробуем новый формат",
-  "quarantine": "** с соблюдением всех карантинных норм"
+  "quarantine": "** с соблюдением всех карантинных норм",
+  "buy_ticket": "Купить билет"
 }
