@@ -8,7 +8,7 @@ export const MainSpeakers2020Ua = [
         place : 'Київ, Україна',
         rept : [
             {
-                title : 'Тема уточнюється',
+                title : 'Моя найбільша архітектурна помилка [Ua]',
                 description :
                     ''
             }
@@ -80,11 +80,11 @@ export const MainSpeakers2020Ua = [
         place : 'London, UK',
         rept : [
             {
-                title : 'Building Pipelines with Airflow! [En]',
+                title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]',
                 description :
-                    '<p>Airflow is an open-source data pipeline orchestration framework ' +
-                    'that allows developers to programmatically author, schedule and monitor data pipelines. ' +
-                    'In this talk we will go through Airflow\'s core concepts for workflow creation with some examples.</p>'
+                    '<p>I would like to talk about QHub. QHub is an open source tool that enables users to build and ' +
+                    'maintain cost-effective and scalable compute/data science platforms on ' +
+                    'HPC or on Kubernetes with minimal DevOps experience.</p>'
             }
         ],
         aboutSpeaker : 'Amit is a presenter and a Software Engineer based in London, UK. He is an avid supporter of Open Source Software.',
@@ -113,9 +113,12 @@ export const MainSpeakers2020Ua = [
         place : 'Харків, Україна',
         rept : [
             {
-                title : 'Тема уточнюється',
+                title : 'Як писати для машинного навчання [Ru]',
                 description :
-                    ''
+                    '<p>У цій доповіді я дам вступну інформацію про машинне навчання,' +
+                    'розповім чим займається розробка сервісів для машинного навчання,' +
+                    'що обов\'язково треба знати для цього,' +
+                    'і які технології та процеси ми використовуємо.</p>'
             }
         ],
         aboutSpeaker : '',

@@ -8,7 +8,7 @@ export const MainSpeakers2020Ru = [
         place : 'Киев, Украина',
         rept : [
             {
-                title : 'Тема уточняется',
+                title : 'Моя самая большая архитектурная ошибка [Ua]',
                 description :
                     ''
             }
@@ -80,11 +80,11 @@ export const MainSpeakers2020Ru = [
         place : 'London, UK',
         rept : [
             {
-                title : 'Building Pipelines with Airflow! [En]',
+                title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]',
                 description :
-                    '<p>Airflow is an open-source data pipeline orchestration framework ' +
-                    'that allows developers to programmatically author, schedule and monitor data pipelines. ' +
-                    'In this talk we will go through Airflow\'s core concepts for workflow creation with some examples.</p>'
+                    '<p>I would like to talk about QHub. QHub is an open source tool that enables users to build and ' +
+                    'maintain cost-effective and scalable compute/data science platforms on ' +
+                    'HPC or on Kubernetes with minimal DevOps experience.</p>'
             }
         ],
         aboutSpeaker : 'Amit is a presenter and a Software Engineer based in London, UK. He is an avid supporter of Open Source Software.',
@@ -113,9 +113,12 @@ export const MainSpeakers2020Ru = [
         place : 'Харьков, Украина',
         rept : [
             {
-                title : 'Тема уточняется',
+                title : 'Как писать для машинного обучения [Ru]',
                 description :
-                    ''
+                    '<p>В этом докладе я дам вводную информацию по машинному обучению,' +
+                    'расскажу чем занимается разработка сервисов для машинного обучения, ' +
+                    'что надо обязательно знать для этого, ' +
+                    'и какие технологии и процессы мы используем.</p>'
             }
         ],
         aboutSpeaker : '',
