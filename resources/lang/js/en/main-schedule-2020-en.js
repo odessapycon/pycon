@@ -233,12 +233,23 @@ export const MainSchedule2020En = [
     {
         time : {
             start : '19:30',
-            end : '22:00'
+            end : '21:30'
         },
         icon : 'glass', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
             {author : '', title : 'After-party'}
+        ]
+    },
+    {
+        time : {
+            start : '21:30',
+            end : '24:00'
+        },
+        icon : 'glass', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Movie evening'}
         ]
     }
 ];
