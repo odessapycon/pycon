@@ -1,13 +1,35 @@
 export const MainSchedule2020Day2Ru = [
     {
         time : {
+            start : '09:00',
+            end : '10:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #1 на локацию'}
+        ]
+    },
+    {
+        time : {
+            start : '09:30',
+            end : '10:30    '
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #2 на локацию'}
+        ]
+    },
+    {
+        time : {
             start : '10:00',
             end : '11:00'
         },
         icon : 'coffee', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Сбор, завтрак'}
+            {author : '', title : 'Сбор'}
         ]
     },
     {
@@ -89,6 +111,17 @@ export const MainSchedule2020Day2Ru = [
     },
     {
         time : {
+            start : '16:30',
+            end : '17:30'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #1 в Одессу'}
+        ]
+    },
+    {
+        time : {
             start : '17:00',
             end : '19:00'
         },
@@ -97,5 +130,16 @@ export const MainSchedule2020Day2Ru = [
         talks : [
             {author : '', title : 'Свободное общение'}
         ]
-    }
+    },
+        {
+        time : {
+            start : '18:30',
+            end : '19:30'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #2 в Одессу'}
+        ]
+    },
 ];

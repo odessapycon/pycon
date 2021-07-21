@@ -1,6 +1,28 @@
 export const MainSchedule2020Ua = [
     {
         time : {
+            start : '07:00',
+            end : '08:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #1 на локацію'}
+        ]
+    },
+    {
+        time : {
+            start : '08:00',
+            end : '09:00    '
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #2 на локацію'}
+        ]
+    },
+    {
+        time : {
             start : '08:30',
             end : '09:30'
         },
@@ -251,5 +273,27 @@ export const MainSchedule2020Ua = [
         talks : [
             {author : '', title : 'Вечір кіно'}
         ]
-    }
+    },
+        {
+        time : {
+            start : '21:00',
+            end : '22:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #1 в Одесу'}
+        ]
+    },
+    {
+        time : {
+            start : '24:00',
+            end : '01:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Автобус #2 в Одесу'}
+        ]
+    },
 ];

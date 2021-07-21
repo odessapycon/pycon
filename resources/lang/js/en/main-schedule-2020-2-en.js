@@ -1,13 +1,35 @@
 export const MainSchedule2020Day2En = [
     {
         time : {
+            start : '09:00',
+            end : '10:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #1 to the location'}
+        ]
+    },
+    {
+        time : {
+            start : '09:30',
+            end : '10:30    '
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #2 to the location'}
+        ]
+    },
+    {
+        time : {
             start : '10:00',
             end : '11:00'
         },
         icon : 'coffee', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Breakfast'}
+            {author : '', title : 'Gathering'}
         ]
     },
     {
@@ -89,6 +111,17 @@ export const MainSchedule2020Day2En = [
     },
     {
         time : {
+            start : '16:30',
+            end : '17:30'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #1 to Odessa'}
+        ]
+    },
+    {
+        time : {
             start : '17:00',
             end : '19:00'
         },
@@ -97,5 +130,16 @@ export const MainSchedule2020Day2En = [
         talks : [
             {author : '', title : 'Free time'}
         ]
-    }
+    },
+    {
+        time : {
+            start : '18:30',
+            end : '19:30'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #2 to Odessa'}
+        ]
+    },
 ];

@@ -1,6 +1,28 @@
 export const MainSchedule2020En = [
     {
         time : {
+            start : '07:00',
+            end : '08:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #1 to the location'}
+        ]
+    },
+    {
+        time : {
+            start : '08:00',
+            end : '09:00    '
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #2 to the location'}
+        ]
+    },
+    {
+        time : {
             start : '08:30',
             end : '09:30'
         },
@@ -251,5 +273,27 @@ export const MainSchedule2020En = [
         talks : [
             {author : '', title : 'Movie evening'}
         ]
-    }
+    },
+    {
+        time : {
+            start : '21:00',
+            end : '22:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #1 to Odessa'}
+        ]
+    },
+    {
+        time : {
+            start : '24:00',
+            end : '01:00'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Bus #2 to Odessa'}
+        ]
+    },
 ];
