@@ -259,7 +259,34 @@ export const MainSpeakers2020Ua = [
             },
             {
                 link : 'https://www.linkedin.com/in/laysauchoa/',
-                fatype : 'link'
+                fatype : 'linkedin'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/andrii-latysh.jpeg',
+        name : 'Андрій Латиш',
+        position : 'Technical Product Owner',
+        company : 'Provectus',
+        place : 'Одеса, Україна',
+        rept : [
+            {
+                title : 'Ваша модель натренована? Звідси ми підхопимо! [Ua]',
+                description : '<p>Виведення рішень з машинним навчання у production часто є складним і проблемним етапом. ' +
+                    'В рамках доповіді ми подивимося що саме потрібно для перетворення моделі у повноцінне рішення, ' +
+                    'а також познайомилося з Hydrosphere -- відкритою платформою для виведення й забезпечення роботи вашого рішення в production.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.facebook.com/andrii.latysh/',
+                fatype : 'facebook'
+            },
+            {
+                link : 'https://www.linkedin.com/in/andrii-latysh-999302114/',
+                fatype : 'linkedin'
             }
         ]
     }

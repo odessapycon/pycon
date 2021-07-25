@@ -258,7 +258,34 @@ export const MainSpeakers2020En = [
             },
             {
                 link : 'https://www.linkedin.com/in/laysauchoa/',
-                fatype : 'link'
+                fatype : 'linkedin'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/andrii-latysh.jpeg',
+        name : 'Andrii Latysh',
+        position : 'Technical Product Owner',
+        company : 'Provectus',
+        place : 'Odessa, Ukraine',
+        rept : [
+            {
+                title : 'Your model is trained? We’ll take it from here! [Ua]',
+                description : '<p>Setting up a solution with machine learning in production is often a difficult ' +
+                    'and problematic task. This talk will cover what you need to turn your model into a full-fledged ' +
+                    'solution, as well as introduce you to Hydrosphere - an open-source platform for promoting and managing your solution in production.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.facebook.com/andrii.latysh/',
+                fatype : 'facebook'
+            },
+            {
+                link : 'https://www.linkedin.com/in/andrii-latysh-999302114/',
+                fatype : 'linkedin'
             }
         ]
     }

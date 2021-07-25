@@ -151,5 +151,11 @@
   "calendar_link": "https://www.google.com/calendar/render?action=TEMPLATE&text=Pycon+Odessa&dates=20210911T053000Z/20210912T160000Z&details=Click+here+for+details:+https://pyconodessa.com/&sf=true&output=xml",
   "new_format": "* trying new format",
   "quarantine": "** in compliance with all quarantine standards",
-  "buy_ticket": "Buy ticket"
+  "buy_ticket": "Buy ticket",
+  "transfer_heading": "Transfer",
+  "transfer_text_1": "Two buses will be used for the conference participants during two days.",
+  "transfer_text_2": "You can already see the preliminary time of transfer in the <a href=\"#schedule\">schedule</a>. But we want to make transfer as convenient as possible for everyone, taking into account the arrival and departure of guests from other cities of Ukraine.",
+  "transfer_text_3": "We're asking conference participants to vote in the form below for the desired transfer time. We will try to find the best time for everyone.",
+  "transfer_text_4": "Buses will pick up the participants from the Odessa <a href=\"https://goo.gl/maps/hCr8Kbf1EoWJerBg7\" target=\"_blank\">railway station</a>.",
+  "transfer_form": "Transfer time"
 }
