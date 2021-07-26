@@ -289,5 +289,36 @@ export const MainSpeakers2020Ru = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/andrii-soldatenko.jpg',
+        name : 'Андрей Солдатенко',
+        position : 'Principal Software Engineer',
+        company : 'Solarisbank AG',
+        place : 'Киев, Украина',
+        rept : [
+            {
+                title : 'Дебаггинг асинхронных приложений в Python [Ru]',
+                description : '<p>С недавнего времени интерес к асинхронному программированию сильно вырос. ' +
+                    'К сожалению, асинхронные программы не всегда имеют воспроизводимый характер. Даже когда они запускаются с одними и теми же входными данными, их вывод может быть абсолютно разным. ' +
+                    'В этом докладе я покажу вам различные подходы к дебаггингу асинхронных программ в Python.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/a_soldatenko',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://github.com/andriisoldatenko/',
+                fatype : 'github'
+            },
+            {
+                link : 'https://www.linkedin.com/in/andriisoldatenko/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];

@@ -288,5 +288,36 @@ export const MainSpeakers2020En = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/andrii-soldatenko.jpg',
+        name : 'Andrii Soldatenko',
+        position : 'Principal Software Engineer',
+        company : 'Solarisbank AG',
+        place : 'Kyiv, Ukraine',
+        rept : [
+            {
+                title : 'Debugging asynchronous programs in Python [Ru]',
+                description : '<p>Recently the interest in asynchronous programming has grown dramatically. ' +
+                    'Unfortunately, asynchronous programs do not always have reproducible behavior. Even when they are run with the same inputs, their results can be radically different. ' +
+                    ' In this talk I\'ll show you different approaches on how to debug asynchronous programs in Python.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/a_soldatenko',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://github.com/andriisoldatenko/',
+                fatype : 'github'
+            },
+            {
+                link : 'https://www.linkedin.com/in/andriisoldatenko/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];

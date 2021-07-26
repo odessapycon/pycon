@@ -289,5 +289,36 @@ export const MainSpeakers2020Ua = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/andrii-soldatenko.jpg',
+        name : 'Андрій Солдатенко',
+        position : 'Principal Software Engineer',
+        company : 'Solarisbank AG',
+        place : 'Київ, Україна',
+        rept : [
+            {
+                title : 'Дебаггінг асинхронних додатків в Python [Ru]',
+                description : '<p>З недавнього часу інтерес до асинхронного програмування сильно виріс. ' +
+                    'На жаль, асинхронні програми не завжди мають передбачуваний характер. Навіть коли вони запускаються з одними і тими ж вхідними даними, їх вихід може бути абсолютно різним. ' +
+                    'У цій доповіді я покажу вам різні підходи до дебаггінгу асинхронних програм в Python.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/a_soldatenko',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://github.com/andriisoldatenko/',
+                fatype : 'github'
+            },
+            {
+                link : 'https://www.linkedin.com/in/andriisoldatenko/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];
