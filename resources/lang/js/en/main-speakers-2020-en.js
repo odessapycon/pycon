@@ -9,8 +9,9 @@ export const MainSpeakers2020En = [
         rept : [
             {
                 title : 'My biggest architectural mistake [Ua]',
-                description :
-                    ''
+                description : '<p>A lot of architecture decisions сan only be evaluated in the long run. ' +
+                    'In contrast to my previous projects, I work on the current project since the beginning and for 5 years already. ' +
+                    'I’ll talk about how the project made through a 100x increase of data volume, and what was the most painful error.</p>'
             }
         ],
         aboutSpeaker : '',
@@ -241,8 +242,9 @@ export const MainSpeakers2020En = [
         place : 'Munich, Germany',
         rept : [
             {
-                title : 'TBD',
-                description : ''
+                title : '31 days of Python 3.10 [En]',
+                description : '<p>Do you feel stuck in an older version of Python? Are you curious about what is out there with Python 3.10? In this talk, we will go over an exciting journey of using Python 3.10 for 31 days in production' +
+                    'We will go in details of pattern matching, better error messages, union operators, and more.</p>'
             }
         ],
         aboutSpeaker : '',
@@ -317,6 +319,38 @@ export const MainSpeakers2020En = [
             {
                 link : 'https://www.linkedin.com/in/andriisoldatenko/',
                 fatype : 'linkedin'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/nf.jpg',
+        name : 'Nicolas Fränkel',
+        position : 'Developer Advocate',
+        company : 'Hazelcast',
+        place : 'Saint Julien en Genevois, France',
+        rept : [
+            {
+                title : 'A Walkthrough of Python Apps Caching Patterns [En]',
+                description : '<p>You might have been using cache for years, and still always design the application to be responsible for the sync between the cache and the underlying data store. Did you know there are many more options available?</p>'+
+                    '<p>When your application starts slowing down, the reason is probably a bottleneck somewhere in the execution chain. Sometimes, this bottleneck is due to a bug. Sometimes, somebody didn’t set up the optimal configuration. And sometimes, the process of fetching the data is the bottleneck.</p>'+
+                    '<p>One option would be to change your whole architecture. Before moving to such a drastic, and probably expensive measure, one can consider a trade-off: instead of getting remote data every time, you can store the data locally after the first read. This is the trade-off that caching offers: stale data vs. speed.</p>'+
+                    '<p>Deciding to use caching is just the first step in a long journey. The next step is to think about how your application and the cache will interact. This talk focuses on options available regarding those interactions.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/nicolas_frankel',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://github.com/nfrankel',
+                fatype : 'github'
+            },
+            {
+                link : 'https://blog.frankel.ch/',
+                fatype : 'link'
             }
         ]
     }
