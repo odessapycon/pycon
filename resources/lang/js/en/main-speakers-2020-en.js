@@ -243,8 +243,8 @@ export const MainSpeakers2020En = [
         rept : [
             {
                 title : '31 days of Python 3.10 [En]',
-                description : '<p>Do you feel stuck in an older version of Python? Are you curious about what is out there with Python 3.10? In this talk, we will go over an exciting journey of using Python 3.10 for 31 days in production' +
-                    'We will go in details of pattern matching, better error messages, union operators, and more.</p>'
+                description : '<p>Do you feel stuck in an older version of Python? Are you curious about what is out there with Python 3.10? In this talk, we will go over an exciting journey of using Python 3.10 for 31 days. ' +
+                    'Some new things include pattern matching, better error messages, union operators, and more.</p>'
             }
         ],
         aboutSpeaker : '',
