@@ -9,6 +9,7 @@
   "menu_sponsors": "Partners",
   "menu_location": "Venue",
   "menu_transfer": "Transfer",
+  "menu_hotels": "Hotels",
   "menu_contacts": "Contacts",
   "menu_tickets": "Tickets",
   "header_url": "/en/",
@@ -165,5 +166,8 @@
   "cinema_heading": "Movie night",
   "cinema_text_1": "We will have an interesting company, a cool location, a projector, popcorn - so why don't we organize an outdoor movie viewing?",
   "cinema_text_2": "Help us with the choice of films, and we will arrange the rest.",
-  "cinema_form": "Suggest a movie"
+  "cinema_form": "Suggest a movie",
+  "hotels_head": "Accommodation options",
+  "hotel_1_place": "Nova Dofinivka",
+  "hotel_2_place": "Nova Dofinivka"
 }
