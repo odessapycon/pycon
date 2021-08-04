@@ -355,7 +355,7 @@ export const MainSpeakers2020En = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/lg.jpg',
+        image : '/public/img/cont/speakers/lg.jpeg',
         name : 'Larisa Globa',
         position : 'Professor',
         company : 'NTUU KPI',
@@ -376,7 +376,7 @@ export const MainSpeakers2020En = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/eb.jpg',
+        image : '/public/img/cont/speakers/eb.jpeg',
         name : 'Eleftheria Batsou',
         position : 'Community Manager',
         company : 'Hashnode',

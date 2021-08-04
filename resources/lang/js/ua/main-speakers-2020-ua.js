@@ -356,7 +356,7 @@ export const MainSpeakers2020Ua = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/lg.jpg',
+        image : '/public/img/cont/speakers/lg.jpeg',
         name : 'Лариса Глоба',
         position : 'Професор',
         company : 'НТУУ КПІ',
@@ -377,7 +377,7 @@ export const MainSpeakers2020Ua = [
         ]
     },
     {
-        image : '/public/img/cont/speakers/eb.jpg',
+        image : '/public/img/cont/speakers/eb.jpeg',
         name : 'Eleftheria Batsou',
         position : 'Community Manager',
         company : 'Hashnode',
