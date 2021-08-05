@@ -409,5 +409,26 @@ export const MainSpeakers2020En = [
                 fatype : 'link'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/ak.jpeg',
+        name : 'Anton Kartashov',
+        position : 'Cloud Solution Architect',
+        company : 'Crayon',
+        place : 'Munich, Germany',
+        rept : [
+            {
+                title : '10 essential AWS know-hows for Python Developers [En]',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.linkedin.com/in/anton-kartashov-b0b056121/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];

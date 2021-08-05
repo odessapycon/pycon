@@ -78,7 +78,7 @@ export const MainSpeakers2020Ua = [
         name : 'Amit Kumar',
         position : 'Software Engineer',
         company : 'Aktech Labs',
-        place : 'London, UK',
+        place : 'Лондон, Великобританія',
         rept : [
             {
                 title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]',
@@ -408,6 +408,27 @@ export const MainSpeakers2020Ua = [
             {
                 link : 'http://eleftheriabatsou.com/',
                 fatype : 'link'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/ak.jpeg',
+        name : 'Anton Kartashov',
+        position : 'Cloud Solution Architect',
+        company : 'Crayon',
+        place : 'Мюнхен, Німеччина',
+        rept : [
+            {
+                title : '10 essential AWS know-hows for Python Developers [En]',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.linkedin.com/in/anton-kartashov-b0b056121/',
+                fatype : 'linkedin'
             }
         ]
     }
