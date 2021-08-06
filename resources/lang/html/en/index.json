@@ -169,5 +169,8 @@
   "cinema_form": "Suggest a movie",
   "hotels_head": "Accommodation options",
   "hotel_1_place": "Nova Dofinivka",
-  "hotel_2_place": "Nova Dofinivka"
+  "hotel_2_place": "Nova Dofinivka",
+  "location_plan_file": "shantambala_plan_en.png",
+  "location_plan_text1": "It is possible to rent trailer and bee houses for living.",
+  "location_plan_text2": "Mail to <a href=\"mailto:odessa.pycon@gmail.com\">odessa.pycon@gmail.com</a>"
 }
