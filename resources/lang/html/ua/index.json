@@ -169,5 +169,8 @@
   "cinema_form": "Запропонувати кіно",
   "hotels_head": "Варіанти проживання",
   "hotel_1_place": "Нова Дофінівка",
-  "hotel_2_place": "Нова Дофінівка"
+  "hotel_2_place": "Нова Дофінівка",
+  "location_plan_file": "shantambala_plan_ua.png",
+  "location_plan_text1": "Є можливість орендувати трейлер та апібудинки для проживання.",
+  "location_plan_text2": "Пишіть на <a href=\"mailto:odessa.pycon@gmail.com\">odessa.pycon@gmail.com</a>"
 }

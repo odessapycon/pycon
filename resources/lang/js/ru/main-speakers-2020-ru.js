@@ -78,7 +78,7 @@ export const MainSpeakers2020Ru = [
         name : 'Amit Kumar',
         position : 'Software Engineer',
         company : 'Aktech Labs',
-        place : 'London, UK',
+        place : 'Лондон, Великобритания',
         rept : [
             {
                 title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]',
@@ -352,6 +352,83 @@ export const MainSpeakers2020Ru = [
             {
                 link : 'https://blog.frankel.ch/',
                 fatype : 'link'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/lg.jpeg',
+        name : 'Лариса Глоба',
+        position : 'Профессор',
+        company : 'НТУУ КПИ',
+        place : 'Киев, Украина',
+        rept : [
+            {
+                title : 'Тема уточняется',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.linkedin.com/in/larysa-globa-50261131',
+                fatype : 'linkedin'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/eb.jpeg',
+        name : 'Eleftheria Batsou',
+        position : 'Community Manager',
+        company : 'Hashnode',
+        place : 'Салоники, Греция',
+        rept : [
+            {
+                title : 'It’s Easy To Create A Good-Looking Product, But How About A Useful One? [En]',
+                description : '<p>What to expect:</p>' +
+                    '<p>UX vs UI: The two different perspectives of UX and UI, the importance of each, ' +
+                    'what does a UX designer do, what does a UI designer do, the different categories of UX as well as UI.</p>' +
+                    '<p>About Heuristics: What is the heuristic evaluation? How to conduct an effective heuristic evaluation? why do we need it?</p>' +
+                    '<p>The 10 Usability Heuristics (by Jakob Nielson and Don Norman): With tips and examples.</p>' +
+                    '<p>The Do’s and Don’ts of UX: Quick tips about UX researchers and designers having always in mind the user.</p>' +
+                    '<p>The Good and the Bad of UI: Presenting in a fun way how a good designer works VS a bad designer.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.linkedin.com/in/eleftheriabatsou/',
+                fatype : 'linkedin'
+            },
+            {
+                link : 'https://twitter.com/BatsouElef',
+                fatype : 'twitter'
+            },
+            {
+                link : 'http://eleftheriabatsou.com/',
+                fatype : 'link'
+            }
+        ]
+    },
+    {
+        image : '/public/img/cont/speakers/ak.jpeg',
+        name : 'Anton Kartashov',
+        position : 'Cloud Solution Architect',
+        company : 'Crayon',
+        place : 'Мюнхен, Германия',
+        rept : [
+            {
+                title : '10 essential AWS know-hows for Python Developers [En]',
+                description : ''
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://www.linkedin.com/in/anton-kartashov-b0b056121/',
+                fatype : 'linkedin'
             }
         ]
     }
