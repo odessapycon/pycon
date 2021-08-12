@@ -214,8 +214,12 @@ export const MainSpeakers2020Ru = [
         place : 'Мюнхен, Германия',
         rept : [
             {
-                title : 'Тема уточняется',
-                description : ''
+                title : 'Top Workflow Frameworks for Python Components [En]',
+                description : '<p>Business is all about processes. To automate them, workflow frameworks can be integrated. ' +
+                    'They orchestrate underlying software components and visualize the flow. Modern frameworks can manage ' +
+                    'failures and retries, parallelization and service integration, while providing observability so that ' +
+                    'developers can focus on business logic.</p>' +
+                    '<p>In this talk, we will go over top workflow frameworks for Python developers - Airflow, Step Functions, and GCP Workflows.</p>'
             }
         ],
         aboutSpeaker : '',
@@ -363,8 +367,11 @@ export const MainSpeakers2020Ru = [
         place : 'Киев, Украина',
         rept : [
             {
-                title : 'Тема уточняется',
-                description : ''
+                title : 'Как Python помогает университетам идти в ногу со временем [Ru]',
+                description : '<p>В наше время даже самим программистам сложно бежать за новыми фреймворками, трендами и разработками, ' +
+                    'и еще сложнее переписать учебную программу на 6 лет вперёд, зная что она уже через год устареет.</p>' +
+                    '<p>В современном мире Python несет роль универсального языка, связывающего разные отрасли науки и индустрии. ' +
+                    'Университеты следуют этому примеру, и все чаще вводят Python основным, базовым языком</p>'
             }
         ],
         aboutSpeaker : '',
@@ -419,8 +426,9 @@ export const MainSpeakers2020Ru = [
         place : 'Мюнхен, Германия',
         rept : [
             {
-                title : '10 essential AWS know-hows for Python Developers [En]',
-                description : ''
+                title : 'Streamline data manipulations on AWS native services [En]',
+                description : '<p>This talk presents modern Amazon AWS data services and AWS Data Wrangler - an open source ' +
+                    'Python initiative, built on top of Pandas, Apache Arrow and Boto3 to facilitate developers and data engineers.</p>'
             }
         ],
         aboutSpeaker : '',
