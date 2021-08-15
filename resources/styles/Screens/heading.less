@@ -48,6 +48,10 @@
   }
 }
 
+.heading-text {
+  font-weight: lighter;
+}
+
 .countdown {
   min-height: 117px;
   text-align: center;
@@ -110,15 +114,18 @@
 }
 
 .join-us {
-  color: #fdd24a;
-  font-size: 36px;
-  text-align: center;
-  font-weight: 800;
   margin-top: 84px;
 }
 
+.join-us p {
+  color: #fdd24a;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+}
+
 @media (max-width: 1170px) {
-  .join-us {
+  .join-us p {
     font-size: 30px;
   }
 }
@@ -162,11 +169,14 @@
     }
 
     .join-us {
-      font-size: 30px;
       max-width: 60%;
       margin-left: auto;
       margin-right: auto;
       margin-top: 20px;
+    }
+
+    .join-us p {
+      font-size: 25px;
     }
 
     .conf-date,
@@ -187,7 +197,7 @@
 
 @media (max-width: 550px) {
   .heading-2020 {
-    .join-us {
+    .join-us p {
       font-size: 18px;
     }
 
