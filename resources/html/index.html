@@ -250,45 +250,45 @@
       <div class="container">
 
         <div class="ticket_types">
-          <div class="ticket_type disabled">
-            <div class="ticket_type-content">
-              <div class="ticket_type-header">
-                Regular
-                <!--<div class="date">-->
-                  <!--${{ index.from }}$-->
-                <!--</div>-->
-              </div>
-              <ul class="ticket_type-list">
-                <li>
-                  ${{ index.participate }}$
-                </li>
-                <li>
-                  ${{ index.transfer }}$
-                </li>
-                <li>
-                  ${{ index.dinner }}$
-                </li>
-                <li>
-                  ${{ index.sales }}$
-                </li>
-                <li>
-                  After-party
-                </li>
-                <li>
-                  ${{ index.access_to_video }}$
-                </li>
-              </ul>
-              <div class="ticket_type-price text-center">
-                1400 ${{ index.uah }}$
-              </div>
+          <!--<div class="ticket_type disabled">-->
+            <!--<div class="ticket_type-content">-->
+              <!--<div class="ticket_type-header">-->
+                <!--Regular-->
+                <!--&lt;!&ndash;<div class="date">&ndash;&gt;-->
+                  <!--&lt;!&ndash;${{ index.from }}$&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+              <!--</div>-->
+              <!--<ul class="ticket_type-list">-->
+                <!--<li>-->
+                  <!--${{ index.participate }}$-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--${{ index.transfer }}$-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--${{ index.dinner }}$-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--${{ index.sales }}$-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--After-party-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--${{ index.access_to_video }}$-->
+                <!--</li>-->
+              <!--</ul>-->
+              <!--<div class="ticket_type-price text-center">-->
+                <!--1400 ${{ index.uah }}$-->
+              <!--</div>-->
 
               <!--<div class="text-center m-t-15">-->
                 <!--<a href="https://pyconodessa2021.ticketforevent.com" target="_blank" class="btn btn-round js-checkout-btn">-->
                   <!--${{ index.get }}$-->
                 <!--</a>-->
               <!--</div>-->
-            </div>
-          </div>
+            <!--</div>-->
+          <!--</div>-->
 
           <div class="ticket_type last">
             <div class="ticket_type-content">
@@ -771,7 +771,7 @@
 
     <section id="cinema" class="p-t-5 p-b-0">
       <div class="container">
-        <div class="about-content-2020 text-center p-t-5">
+        <div class="about-content-2020 text-center p-t-5 p-b-0">
           <div class="description-about text-left">
             <div class="title-2020 c-blue m-b-15">${{ index.cinema_heading }}$</div>
 
@@ -788,6 +788,41 @@
           <div class="image-about">
             <img src="public/img/dsg/Illustrations_Cinema.svg" alt="">
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="yoga" class="p-t-5 p-b-5">
+      <div class="container">
+        <div class="about-content-2020 text-center">
+          <div class="image-about m-r-50">
+            <img src="public/img/dsg/Illustrations_Yoga.svg" alt="">
+          </div>
+
+          <div class="description-about text-left p-t-0">
+            <div class="title-2020 c-blue m-b-15">${{ index.yoga_heading }}$</div>
+
+            <div class="m-b-30">
+              <p>${{ index.yoga_text_1 }}$</p>
+              <p>${{ index.yoga_text_2 }}$</p>
+            </div>
+          </div>
+
+          <div class="description-about yoga-coach p-t-0">
+              <div class="speaker-item team-list-item">
+                <div>
+                  <div class="speaker-img-2020">
+                    <img data-src="public/img/cont/team/vr.jpg" alt="${{ index.yoga_coach_name }}$">
+                  </div>
+                  <div class="speaker-name-2020">
+                    ${{ index.yoga_coach_name }}$
+                  </div>
+                  <div class="speaker-position-2020">
+                    ${{ index.yoga_coach }}$
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
