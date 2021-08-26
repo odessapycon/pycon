@@ -71,7 +71,7 @@ export class HeaderComponent extends BaseComponent {
     hideCurrentLanguage() {
         let pathname = location.pathname;
 
-        $(`li a[href="${pathname}"]`).hide();
+        $(`li a[href="${pathname}#stay"]`).hide();
     }
 
     // if page doesn't have translation, change link to existing translation
