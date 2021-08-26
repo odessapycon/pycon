@@ -6,6 +6,7 @@ export class HeaderComponent extends BaseComponent {
     constructor() {
         super();
 
+        this.chooseLanguage();
         this.hideCurrentLanguage();
         this.changeNotTranslatedLangsLinks();
     }
@@ -85,6 +86,15 @@ export class HeaderComponent extends BaseComponent {
                     e.setAttribute('href', $el.data('replacement') + $el.attr('href').replace('.', ''));
                 }
             })
+        }
+    }
+
+    chooseLanguage() {
+        if (window.location.hash !== '#stay' && window.location.pathname !== '/en/') {
+            let ln = window.navigator.language || navigator.browserLanguage;
+            if (!ln.startsWith('uk') && !ln.startsWith('ru')) {
+                window.location.href = "/en/"
+            }
         }
     }
 }
