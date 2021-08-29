@@ -438,5 +438,30 @@ export const MainSpeakers2020En = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/sk.jpg',
+        name : 'Serhii Kolomoiets',
+        position : 'Solution architect',
+        company : 'WePlay Esports',
+        place : 'Kyiv, Ukraine',
+        rept : [
+            {
+                title : 'CV, livestats, action! [Ru]',
+                description : '<p>How to replace 5 pairs of human eyes with computer vision and get real-time statistics live.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/maram4ik',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://www.linkedin.com/in/serkolomoets/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];

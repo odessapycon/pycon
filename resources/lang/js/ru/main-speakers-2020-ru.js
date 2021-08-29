@@ -439,5 +439,30 @@ export const MainSpeakers2020Ru = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/sk.jpg',
+        name : 'Сергей Коломоец',
+        position : 'Solution architect',
+        company : 'WePlay Esports',
+        place : 'Киев, Украина',
+        rept : [
+            {
+                title : 'CV, livestats, action! [Ru]',
+                description : '<p>Как заменить 5 пар человеческих глаз на computer vision и получить статистику в реальном времени в прямом эфире.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/maram4ik',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://www.linkedin.com/in/serkolomoets/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];

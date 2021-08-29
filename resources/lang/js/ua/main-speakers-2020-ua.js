@@ -439,5 +439,30 @@ export const MainSpeakers2020Ua = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/sk.jpg',
+        name : 'Сергій Коломоєць',
+        position : 'Solution architect',
+        company : 'WePlay Esports',
+        place : 'Київ, Україна',
+        rept : [
+            {
+                title : 'CV, livestats, action! [Ru]',
+                description : '<p>Як замінити 5 пар людських очей на computer vision та отримати статистику в реальному часі у прямому ефірі.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/maram4ik',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://www.linkedin.com/in/serkolomoets/',
+                fatype : 'linkedin'
+            }
+        ]
     }
 ];
