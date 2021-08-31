@@ -40,7 +40,7 @@ export const MainSchedule2020Day2Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Дискусія 1'}
+            {author : 'Nicolas Fränkel', title : 'A Walkthrough of Python Apps Caching Patterns [En]'}
         ]
     },
     {
@@ -62,7 +62,7 @@ export const MainSchedule2020Day2Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Дискусія 2'}
+            {author : 'Сергій Коломоєць', title : 'CV, livestats, action! [Ru]'}
         ]
     },
     {
@@ -84,7 +84,7 @@ export const MainSchedule2020Day2Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Дискусія 3'}
+            {author : 'Eleftheria Batsou', title : 'It’s Easy To Create A Good-Looking Product, But How About A Useful One? [En]'}
         ]
     },
     {
@@ -106,7 +106,7 @@ export const MainSchedule2020Day2Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Дискусія 4'}
+            {author : 'Лариса Глоба', title : 'Як Python допомогає університетам йти в ногу з часом [Ru]'}
         ]
     },
     {
