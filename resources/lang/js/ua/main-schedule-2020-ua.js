@@ -40,7 +40,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 1'}
+            {author : 'Laysa Uchoa', title : '31 days of Python 3.10 [En]'}
         ]
     },
     {
@@ -62,7 +62,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 2'}
+            {author : 'Всеволод Соловйов', title : 'Моя найбільша архітектурна помилка [Ua]'}
         ]
     },
     {
@@ -84,7 +84,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 3'}
+            {author : 'Андрій Солдатенко', title : 'Дебаггінг асинхронних додатків в Python [Ru]'}
         ]
     },
     {
@@ -106,7 +106,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 4'}
+            {author : 'Amit Kumar', title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]'}
         ]
     },
     {
@@ -128,7 +128,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 5'}
+            {author : 'Anton Kartashov', title : 'Streamline data manipulations on AWS native services [En]'}
         ]
     },
     {
@@ -150,7 +150,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 6'}
+            {author : 'Ігор Коротач', title : 'State of PySpark, tips and possible improvements [En]'}
         ]
     },
     {
@@ -172,7 +172,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 7'}
+            {author : 'Павло Галушко', title : 'Як писати для машинного навчання [Ru]'}
         ]
     },
     {
@@ -194,7 +194,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 8'}
+            {author : 'Андрій Латиш', title : 'Ваша модель натренована? Звідси ми підхопимо! [Ua]'}
         ]
     },
     {
@@ -216,7 +216,7 @@ export const MainSchedule2020Ua = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доповідь 9'}
+            {author : 'Anton Caceres', title : 'Top Workflow Frameworks for Python Components [En]'}
         ]
     },
     {
