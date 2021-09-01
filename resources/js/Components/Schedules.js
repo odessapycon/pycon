@@ -87,13 +87,14 @@ export class ScheduleComponent extends BaseComponent {
   }
 
   _events() {
-    $('.day-2020').on('click', (e) => {
-      e.preventDefault();
-
-      let $this = $(e.currentTarget);
-
-      $this.next().slideToggle();
-    })
+    // made schedule always opened (also uncomment CSS style for .schedule-list-container and .day-2020 in schedule.less)
+    // $('.day-2020').on('click', (e) => {
+    //   e.preventDefault();
+    //
+    //   let $this = $(e.currentTarget);
+    //
+    //   $this.next().slideToggle();
+    // })
   }
 
 }
