@@ -238,7 +238,7 @@ export const MainSchedule2020Ru = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Доклад 10'}
+            {author : 'Nele Lea Uhlemann', title : 'Tales of automation - orchestration of Services, Humans and Robots [En]'}
         ]
     },
     {

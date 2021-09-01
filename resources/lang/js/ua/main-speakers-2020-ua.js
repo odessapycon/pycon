@@ -464,5 +464,36 @@ export const MainSpeakers2020Ua = [
                 fatype : 'linkedin'
             }
         ]
+    },
+    {
+        image : '/public/img/cont/speakers/nu.jpg',
+        name : 'Nele Lea Uhlemann',
+        position : 'Developer Advocate',
+        company : 'Camunda',
+        place : 'Берлін, Німеччина',
+        rept : [
+            {
+                title : 'Tales of automation - orchestration of Services, Humans and Robots [En]',
+                description : '<p>Automation is everywhere! The talk is a hand on session of workflow automation with Python and Camunda.</p>' +
+                    '<p>It demonstrates the concepts of service orchestration and integrating your favorite Python applications, ' +
+                    'the right usage and dose of RPA tooling, and the possibility to involve human users.</p>'
+            }
+        ],
+        aboutSpeaker : '',
+        socialsRendered : '',
+        socials : [
+            {
+                link : 'https://twitter.com/nele_lea',
+                fatype : 'twitter'
+            },
+            {
+                link : 'https://www.linkedin.com/in/nele-uhlemann-268b68191/',
+                fatype : 'linkedin'
+            },
+            {
+                link : 'https://github.com/Nlea',
+                fatype : 'github'
+            }
+        ]
     }
 ];
