@@ -2,23 +2,45 @@ export const MainSchedule2020Day2En = [
     {
         time : {
             start : '09:00',
-            end : '10:00'
+            end : '10:00*'
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Bus #1 to the location'}
+            {author : '', title : '<a href="#transfer">Bus #1 to the location</a>'}
+        ]
+    },
+    {
+        time : {
+            start : '09:15',
+            end : '10:15*'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : '<a href="#transfer">Bus #2 to the location</a>'}
         ]
     },
     {
         time : {
             start : '09:30',
-            end : '10:30    '
+            end : '10:30*'
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Bus #2 to the location'}
+            {author : '', title : '<a href="#transfer">Bus #3 to the location</a>'}
+        ]
+    },
+    {
+        time : {
+            start : '10:00',
+            end : '10:30'
+        },
+        icon : 'coffee', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Yoga'}
         ]
     },
     {
@@ -29,13 +51,13 @@ export const MainSchedule2020Day2En = [
         icon : 'coffee', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Gathering'}
+            {author : '', title : 'Coffee and croissants'}
         ]
     },
     {
         time : {
             start : '11:00',
-            end : '12:00'
+            end : '11:45'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -45,8 +67,8 @@ export const MainSchedule2020Day2En = [
     },
     {
         time : {
-            start : '12:00',
-            end : '12:30'
+            start : '11:45',
+            end : '12:15'
         },
         icon : 'clock-o', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -56,8 +78,8 @@ export const MainSchedule2020Day2En = [
     },
     {
         time : {
-            start : '12:30',
-            end : '13:30'
+            start : '12:15',
+            end : '13:00'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -67,19 +89,30 @@ export const MainSchedule2020Day2En = [
     },
     {
         time : {
-            start : '13:30',
-            end : '14:30'
+            start : '13:00',
+            end : '13:40'
         },
         icon : 'cutlery', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Lunch'}
+            {author : '', title : 'Lunch (part I)'}
         ]
     },
     {
         time : {
-            start : '14:30',
-            end : '15:30'
+            start : '13:40',
+            end : '14:20'
+        },
+        icon : 'cutlery', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Lunch (part II)'}
+        ]
+    },
+    {
+        time : {
+            start : '14:20',
+            end : '15:00'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -89,8 +122,8 @@ export const MainSchedule2020Day2En = [
     },
     {
         time : {
-            start : '15:30',
-            end : '16:00'
+            start : '15:00',
+            end : '15:30'
         },
         icon : 'clock-o', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -100,13 +133,24 @@ export const MainSchedule2020Day2En = [
     },
     {
         time : {
-            start : '16:00',
-            end : '17:00'
+            start : '15:30',
+            end : '16:00'
         },
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
             {author : 'Larisa Globa', title : 'How Python helps Education to keep up with Technology [Ru]'}
+        ]
+    },
+    {
+        time : {
+            start : '16:00',
+            end : '18:00'
+        },
+        icon : 'users', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : 'Coffee-break/Free time'}
         ]
     },
     {
@@ -117,29 +161,29 @@ export const MainSchedule2020Day2En = [
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Bus #1 to Odessa'}
+            {author : '', title : 'Yoga Workshop'}
         ]
     },
     {
         time : {
-            start : '17:00',
-            end : '19:00'
-        },
-        icon : 'users', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
-        scheduleRendered : '',
-        talks : [
-            {author : '', title : 'Free time'}
-        ]
-    },
-    {
-        time : {
-            start : '18:30',
-            end : '19:30'
+            start : '16:30',
+            end : '17:30*'
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : 'Bus #2 to Odessa'}
+            {author : '', title : '<a href="#transfer">Bus #1 to Odessa</a>'}
+        ]
+    },
+    {
+        time : {
+            start : '18:00',
+            end : '19:00*'
+        },
+        icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
+        scheduleRendered : '',
+        talks : [
+            {author : '', title : '<a href="#transfer">Buses #2 and #3 to Odessa</a>'}
         ]
     },
 ];
