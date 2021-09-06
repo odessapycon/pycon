@@ -183,7 +183,7 @@ export const MainSchedule2020Day2Ru = [
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : '<a href="#transfer">Автобусы #2 и №3 в Одессу</a>'}
+            {author : '', title : '<a href="#transfer">Автобусы #2 и #3 в Одессу</a>'}
         ]
     },
 ];

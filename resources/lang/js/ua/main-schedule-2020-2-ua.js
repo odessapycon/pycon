@@ -183,7 +183,7 @@ export const MainSchedule2020Day2Ua = [
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : '', title : '<a href="#transfer">Автобуси #2 и №3 в Одесу</a>'}
+            {author : '', title : '<a href="#transfer">Автобуси #2 и #3 в Одесу</a>'}
         ]
     },
 ];
