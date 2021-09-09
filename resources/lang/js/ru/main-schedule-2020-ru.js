@@ -117,7 +117,7 @@ export const MainSchedule2020Ru = [
         icon : 'file-text', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
         talks : [
-            {author : 'Amit Kumar', title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]'}
+            {author : 'Секретный спикер', title : ''}
         ]
     },
     {

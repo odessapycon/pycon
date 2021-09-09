@@ -73,39 +73,39 @@ export const MainSpeakers2020Ua = [
     //         }
     //     ]
     // },
-    {
-        image : '/public/img/cont/speakers/amit_kumar.jpg',
-        name : 'Amit Kumar',
-        position : 'Software Engineer',
-        company : 'Aktech Labs',
-        place : 'Лондон, Великобританія',
-        rept : [
-            {
-                title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]',
-                description :
-                    '<p>I would like to talk about QHub. QHub is an open source tool that enables users to build and ' +
-                    'maintain cost-effective and scalable compute/data science platforms on ' +
-                    'HPC or on Kubernetes with minimal DevOps experience.</p>'
-            }
-        ],
-        aboutSpeaker : 'Amit is a presenter and a Software Engineer based in London, UK. He is an avid supporter of Open Source Software.',
-        socialsRendered : '',
-        socials : [
-            {
-                link : 'http://twitter.com/iaktech',
-                fatype : 'twitter'
-            },
-            {
-                link : 'http://github.com/aktech',
-                fatype : 'github'
-            },
-            {
-                link : 'http://iamit.in',
-                fatype : 'link'
-            },
-
-        ]
-    },
+    // {
+    //     image : '/public/img/cont/speakers/amit_kumar.jpg',
+    //     name : 'Amit Kumar',
+    //     position : 'Software Engineer',
+    //     company : 'Aktech Labs',
+    //     place : 'Лондон, Великобританія',
+    //     rept : [
+    //         {
+    //             title : 'Build and maintain cost-effective and scalable compute/data science platforms with QHub [En]',
+    //             description :
+    //                 '<p>I would like to talk about QHub. QHub is an open source tool that enables users to build and ' +
+    //                 'maintain cost-effective and scalable compute/data science platforms on ' +
+    //                 'HPC or on Kubernetes with minimal DevOps experience.</p>'
+    //         }
+    //     ],
+    //     aboutSpeaker : 'Amit is a presenter and a Software Engineer based in London, UK. He is an avid supporter of Open Source Software.',
+    //     socialsRendered : '',
+    //     socials : [
+    //         {
+    //             link : 'http://twitter.com/iaktech',
+    //             fatype : 'twitter'
+    //         },
+    //         {
+    //             link : 'http://github.com/aktech',
+    //             fatype : 'github'
+    //         },
+    //         {
+    //             link : 'http://iamit.in',
+    //             fatype : 'link'
+    //         },
+    //
+    //     ]
+    // },
     {
         image : '/public/img/cont/speakers/pavlo-galushko.jpeg',
         name : 'Павло Галушко',
@@ -114,7 +114,7 @@ export const MainSpeakers2020Ua = [
         place : 'Харків, Україна',
         rept : [
             {
-                title : 'Як писати для машинного навчання [Ru]',
+                title : 'Як писати для машинного навчання [Ru] Online',
                 description :
                     '<p>У цій доповіді я дам вступну інформацію про машинне навчання,' +
                     'розповім чим займається розробка сервісів для машинного навчання,' +
