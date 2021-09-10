@@ -193,5 +193,8 @@
   "schedule_bus_time": "* Bus travel time is approximate",
   "bus_info_1": "Information about buses",
   "bus_info_2": "Buses will be waiting near Odessa train station, exact location in <a href=\"https://goo.gl/maps/ay12YVXeZUAcFhQU6\" target=\"_blank\">Google Maps</a>.",
-  "bus_info_3": "Buses Neoplan, buses numbers are ВН1201, ВН2003, ВН2042"
+  "bus_info_3": "Buses Neoplan, buses numbers:",
+  "bus_info_4": "ВН1201, departure at 7:30",
+  "bus_info_5": "ВН2003, departure at 8:00",
+  "bus_info_6": "ВН2042, departure at 8:30"
 }
