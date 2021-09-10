@@ -2,7 +2,7 @@ export const MainSchedule2020Day2Ua = [
     {
         time : {
             start : '09:00',
-            end : '10:00*'
+            end : ''
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -13,7 +13,7 @@ export const MainSchedule2020Day2Ua = [
     {
         time : {
             start : '09:15',
-            end : '10:15*'
+            end : ''
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -24,7 +24,7 @@ export const MainSchedule2020Day2Ua = [
     {
         time : {
             start : '09:30',
-            end : '10:30*'
+            end : ''
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',

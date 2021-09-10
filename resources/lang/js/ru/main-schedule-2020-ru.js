@@ -2,7 +2,7 @@ export const MainSchedule2020Ru = [
     {
         time : {
             start : '07:30',
-            end : '08:30*'
+            end : ''
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -13,7 +13,7 @@ export const MainSchedule2020Ru = [
     {
         time : {
             start : '08:00',
-            end : '09:00*'
+            end : ''
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',
@@ -24,7 +24,7 @@ export const MainSchedule2020Ru = [
     {
         time : {
             start : '08:30',
-            end : '09:30*'
+            end : ''
         },
         icon : 'user', // can be: 'user', 'file-text', 'clock-o', 'coffee', 'cutlery', 'flag', 'glass'
         scheduleRendered : '',

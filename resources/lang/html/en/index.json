@@ -166,7 +166,7 @@
   "transfer_text_1": "Three buses (50 places each) will be used for the conference participants during two days.",
   "transfer_text_2": "You can already see the time of transfer in the <a href=\"#schedule\">schedule</a>.",
   "transfer_text_3": "Buses will be waiting near Odessa train station, exact location in <a href=\"https://goo.gl/maps/ay12YVXeZUAcFhQU6\" target=\"_blank\">Google Maps</a>.",
-  "transfer_text_4": "Buses Neoplan, buses numbers are ВН1201, ВН2003, ВН2042",
+  "transfer_text_4": "Buses Neoplan, buses numbers:",
   "cinema_heading": "Movie night",
   "cinema_text_1": "We will have an interesting company, a cool location, a projector, popcorn - so why don't we organize an outdoor movie viewing?",
   "cinema_text_2": "Help us with the choice of films, and we will arrange the rest.",
@@ -194,7 +194,7 @@
   "bus_info_1": "Information about buses",
   "bus_info_2": "Buses will be waiting near Odessa train station, exact location in <a href=\"https://goo.gl/maps/ay12YVXeZUAcFhQU6\" target=\"_blank\">Google Maps</a>.",
   "bus_info_3": "Buses Neoplan, buses numbers:",
-  "bus_info_4": "ВН1201, departure at 7:30",
-  "bus_info_5": "ВН2003, departure at 8:00",
-  "bus_info_6": "ВН2042, departure at 8:30"
+  "bus_info_4": "ВН1201, departure at 7:30 on 11th of September",
+  "bus_info_5": "ВН2003, departure at 8:00 on 11th of September",
+  "bus_info_6": "ВН2042, departure at 8:30 on 11th of September"
 }
