@@ -190,5 +190,8 @@
   "afterparty_text_4": "We'll provide snacks, company",
   "afterparty_text_5": "will treat everyone with sunny Aperol Spritz, which will remind you about warm summer days. And, how do you think, what will the german company",
   "afterparty_text_6": "treat us with? Of course, with a genuine bavarian beer.",
-  "schedule_bus_time": "* Bus travel time is approximate"
+  "schedule_bus_time": "* Bus travel time is approximate",
+  "bus_info_1": "Information about buses",
+  "bus_info_2": "Buses will be waiting near Odessa train station, exact location in <a href=\"https://goo.gl/maps/ay12YVXeZUAcFhQU6\" target=\"_blank\">Google Maps</a>.",
+  "bus_info_3": "Buses Neoplan, buses numbers are ВН1201, ВН2003, ВН2042"
 }
